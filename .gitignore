@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Secrets
+.env
+
+# Raw datasets
+data/raw/
+
+# OS files
+Thumbs.db
+.DS_Store

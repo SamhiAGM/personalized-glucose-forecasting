@@ -1,0 +1,7 @@
+metric,value
+input_rows,112462.0
+participants,100.0
+sessions,109.0
+valid_30min_targets,112230.0
+missing_30min_targets,232.0
+target_availability_percent,99.79

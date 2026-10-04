@@ -1,0 +1,6 @@
+feature,meaning,unit,uses_future_information
+participant_age,Age recorded for participant/session,years,No
+participant_sex,"Sex recorded in dataset; code 1 Female, 2 Male",categorical,No
+participant_bmi,Body mass index,kg/m^2,No
+diabetes_duration_years,Recorded duration of diabetes,years,No
+hba1c_mmol_mol,Recorded HbA1c,mmol/mol,No

@@ -1,0 +1,6 @@
+feature,meaning,unit,uses_future_information
+participant_age,Participant age from CGMacros bio data,years,No
+participant_sex_code,"Binary encoding of participant gender: female=0, male=1",binary,No
+participant_bmi,Participant body mass index from CGMacros bio data,kg/m^2,No
+hba1c_lab,Participant laboratory HbA1c measurement where available,dataset laboratory unit,No
+fasting_glucose_lab,Participant fasting laboratory glucose measurement where available,dataset laboratory unit,No

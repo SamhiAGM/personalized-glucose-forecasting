@@ -1,0 +1,9 @@
+metric,value
+rows,111753
+participants,100
+sessions,109
+meal_timing_features_created,4
+recorded_meal_events,3807
+rows_with_recent_meal_2h,33181
+rows_without_any_prior_meal,760
+missing_prediction_targets,0

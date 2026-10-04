@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Raw datasets - never push
+data/raw/
+
+# Generated processed datasets
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.xls
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,8 @@
+metric,value
+rows,678070
+participants,45
+temporal_features_created,4
+day_rows,339696
+night_rows,338374
+missing_temporal_values,0
+missing_prediction_targets,0

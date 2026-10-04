@@ -1,0 +1,6 @@
+feature,missing_rows,missing_row_percent,missing_participants,total_participants,missing_participant_percent
+participant_age,0,0.0,0,45,0.0
+participant_sex_code,0,0.0,0,45,0.0
+participant_bmi,0,0.0,0,45,0.0
+hba1c_lab,0,0.0,0,45,0.0
+fasting_glucose_lab,0,0.0,0,45,0.0

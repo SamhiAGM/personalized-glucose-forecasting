@@ -1,0 +1,10 @@
+feature,total_rows,missing_rows,missing_row_percent,participants_with_no_observations,total_participants
+current_heart_rate_bpm,678070,75166,11.0853,0,45
+heart_rate_mean_15min,678070,70755,10.4348,0,45
+heart_rate_mean_60min,678070,63526,9.3686,0,45
+heart_rate_std_60min,678070,63798,9.4088,0,45
+current_mets,678070,184412,27.1966,11,45
+mets_mean_30min,678070,183932,27.1258,11,45
+current_activity_calories_last_min,678070,30668,4.5228,1,45
+activity_calories_mean_30min,678070,30098,4.4388,1,45
+activity_calories_mean_60min,678070,29528,4.3547,1,45

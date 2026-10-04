@@ -1,0 +1,12 @@
+metric,value
+participant_files_processed,45
+participants,45
+rows_loaded,687580
+valid_libre_glucose_rows,687360
+valid_dexcom_glucose_rows,629825
+clean_primary_glucose_rows,687360
+invalid_timestamp_rows,0
+duplicate_participant_timestamps,0
+libre_outside_documented_range,9
+recorded_meal_events,1706
+bio_participants,45

@@ -1,0 +1,8 @@
+metric,value
+input_target_ready_rows,683993.0
+feature_ready_rows,678070.0
+rows_without_complete_history,5923.0
+feature_availability_percent,99.13
+participants_retained,45.0
+glucose_history_features_created,12.0
+missing_targets_in_ready_file,0.0

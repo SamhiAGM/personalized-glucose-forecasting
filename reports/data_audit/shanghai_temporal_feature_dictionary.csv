@@ -1,0 +1,5 @@
+feature,meaning,unit,uses_future_information
+hour_of_day_sin,Sine encoding of time within the 24-hour day,unitless,No
+hour_of_day_cos,Cosine encoding of time within the 24-hour day,unitless,No
+day_night_indicator,1 for 06:00-17:59 and 0 otherwise,binary,No
+elapsed_recording_hours,Hours elapsed since the beginning of the monitoring session,hours,No

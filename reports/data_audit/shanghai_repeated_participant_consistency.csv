@@ -1,0 +1,9 @@
+participant_id,session_count,participant_sex_code_unique_values,participant_sex_code_consistent,participant_age_unique_values,participant_age_consistent,participant_bmi_unique_values,participant_bmi_consistent,diabetes_duration_years_unique_values,diabetes_duration_years_consistent,hba1c_mmol_mol_unique_values,hba1c_mmol_mol_consistent
+2069,3,1,True,1,True,1,True,1,True,1,True
+2001,2,1,True,1,True,2,False,1,True,2,False
+2014,2,1,True,1,True,2,False,2,False,2,False
+2015,2,1,True,1,True,2,False,1,True,2,False
+2017,2,1,True,1,True,1,True,1,True,1,True
+2055,2,1,True,1,True,1,True,2,False,2,False
+2074,2,1,True,1,True,1,True,1,True,1,True
+2078,2,1,True,1,True,1,True,1,True,1,True

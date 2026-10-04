@@ -1,0 +1,24 @@
+issue_type,participant_id,timestamp,value,action
+MET outside documented range,CGMacros-005,2020-08-27 11:51:00,0.0,Preserved in source data; treated as missing in final ML-ready features
+MET outside documented range,CGMacros-006,2023-04-17 11:53:00,0.0,Preserved in source data; treated as missing in final ML-ready features
+MET outside documented range,CGMacros-008,2023-02-09 12:27:00,0.0,Preserved in source data; treated as missing in final ML-ready features
+Activity calories marginally outside documented range,CGMacros-018,2024-01-28 21:20:00,16.17840004,Retained and documented as boundary/precision observation
+Activity calories marginally outside documented range,CGMacros-018,2024-02-11 12:34:00,16.17840004,Retained and documented as boundary/precision observation
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:07:00,400.3333333333333,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:08:00,401.26666666666665,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:09:00,402.2,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:10:00,403.1333333333333,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:11:00,404.06666666666666,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:12:00,405.0,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:13:00,403.73333333333335,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:14:00,402.4666666666666,Retained and documented; no manual clipping
+Current Libre glucose outside documented range,CGMacros-030,2021-01-24 10:15:00,401.2,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:37:00,400.3333333333333,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:38:00,401.26666666666665,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:39:00,402.2,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:40:00,403.1333333333333,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:41:00,404.06666666666666,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:42:00,405.0,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:43:00,403.73333333333335,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:44:00,402.4666666666666,Retained and documented; no manual clipping
+Target Libre glucose outside documented range,CGMacros-030,2021-01-24 09:45:00,401.2,Retained and documented; no manual clipping

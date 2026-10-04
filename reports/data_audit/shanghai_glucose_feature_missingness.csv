@@ -1,0 +1,13 @@
+feature,missing_count,missing_percent
+current_glucose,0,0.0
+glucose_lag_15min,120,0.11
+glucose_lag_30min,232,0.21
+glucose_lag_45min,344,0.31
+glucose_lag_60min,454,0.4
+glucose_change_15min,120,0.11
+glucose_change_30min,232,0.21
+glucose_slope_15min,120,0.11
+rolling_glucose_mean_60min,0,0.0
+rolling_glucose_std_60min,0,0.0
+rolling_glucose_min_60min,0,0.0
+rolling_glucose_max_60min,0,0.0

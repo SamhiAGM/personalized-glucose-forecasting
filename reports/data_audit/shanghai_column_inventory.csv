@@ -1,0 +1,1200 @@
+file_name,original_column,canonical_column
+2000_0_20201230.xlsx,Date,timestamp
+2000_0_20201230.xlsx,CGM (mg / dl),cgm_mg_dl
+2000_0_20201230.xlsx,CBG (mg / dl),cbg_mg_dl
+2000_0_20201230.xlsx,Blood Ketone (mmol / L),blood_ketone
+2000_0_20201230.xlsx,Dietary intake,dietary_intake
+2000_0_20201230.xlsx,饮食,dietary_intake_chinese
+2000_0_20201230.xlsx,Insulin dose - s.c.,insulin_sc
+2000_0_20201230.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2000_0_20201230.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2000_0_20201230.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2000_0_20201230.xlsx,Insulin dose - i.v.,insulin_iv
+2001_0_20201102.xlsx,Date,timestamp
+2001_0_20201102.xlsx,CGM (mg / dl),cgm_mg_dl
+2001_0_20201102.xlsx,CBG (mg / dl),cbg_mg_dl
+2001_0_20201102.xlsx,Blood Ketone (mmol / L),blood_ketone
+2001_0_20201102.xlsx,Dietary intake,dietary_intake
+2001_0_20201102.xlsx,饮食,dietary_intake_chinese
+2001_0_20201102.xlsx,Insulin dose - s.c.,insulin_sc
+2001_0_20201102.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2001_0_20201102.xlsx,CSII - bolus insulin (Novolin R  IU),csii_bolus
+2001_0_20201102.xlsx,CSII - basal insulin (Novolin R  IU / H),csii_basal
+2001_0_20201102.xlsx,Insulin dose - i.v.,insulin_iv
+2001_1_20201117.xlsx,Date,timestamp
+2001_1_20201117.xlsx,CGM (mg / dl),cgm_mg_dl
+2001_1_20201117.xlsx,CBG (mg / dl),cbg_mg_dl
+2001_1_20201117.xlsx,Blood Ketone (mmol / L),blood_ketone
+2001_1_20201117.xlsx,Dietary intake,dietary_intake
+2001_1_20201117.xlsx,饮食,dietary_intake_chinese
+2001_1_20201117.xlsx,Insulin dose - s.c.,insulin_sc
+2001_1_20201117.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2001_1_20201117.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2001_1_20201117.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2001_1_20201117.xlsx,Insulin dose - i.v.,insulin_iv
+2002_0_20210513.xlsx,Date,timestamp
+2002_0_20210513.xlsx,CGM (mg / dl),cgm_mg_dl
+2002_0_20210513.xlsx,CBG (mg / dl),cbg_mg_dl
+2002_0_20210513.xlsx,Blood Ketone (mmol / L),blood_ketone
+2002_0_20210513.xlsx,Dietary intake,dietary_intake
+2002_0_20210513.xlsx,饮食,dietary_intake_chinese
+2002_0_20210513.xlsx,Insulin dose - s.c.,insulin_sc
+2002_0_20210513.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2002_0_20210513.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2002_0_20210513.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2002_0_20210513.xlsx,Insulin dose - i.v.,insulin_iv
+2003_0_20210615.xlsx,Date,timestamp
+2003_0_20210615.xlsx,CGM (mg / dl),cgm_mg_dl
+2003_0_20210615.xlsx,CBG (mg / dl),cbg_mg_dl
+2003_0_20210615.xlsx,Blood Ketone (mmol / L),blood_ketone
+2003_0_20210615.xlsx,Dietary intake,dietary_intake
+2003_0_20210615.xlsx,饮食,dietary_intake_chinese
+2003_0_20210615.xlsx,Insulin dose - s.c.,insulin_sc
+2003_0_20210615.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2003_0_20210615.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2003_0_20210615.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2003_0_20210615.xlsx,Insulin dose - i.v.,insulin_iv
+2004_0_20211028.xlsx,Date,timestamp
+2004_0_20211028.xlsx,CGM (mg / dl),cgm_mg_dl
+2004_0_20211028.xlsx,CBG (mg / dl),cbg_mg_dl
+2004_0_20211028.xlsx,Blood Ketone (mmol / L),blood_ketone
+2004_0_20211028.xlsx,Dietary intake,dietary_intake
+2004_0_20211028.xlsx,饮食,dietary_intake_chinese
+2004_0_20211028.xlsx,Insulin dose - s.c.,insulin_sc
+2004_0_20211028.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2004_0_20211028.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2004_0_20211028.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2004_0_20211028.xlsx,Insulin dose - i.v.,insulin_iv
+2005_0_20211201.xlsx,Date,timestamp
+2005_0_20211201.xlsx,CGM (mg / dl),cgm_mg_dl
+2005_0_20211201.xlsx,CBG (mg / dl),cbg_mg_dl
+2005_0_20211201.xlsx,Blood Ketone (mmol / L),blood_ketone
+2005_0_20211201.xlsx,Dietary intake,dietary_intake
+2005_0_20211201.xlsx,饮食,dietary_intake_chinese
+2005_0_20211201.xlsx,Insulin dose - s.c.,insulin_sc
+2005_0_20211201.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2005_0_20211201.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2005_0_20211201.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2005_0_20211201.xlsx,Insulin dose - i.v.,insulin_iv
+2006_0_20211112.xlsx,Date,timestamp
+2006_0_20211112.xlsx,CGM (mg / dl),cgm_mg_dl
+2006_0_20211112.xlsx,CBG (mg / dl),cbg_mg_dl
+2006_0_20211112.xlsx,Blood Ketone (mmol / L),blood_ketone
+2006_0_20211112.xlsx,Dietary intake,dietary_intake
+2006_0_20211112.xlsx,饮食,dietary_intake_chinese
+2006_0_20211112.xlsx,Insulin dose - s.c.,insulin_sc
+2006_0_20211112.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2006_0_20211112.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2006_0_20211112.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2006_0_20211112.xlsx,Insulin dose - i.v.,insulin_iv
+2007_0_20220108.xlsx,Date,timestamp
+2007_0_20220108.xlsx,CGM (mg / dl),cgm_mg_dl
+2007_0_20220108.xlsx,CBG (mg / dl),cbg_mg_dl
+2007_0_20220108.xlsx,Blood Ketone (mmol / L),blood_ketone
+2007_0_20220108.xlsx,Dietary intake,dietary_intake
+2007_0_20220108.xlsx,饮食,dietary_intake_chinese
+2007_0_20220108.xlsx,Insulin dose - s.c.,insulin_sc
+2007_0_20220108.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2007_0_20220108.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2007_0_20220108.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2007_0_20220108.xlsx,Insulin dose - i.v.,insulin_iv
+2008_0_20220118.xlsx,Date,timestamp
+2008_0_20220118.xlsx,CGM (mg / dl),cgm_mg_dl
+2008_0_20220118.xlsx,CBG (mg / dl),cbg_mg_dl
+2008_0_20220118.xlsx,Blood Ketone (mmol / L),blood_ketone
+2008_0_20220118.xlsx,Dietary intake,dietary_intake
+2008_0_20220118.xlsx,饮食,dietary_intake_chinese
+2008_0_20220118.xlsx,Insulin dose - s.c.,insulin_sc
+2008_0_20220118.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2008_0_20220118.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2008_0_20220118.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2008_0_20220118.xlsx,Insulin dose - i.v.,insulin_iv
+2009_0_20211103.xlsx,Date,timestamp
+2009_0_20211103.xlsx,CGM (mg / dl),cgm_mg_dl
+2009_0_20211103.xlsx,CBG (mg / dl),cbg_mg_dl
+2009_0_20211103.xlsx,Blood Ketone (mmol / L),blood_ketone
+2009_0_20211103.xlsx,Dietary intake,dietary_intake
+2009_0_20211103.xlsx,饮食,dietary_intake_chinese
+2009_0_20211103.xlsx,Insulin dose - s.c.,insulin_sc
+2009_0_20211103.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2009_0_20211103.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2009_0_20211103.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2009_0_20211103.xlsx,Insulin dose - i.v.,insulin_iv
+2010_0_20220111.xlsx,Date,timestamp
+2010_0_20220111.xlsx,CGM (mg / dl),cgm_mg_dl
+2010_0_20220111.xlsx,CBG (mg / dl),cbg_mg_dl
+2010_0_20220111.xlsx,Blood Ketone (mmol / L),blood_ketone
+2010_0_20220111.xlsx,Dietary intake,dietary_intake
+2010_0_20220111.xlsx,饮食,dietary_intake_chinese
+2010_0_20220111.xlsx,Insulin dose - s.c.,insulin_sc
+2010_0_20220111.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2010_0_20220111.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2010_0_20220111.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2010_0_20220111.xlsx,Insulin dose - i.v.,insulin_iv
+2011_0_20220123.xlsx,Date,timestamp
+2011_0_20220123.xlsx,CGM (mg / dl),cgm_mg_dl
+2011_0_20220123.xlsx,CBG (mg / dl),cbg_mg_dl
+2011_0_20220123.xlsx,Blood Ketone (mmol / L),blood_ketone
+2011_0_20220123.xlsx,Dietary intake,dietary_intake
+2011_0_20220123.xlsx,饮食,dietary_intake_chinese
+2011_0_20220123.xlsx,Insulin dose - s.c.,insulin_sc
+2011_0_20220123.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2011_0_20220123.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2011_0_20220123.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2011_0_20220123.xlsx,Insulin dose - i.v.,insulin_iv
+2012_0_20220126.xlsx,Date,timestamp
+2012_0_20220126.xlsx,CGM (mg / dl),cgm_mg_dl
+2012_0_20220126.xlsx,CBG (mg / dl),cbg_mg_dl
+2012_0_20220126.xlsx,Blood Ketone (mmol / L),blood_ketone
+2012_0_20220126.xlsx,Dietary intake,dietary_intake
+2012_0_20220126.xlsx,饮食,dietary_intake_chinese
+2012_0_20220126.xlsx,Insulin dose - s.c.,insulin_sc
+2012_0_20220126.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2012_0_20220126.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2012_0_20220126.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2012_0_20220126.xlsx,Insulin dose - i.v.,insulin_iv
+2013_0_20220123.xlsx,Date,timestamp
+2013_0_20220123.xlsx,CGM (mg / dl),cgm_mg_dl
+2013_0_20220123.xlsx,CBG (mg / dl),cbg_mg_dl
+2013_0_20220123.xlsx,Blood Ketone (mmol / L),blood_ketone
+2013_0_20220123.xlsx,Dietary intake,dietary_intake
+2013_0_20220123.xlsx,进食量,dietary_intake_chinese
+2013_0_20220123.xlsx,Insulin dose - s.c.,insulin_sc
+2013_0_20220123.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2013_0_20220123.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2013_0_20220123.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2013_0_20220123.xlsx,Insulin dose - i.v.,insulin_iv
+2014_0_20201224.xlsx,Date,timestamp
+2014_0_20201224.xlsx,CGM (mg / dl),cgm_mg_dl
+2014_0_20201224.xlsx,CBG (mg / dl),cbg_mg_dl
+2014_0_20201224.xlsx,Blood Ketone (mmol / L),blood_ketone
+2014_0_20201224.xlsx,Dietary intake,dietary_intake
+2014_0_20201224.xlsx,饮食,dietary_intake_chinese
+2014_0_20201224.xlsx,Insulin dose - s.c.,insulin_sc
+2014_0_20201224.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2014_0_20201224.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2014_0_20201224.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2014_0_20201224.xlsx,Insulin dose - i.v.,insulin_iv
+2014_1_20210317.xlsx,Date,timestamp
+2014_1_20210317.xlsx,CGM (mg / dl),cgm_mg_dl
+2014_1_20210317.xlsx,CBG (mg / dl),cbg_mg_dl
+2014_1_20210317.xlsx,Blood Ketone (mmol / L),blood_ketone
+2014_1_20210317.xlsx,Dietary intake,dietary_intake
+2014_1_20210317.xlsx,饮食,dietary_intake_chinese
+2014_1_20210317.xlsx,Insulin dose - s.c.,insulin_sc
+2014_1_20210317.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2014_1_20210317.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2014_1_20210317.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2014_1_20210317.xlsx,Insulin dose - i.v.,insulin_iv
+2015_0_20210203.xlsx,Date,timestamp
+2015_0_20210203.xlsx,CGM (mg / dl),cgm_mg_dl
+2015_0_20210203.xlsx,CBG (mg / dl),cbg_mg_dl
+2015_0_20210203.xlsx,Blood Ketone (mmol / L),blood_ketone
+2015_0_20210203.xlsx,Dietary intake,dietary_intake
+2015_0_20210203.xlsx,饮食,dietary_intake_chinese
+2015_0_20210203.xlsx,Insulin dose - s.c.,insulin_sc
+2015_0_20210203.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2015_0_20210203.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2015_0_20210203.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2015_0_20210203.xlsx,Insulin dose - i.v.,insulin_iv
+2015_1_20210219.xlsx,Date,timestamp
+2015_1_20210219.xlsx,CGM (mg / dl),cgm_mg_dl
+2015_1_20210219.xlsx,CBG (mg / dl),cbg_mg_dl
+2015_1_20210219.xlsx,Blood Ketone (mmol / L),blood_ketone
+2015_1_20210219.xlsx,Dietary intake,dietary_intake
+2015_1_20210219.xlsx,饮食,dietary_intake_chinese
+2015_1_20210219.xlsx,Insulin dose - s.c.,insulin_sc
+2015_1_20210219.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2015_1_20210219.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2015_1_20210219.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2015_1_20210219.xlsx,Insulin dose - i.v.,insulin_iv
+2016_0_20201224.xls,Date,timestamp
+2016_0_20201224.xls,CGM (mg / dl),cgm_mg_dl
+2016_0_20201224.xls,CBG (mg / dl),cbg_mg_dl
+2016_0_20201224.xls,Blood Ketone (mmol / L),blood_ketone
+2016_0_20201224.xls,Dietary intake,dietary_intake
+2016_0_20201224.xls,饮食,dietary_intake_chinese
+2016_0_20201224.xls,Insulin dose - s.c.,insulin_sc
+2016_0_20201224.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2016_0_20201224.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2016_0_20201224.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2016_0_20201224.xls,Insulin dose - i.v.,insulin_iv
+2017_0_20210102.xlsx,Date,timestamp
+2017_0_20210102.xlsx,CGM (mg / dl),cgm_mg_dl
+2017_0_20210102.xlsx,CBG (mg / dl),cbg_mg_dl
+2017_0_20210102.xlsx,Blood Ketone (mmol / L),blood_ketone
+2017_0_20210102.xlsx,Dietary intake,dietary_intake
+2017_0_20210102.xlsx,饮食,dietary_intake_chinese
+2017_0_20210102.xlsx,Insulin dose - s.c.,insulin_sc
+2017_0_20210102.xlsx,Non-insulin hypoglycemic agents,non_insulin_agents
+2017_0_20210102.xlsx,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2017_0_20210102.xlsx,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2017_0_20210102.xlsx,Insulin dose - i.v.,insulin_iv
+2017_1_20201118.xls,Date,timestamp
+2017_1_20201118.xls,CGM (mg / dl),cgm_mg_dl
+2017_1_20201118.xls,CBG (mg / dl),cbg_mg_dl
+2017_1_20201118.xls,Blood Ketone (mmol / L),blood_ketone
+2017_1_20201118.xls,Dietary intake,dietary_intake
+2017_1_20201118.xls,饮食,dietary_intake_chinese
+2017_1_20201118.xls,Insulin dose - s.c.,insulin_sc
+2017_1_20201118.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2017_1_20201118.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2017_1_20201118.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2017_1_20201118.xls,Insulin dose - i.v.,insulin_iv
+2018_0_20210420.xls,Date,timestamp
+2018_0_20210420.xls,CGM (mg / dl),cgm_mg_dl
+2018_0_20210420.xls,CBG (mg / dl),cbg_mg_dl
+2018_0_20210420.xls,Blood Ketone (mmol / L),blood_ketone
+2018_0_20210420.xls,Dietary intake,dietary_intake
+2018_0_20210420.xls,饮食,dietary_intake_chinese
+2018_0_20210420.xls,Insulin dose - s.c.,insulin_sc
+2018_0_20210420.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2018_0_20210420.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2018_0_20210420.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2018_0_20210420.xls,Insulin dose - i.v.,insulin_iv
+2019_0_20210513.xls,Date,timestamp
+2019_0_20210513.xls,CGM (mg / dl),cgm_mg_dl
+2019_0_20210513.xls,CBG (mg / dl),cbg_mg_dl
+2019_0_20210513.xls,Blood Ketone (mmol / L),blood_ketone
+2019_0_20210513.xls,Dietary intake,dietary_intake
+2019_0_20210513.xls,饮食,dietary_intake_chinese
+2019_0_20210513.xls,Insulin dose - s.c.,insulin_sc
+2019_0_20210513.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2019_0_20210513.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2019_0_20210513.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2019_0_20210513.xls,Insulin dose - i.v.,insulin_iv
+2020_0_20210423.xls,Date,timestamp
+2020_0_20210423.xls,CGM (mg / dl),cgm_mg_dl
+2020_0_20210423.xls,CBG (mg / dl),cbg_mg_dl
+2020_0_20210423.xls,Blood Ketone (mmol / L),blood_ketone
+2020_0_20210423.xls,Dietary intake,dietary_intake
+2020_0_20210423.xls,饮食,dietary_intake_chinese
+2020_0_20210423.xls,Insulin dose - s.c.,insulin_sc
+2020_0_20210423.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2020_0_20210423.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2020_0_20210423.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2020_0_20210423.xls,Insulin dose - i.v.,insulin_iv
+2021_0_20211013.xls,Date,timestamp
+2021_0_20211013.xls,CGM (mg / dl),cgm_mg_dl
+2021_0_20211013.xls,CBG (mg / dl),cbg_mg_dl
+2021_0_20211013.xls,Blood Ketone (mmol / L),blood_ketone
+2021_0_20211013.xls,Dietary intake,dietary_intake
+2021_0_20211013.xls,饮食,dietary_intake_chinese
+2021_0_20211013.xls,Insulin dose - s.c.,insulin_sc
+2021_0_20211013.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2021_0_20211013.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2021_0_20211013.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2021_0_20211013.xls,Insulin dose - i.v.,insulin_iv
+2022_0_20210419.xls,Date,timestamp
+2022_0_20210419.xls,CGM (mg / dl),cgm_mg_dl
+2022_0_20210419.xls,CBG (mg / dl),cbg_mg_dl
+2022_0_20210419.xls,Blood Ketone (mmol / L),blood_ketone
+2022_0_20210419.xls,Dietary intake,dietary_intake
+2022_0_20210419.xls,饮食,dietary_intake_chinese
+2022_0_20210419.xls,Insulin dose - s.c.,insulin_sc
+2022_0_20210419.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2022_0_20210419.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2022_0_20210419.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2022_0_20210419.xls,Insulin dose - i.v.,insulin_iv
+2023_0_20210812.xls,Date,timestamp
+2023_0_20210812.xls,CGM (mg / dl),cgm_mg_dl
+2023_0_20210812.xls,CBG (mg / dl),cbg_mg_dl
+2023_0_20210812.xls,Blood Ketone (mmol / L),blood_ketone
+2023_0_20210812.xls,Dietary intake,dietary_intake
+2023_0_20210812.xls,饮食,dietary_intake_chinese
+2023_0_20210812.xls,Insulin dose - s.c.,insulin_sc
+2023_0_20210812.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2023_0_20210812.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2023_0_20210812.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2023_0_20210812.xls,Insulin dose - i.v.,insulin_iv
+2024_0_20210429.xls,Date,timestamp
+2024_0_20210429.xls,CGM (mg / dl),cgm_mg_dl
+2024_0_20210429.xls,CBG (mg / dl),cbg_mg_dl
+2024_0_20210429.xls,Blood Ketone (mmol / L),blood_ketone
+2024_0_20210429.xls,Dietary intake,dietary_intake
+2024_0_20210429.xls,饮食,dietary_intake_chinese
+2024_0_20210429.xls,Insulin dose - s.c.,insulin_sc
+2024_0_20210429.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2024_0_20210429.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2024_0_20210429.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2024_0_20210429.xls,Insulin dose - i.v.,insulin_iv
+2025_0_20210506.xls,Date,timestamp
+2025_0_20210506.xls,CGM (mg / dl),cgm_mg_dl
+2025_0_20210506.xls,CBG (mg / dl),cbg_mg_dl
+2025_0_20210506.xls,Blood Ketone (mmol / L),blood_ketone
+2025_0_20210506.xls,Dietary intake,dietary_intake
+2025_0_20210506.xls,饮食,dietary_intake_chinese
+2025_0_20210506.xls,Insulin dose - s.c.,insulin_sc
+2025_0_20210506.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2025_0_20210506.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2025_0_20210506.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2025_0_20210506.xls,Insulin dose - i.v.,insulin_iv
+2026_0_20210916.xls,Date,timestamp
+2026_0_20210916.xls,CGM (mg / dl),cgm_mg_dl
+2026_0_20210916.xls,CBG (mg / dl),cbg_mg_dl
+2026_0_20210916.xls,Blood Ketone (mmol / L),blood_ketone
+2026_0_20210916.xls,Dietary intake,dietary_intake
+2026_0_20210916.xls,饮食,dietary_intake_chinese
+2026_0_20210916.xls,Insulin dose - s.c.,insulin_sc
+2026_0_20210916.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2026_0_20210916.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2026_0_20210916.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2026_0_20210916.xls,Insulin dose - i.v.,insulin_iv
+2027_0_20210521.xls,Date,timestamp
+2027_0_20210521.xls,CGM (mg / dl),cgm_mg_dl
+2027_0_20210521.xls,CBG (mg / dl),cbg_mg_dl
+2027_0_20210521.xls,Blood Ketone (mmol / L),blood_ketone
+2027_0_20210521.xls,Dietary intake,dietary_intake
+2027_0_20210521.xls,饮食,dietary_intake_chinese
+2027_0_20210521.xls,Insulin dose - s.c.,insulin_sc
+2027_0_20210521.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2027_0_20210521.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2027_0_20210521.xls,"胰岛素泵基础量 (Novolin R, IU / H)",csii_basal
+2027_0_20210521.xls,Insulin dose - i.v.,insulin_iv
+2028_0_20210426.xls,Date,timestamp
+2028_0_20210426.xls,CGM (mg / dl),cgm_mg_dl
+2028_0_20210426.xls,CBG (mg / dl),cbg_mg_dl
+2028_0_20210426.xls,Blood Ketone (mmol / L),blood_ketone
+2028_0_20210426.xls,Dietary intake,dietary_intake
+2028_0_20210426.xls,饮食,dietary_intake_chinese
+2028_0_20210426.xls,Insulin dose - s.c.,insulin_sc
+2028_0_20210426.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2028_0_20210426.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2028_0_20210426.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2028_0_20210426.xls,Insulin dose - i.v.,insulin_iv
+2029_0_20210526.xls,Date,timestamp
+2029_0_20210526.xls,CGM (mg / dl),cgm_mg_dl
+2029_0_20210526.xls,CBG (mg / dl),cbg_mg_dl
+2029_0_20210526.xls,Blood Ketone (mmol / L),blood_ketone
+2029_0_20210526.xls,Dietary intake,dietary_intake
+2029_0_20210526.xls,饮食,dietary_intake_chinese
+2029_0_20210526.xls,Insulin dose - s.c.,insulin_sc
+2029_0_20210526.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2029_0_20210526.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2029_0_20210526.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2029_0_20210526.xls,Insulin dose - i.v.,insulin_iv
+2030_0_20210531.xls,Date,timestamp
+2030_0_20210531.xls,CGM (mg / dl),cgm_mg_dl
+2030_0_20210531.xls,CBG (mg / dl),cbg_mg_dl
+2030_0_20210531.xls,Blood Ketone (mmol / L),blood_ketone
+2030_0_20210531.xls,Dietary intake,dietary_intake
+2030_0_20210531.xls,饮食,dietary_intake_chinese
+2030_0_20210531.xls,Insulin dose - s.c.,insulin_sc
+2030_0_20210531.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2030_0_20210531.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2030_0_20210531.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2030_0_20210531.xls,Insulin dose - i.v.,insulin_iv
+2031_0_20210601.xls,Date,timestamp
+2031_0_20210601.xls,CGM (mg / dl),cgm_mg_dl
+2031_0_20210601.xls,CBG (mg / dl),cbg_mg_dl
+2031_0_20210601.xls,Blood Ketone (mmol / L),blood_ketone
+2031_0_20210601.xls,Dietary intake,dietary_intake
+2031_0_20210601.xls,饮食,dietary_intake_chinese
+2031_0_20210601.xls,Insulin dose - s.c.,insulin_sc
+2031_0_20210601.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2031_0_20210601.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2031_0_20210601.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2031_0_20210601.xls,Insulin dose - i.v.,insulin_iv
+2032_0_20210727.xls,Date,timestamp
+2032_0_20210727.xls,CGM (mg / dl),cgm_mg_dl
+2032_0_20210727.xls,CBG (mg / dl),cbg_mg_dl
+2032_0_20210727.xls,Blood Ketone (mmol / L),blood_ketone
+2032_0_20210727.xls,Dietary intake,dietary_intake
+2032_0_20210727.xls,饮食,dietary_intake_chinese
+2032_0_20210727.xls,Insulin dose - s.c.,insulin_sc
+2032_0_20210727.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2032_0_20210727.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2032_0_20210727.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2032_0_20210727.xls,Insulin dose - i.v.,insulin_iv
+2033_0_20210615.xls,Date,timestamp
+2033_0_20210615.xls,CGM (mg / dl),cgm_mg_dl
+2033_0_20210615.xls,CBG (mg / dl),cbg_mg_dl
+2033_0_20210615.xls,Blood Ketone (mmol / L),blood_ketone
+2033_0_20210615.xls,Dietary intake,dietary_intake
+2033_0_20210615.xls,饮食,dietary_intake_chinese
+2033_0_20210615.xls,Insulin dose - s.c.,insulin_sc
+2033_0_20210615.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2033_0_20210615.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2033_0_20210615.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2033_0_20210615.xls,Insulin dose - i.v.,insulin_iv
+2034_0_20210624.xls,Date,timestamp
+2034_0_20210624.xls,CGM (mg / dl),cgm_mg_dl
+2034_0_20210624.xls,CBG (mg / dl),cbg_mg_dl
+2034_0_20210624.xls,Blood Ketone (mmol / L),blood_ketone
+2034_0_20210624.xls,Dietary intake,dietary_intake
+2034_0_20210624.xls,饮食,dietary_intake_chinese
+2034_0_20210624.xls,Insulin dose - s.c.,insulin_sc
+2034_0_20210624.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2034_0_20210624.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2034_0_20210624.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2034_0_20210624.xls,Insulin dose - i.v.,insulin_iv
+2035_0_20210629.xls,Date,timestamp
+2035_0_20210629.xls,CGM (mg / dl),cgm_mg_dl
+2035_0_20210629.xls,CBG (mg / dl),cbg_mg_dl
+2035_0_20210629.xls,Blood Ketone (mmol / L),blood_ketone
+2035_0_20210629.xls,Dietary intake,dietary_intake
+2035_0_20210629.xls,饮食,dietary_intake_chinese
+2035_0_20210629.xls,Insulin dose - s.c.,insulin_sc
+2035_0_20210629.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2035_0_20210629.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2035_0_20210629.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2035_0_20210629.xls,Insulin dose - i.v.,insulin_iv
+2036_0_20210803.xls,Date,timestamp
+2036_0_20210803.xls,CGM (mg / dl),cgm_mg_dl
+2036_0_20210803.xls,CBG (mg / dl),cbg_mg_dl
+2036_0_20210803.xls,Blood Ketone (mmol / L),blood_ketone
+2036_0_20210803.xls,Dietary intake,dietary_intake
+2036_0_20210803.xls,饮食,dietary_intake_chinese
+2036_0_20210803.xls,Insulin dose - s.c.,insulin_sc
+2036_0_20210803.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2036_0_20210803.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2036_0_20210803.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2036_0_20210803.xls,Insulin dose - i.v.,insulin_iv
+2037_0_20201221.xls,Date,timestamp
+2037_0_20201221.xls,CGM (mg / dl),cgm_mg_dl
+2037_0_20201221.xls,CBG (mg / dl),cbg_mg_dl
+2037_0_20201221.xls,Blood Ketone (mmol / L),blood_ketone
+2037_0_20201221.xls,Dietary intake,dietary_intake
+2037_0_20201221.xls,饮食,dietary_intake_chinese
+2037_0_20201221.xls,Insulin dose - s.c.,insulin_sc
+2037_0_20201221.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2037_0_20201221.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2037_0_20201221.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2037_0_20201221.xls,Insulin dose - i.v.,insulin_iv
+2038_0_20210608.xls,Date,timestamp
+2038_0_20210608.xls,CGM (mg / dl),cgm_mg_dl
+2038_0_20210608.xls,CBG (mg / dl),cbg_mg_dl
+2038_0_20210608.xls,Blood Ketone (mmol / L),blood_ketone
+2038_0_20210608.xls,Dietary intake,dietary_intake
+2038_0_20210608.xls,饮食,dietary_intake_chinese
+2038_0_20210608.xls,Insulin dose - s.c.,insulin_sc
+2038_0_20210608.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2038_0_20210608.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2038_0_20210608.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2038_0_20210608.xls,Insulin dose - i.v.,insulin_iv
+2039_0_20210615.xls,Date,timestamp
+2039_0_20210615.xls,CGM (mg / dl),cgm_mg_dl
+2039_0_20210615.xls,CBG (mg / dl),cbg_mg_dl
+2039_0_20210615.xls,Blood Ketone (mmol / L),blood_ketone
+2039_0_20210615.xls,Dietary intake,dietary_intake
+2039_0_20210615.xls,饮食,dietary_intake_chinese
+2039_0_20210615.xls,Insulin dose - s.c.,insulin_sc
+2039_0_20210615.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2039_0_20210615.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2039_0_20210615.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2039_0_20210615.xls,Insulin dose - i.v.,insulin_iv
+2040_0_20210729.xls,Date,timestamp
+2040_0_20210729.xls,CGM (mg / dl),cgm_mg_dl
+2040_0_20210729.xls,CBG (mg / dl),cbg_mg_dl
+2040_0_20210729.xls,Blood Ketone (mmol / L),blood_ketone
+2040_0_20210729.xls,Dietary intake,dietary_intake
+2040_0_20210729.xls,饮食,dietary_intake_chinese
+2040_0_20210729.xls,Insulin dose - s.c.,insulin_sc
+2040_0_20210729.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2040_0_20210729.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2040_0_20210729.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2040_0_20210729.xls,Insulin dose - i.v.,insulin_iv
+2041_0_20210813.xls,Date,timestamp
+2041_0_20210813.xls,CGM (mg / dl),cgm_mg_dl
+2041_0_20210813.xls,CBG (mg / dl),cbg_mg_dl
+2041_0_20210813.xls,Blood Ketone (mmol / L),blood_ketone
+2041_0_20210813.xls,Dietary intake,dietary_intake
+2041_0_20210813.xls,饮食,dietary_intake_chinese
+2041_0_20210813.xls,Insulin dose - s.c.,insulin_sc
+2041_0_20210813.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2041_0_20210813.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2041_0_20210813.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2041_0_20210813.xls,Insulin dose - i.v.,insulin_iv
+2042_0_20211019.xls,Date,timestamp
+2042_0_20211019.xls,CGM (mg / dl),cgm_mg_dl
+2042_0_20211019.xls,CBG (mg / dl),cbg_mg_dl
+2042_0_20211019.xls,Blood Ketone (mmol / L),blood_ketone
+2042_0_20211019.xls,Dietary intake,dietary_intake
+2042_0_20211019.xls,饮食,dietary_intake_chinese
+2042_0_20211019.xls,Insulin dose - s.c.,insulin_sc
+2042_0_20211019.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2042_0_20211019.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2042_0_20211019.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2042_0_20211019.xls,Insulin dose - i.v.,insulin_iv
+2043_0_20210513.xls,Date,timestamp
+2043_0_20210513.xls,CGM (mg / dl),cgm_mg_dl
+2043_0_20210513.xls,CBG (mg / dl),cbg_mg_dl
+2043_0_20210513.xls,Blood Ketone (mmol / L),blood_ketone
+2043_0_20210513.xls,Dietary intake,dietary_intake
+2043_0_20210513.xls,饮食,dietary_intake_chinese
+2043_0_20210513.xls,Insulin dose - s.c.,insulin_sc
+2043_0_20210513.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2043_0_20210513.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2043_0_20210513.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2043_0_20210513.xls,Insulin dose - i.v.,insulin_iv
+2044_0_20211101.xls,Date,timestamp
+2044_0_20211101.xls,CGM (mg / dl),cgm_mg_dl
+2044_0_20211101.xls,CBG (mg / dl),cbg_mg_dl
+2044_0_20211101.xls,Blood Ketone (mmol / L),blood_ketone
+2044_0_20211101.xls,Dietary intake,dietary_intake
+2044_0_20211101.xls,饮食,dietary_intake_chinese
+2044_0_20211101.xls,Insulin dose - s.c.,insulin_sc
+2044_0_20211101.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2044_0_20211101.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2044_0_20211101.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2044_0_20211101.xls,Insulin dose - i.v.,insulin_iv
+2045_0_20201216.xls,Date,timestamp
+2045_0_20201216.xls,CGM ,cgm_mg_dl
+2045_0_20201216.xls,CBG ,cbg_mg_dl
+2045_0_20201216.xls,Blood Ketone ,blood_ketone
+2045_0_20201216.xls,Dietary intake,dietary_intake
+2045_0_20201216.xls,饮食,dietary_intake_chinese
+2045_0_20201216.xls,Insulin dose - s.c.,insulin_sc
+2045_0_20201216.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2045_0_20201216.xls,CSII - bolus insulin ,csii_bolus
+2045_0_20201216.xls,CSII - basal insulin ,csii_basal
+2045_0_20201216.xls,Insulin dose - i.v.,insulin_iv
+2046_0_20201216.xls,Date,timestamp
+2046_0_20201216.xls,CGM (mg / dl),cgm_mg_dl
+2046_0_20201216.xls,CBG (mg / dl),cbg_mg_dl
+2046_0_20201216.xls,Blood Ketone (mmol / L),blood_ketone
+2046_0_20201216.xls,Dietary intake,dietary_intake
+2046_0_20201216.xls,饮食,dietary_intake_chinese
+2046_0_20201216.xls,Insulin dose - s.c.,insulin_sc
+2046_0_20201216.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2046_0_20201216.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2046_0_20201216.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2046_0_20201216.xls,Insulin dose - i.v.,insulin_iv
+2047_0_20210420.xls,Date,timestamp
+2047_0_20210420.xls,CGM (mg / dl),cgm_mg_dl
+2047_0_20210420.xls,CBG (mg / dl),cbg_mg_dl
+2047_0_20210420.xls,Blood Ketone (mmol / L),blood_ketone
+2047_0_20210420.xls,Dietary intake,dietary_intake
+2047_0_20210420.xls,饮食,dietary_intake_chinese
+2047_0_20210420.xls,Insulin dose - s.c.,insulin_sc
+2047_0_20210420.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2047_0_20210420.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2047_0_20210420.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2047_0_20210420.xls,Insulin dose - i.v.,insulin_iv
+2048_0_20210426.xls,Date,timestamp
+2048_0_20210426.xls,CGM (mg / dl),cgm_mg_dl
+2048_0_20210426.xls,CBG (mg / dl),cbg_mg_dl
+2048_0_20210426.xls,Blood Ketone (mmol / L),blood_ketone
+2048_0_20210426.xls,Dietary intake,dietary_intake
+2048_0_20210426.xls,饮食,dietary_intake_chinese
+2048_0_20210426.xls,Insulin dose - s.c.,insulin_sc
+2048_0_20210426.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2048_0_20210426.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2048_0_20210426.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2048_0_20210426.xls,Insulin dose - i.v.,insulin_iv
+2049_0_20210426.xls,Date,timestamp
+2049_0_20210426.xls,CGM (mg / dl),cgm_mg_dl
+2049_0_20210426.xls,CBG (mg / dl),cbg_mg_dl
+2049_0_20210426.xls,Blood Ketone (mmol / L),blood_ketone
+2049_0_20210426.xls,Dietary intake,dietary_intake
+2049_0_20210426.xls,饮食,dietary_intake_chinese
+2049_0_20210426.xls,Insulin dose - s.c.,insulin_sc
+2049_0_20210426.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2049_0_20210426.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2049_0_20210426.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2049_0_20210426.xls,Insulin dose - i.v.,insulin_iv
+2050_0_20210510.xls,Date,timestamp
+2050_0_20210510.xls,CGM (mg / dl),cgm_mg_dl
+2050_0_20210510.xls,CBG (mg / dl),cbg_mg_dl
+2050_0_20210510.xls,Blood Ketone (mmol / L),blood_ketone
+2050_0_20210510.xls,Dietary intake,dietary_intake
+2050_0_20210510.xls,饮食,dietary_intake_chinese
+2050_0_20210510.xls,Insulin dose - s.c.,insulin_sc
+2050_0_20210510.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2050_0_20210510.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2050_0_20210510.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2050_0_20210510.xls,Insulin dose - i.v.,insulin_iv
+2051_0_20210512.xls,Date,timestamp
+2051_0_20210512.xls,CGM (mg / dl),cgm_mg_dl
+2051_0_20210512.xls,CBG (mg / dl),cbg_mg_dl
+2051_0_20210512.xls,Blood Ketone (mmol / L),blood_ketone
+2051_0_20210512.xls,Dietary intake,dietary_intake
+2051_0_20210512.xls,饮食,dietary_intake_chinese
+2051_0_20210512.xls,Insulin dose - s.c.,insulin_sc
+2051_0_20210512.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2051_0_20210512.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2051_0_20210512.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2051_0_20210512.xls,Insulin dose - i.v.,insulin_iv
+2052_0_20210511.xls,Date,timestamp
+2052_0_20210511.xls,CGM (mg / dl),cgm_mg_dl
+2052_0_20210511.xls,CBG (mg / dl),cbg_mg_dl
+2052_0_20210511.xls,Blood Ketone (mmol / L),blood_ketone
+2052_0_20210511.xls,Dietary intake,dietary_intake
+2052_0_20210511.xls,饮食,dietary_intake_chinese
+2052_0_20210511.xls,Insulin dose - s.c.,insulin_sc
+2052_0_20210511.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2052_0_20210511.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2052_0_20210511.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2052_0_20210511.xls,Insulin dose - i.v.,insulin_iv
+2053_0_20210518.xls,Date,timestamp
+2053_0_20210518.xls,CGM (mg / dl),cgm_mg_dl
+2053_0_20210518.xls,CBG (mg / dl),cbg_mg_dl
+2053_0_20210518.xls,Blood Ketone (mmol / L),blood_ketone
+2053_0_20210518.xls,Dietary intake,dietary_intake
+2053_0_20210518.xls,饮食,dietary_intake_chinese
+2053_0_20210518.xls,Insulin dose - s.c.,insulin_sc
+2053_0_20210518.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2053_0_20210518.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2053_0_20210518.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2053_0_20210518.xls,Insulin dose - i.v.,insulin_iv
+2054_0_20210524.xls,Date,timestamp
+2054_0_20210524.xls,CGM (mg / dl),cgm_mg_dl
+2054_0_20210524.xls,CBG (mg / dl),cbg_mg_dl
+2054_0_20210524.xls,Blood Ketone (mmol / L),blood_ketone
+2054_0_20210524.xls,Dietary intake,dietary_intake
+2054_0_20210524.xls,饮食,dietary_intake_chinese
+2054_0_20210524.xls,Insulin dose - s.c.,insulin_sc
+2054_0_20210524.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2054_0_20210524.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2054_0_20210524.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2054_0_20210524.xls,Insulin dose - i.v.,insulin_iv
+2055_0_20210524.xls,Date,timestamp
+2055_0_20210524.xls,CGM (mg / dl),cgm_mg_dl
+2055_0_20210524.xls,CBG (mg / dl),cbg_mg_dl
+2055_0_20210524.xls,Blood Ketone (mmol / L),blood_ketone
+2055_0_20210524.xls,Dietary intake,dietary_intake
+2055_0_20210524.xls,饮食,dietary_intake_chinese
+2055_0_20210524.xls,Insulin dose - s.c.,insulin_sc
+2055_0_20210524.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2055_0_20210524.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2055_0_20210524.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2055_0_20210524.xls,Insulin dose - i.v.,insulin_iv
+2055_1_20201207.xls,Date,timestamp
+2055_1_20201207.xls,CGM (mg / dl),cgm_mg_dl
+2055_1_20201207.xls,CBG (mg / dl),cbg_mg_dl
+2055_1_20201207.xls,Blood Ketone (mmol / L),blood_ketone
+2055_1_20201207.xls,Dietary intake,dietary_intake
+2055_1_20201207.xls,饮食,dietary_intake_chinese
+2055_1_20201207.xls,Insulin dose - s.c.,insulin_sc
+2055_1_20201207.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2055_1_20201207.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2055_1_20201207.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2055_1_20201207.xls,Insulin dose - i.v.,insulin_iv
+2056_0_20210524.xls,Date,timestamp
+2056_0_20210524.xls,CGM (mg / dl),cgm_mg_dl
+2056_0_20210524.xls,CBG (mg / dl),cbg_mg_dl
+2056_0_20210524.xls,Blood Ketone (mmol / L),blood_ketone
+2056_0_20210524.xls,Dietary intake,dietary_intake
+2056_0_20210524.xls,饮食,dietary_intake_chinese
+2056_0_20210524.xls,Insulin dose - s.c.,insulin_sc
+2056_0_20210524.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2056_0_20210524.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2056_0_20210524.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2056_0_20210524.xls,Insulin dose - i.v.,insulin_iv
+2057_0_20210525.xls,Date,timestamp
+2057_0_20210525.xls,CGM (mg / dl),cgm_mg_dl
+2057_0_20210525.xls,CBG (mg / dl),cbg_mg_dl
+2057_0_20210525.xls,Blood Ketone (mmol / L),blood_ketone
+2057_0_20210525.xls,Dietary intake,dietary_intake
+2057_0_20210525.xls,饮食,dietary_intake_chinese
+2057_0_20210525.xls,Insulin dose - s.c.,insulin_sc
+2057_0_20210525.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2057_0_20210525.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2057_0_20210525.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2057_0_20210525.xls,Insulin dose - i.v.,insulin_iv
+2058_0_20210524.xls,Date,timestamp
+2058_0_20210524.xls,CGM (mg / dl),cgm_mg_dl
+2058_0_20210524.xls,CBG (mg / dl),cbg_mg_dl
+2058_0_20210524.xls,Blood Ketone (mmol / L),blood_ketone
+2058_0_20210524.xls,Dietary intake,dietary_intake
+2058_0_20210524.xls,饮食,dietary_intake_chinese
+2058_0_20210524.xls,Insulin dose - s.c.,insulin_sc
+2058_0_20210524.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2058_0_20210524.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2058_0_20210524.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2058_0_20210524.xls,Insulin dose - i.v.,insulin_iv
+2059_0_20210525.xls,Date,timestamp
+2059_0_20210525.xls,CGM (mg / dl),cgm_mg_dl
+2059_0_20210525.xls,CBG (mg / dl),cbg_mg_dl
+2059_0_20210525.xls,Blood Ketone (mmol / L),blood_ketone
+2059_0_20210525.xls,Dietary intake,dietary_intake
+2059_0_20210525.xls,饮食,dietary_intake_chinese
+2059_0_20210525.xls,Insulin dose - s.c.,insulin_sc
+2059_0_20210525.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2059_0_20210525.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2059_0_20210525.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2059_0_20210525.xls,Insulin dose - i.v.,insulin_iv
+2060_0_20201214.xls,Date,timestamp
+2060_0_20201214.xls,CGM (mg / dl),cgm_mg_dl
+2060_0_20201214.xls,CBG (mg / dl),cbg_mg_dl
+2060_0_20201214.xls,Blood Ketone (mmol / L),blood_ketone
+2060_0_20201214.xls,Dietary intake,dietary_intake
+2060_0_20201214.xls,饮食,dietary_intake_chinese
+2060_0_20201214.xls,Insulin dose - s.c.,insulin_sc
+2060_0_20201214.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2060_0_20201214.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2060_0_20201214.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2060_0_20201214.xls,Insulin dose - i.v.,insulin_iv
+2061_0_20210601.xls,Date,timestamp
+2061_0_20210601.xls,CGM (mg / dl),cgm_mg_dl
+2061_0_20210601.xls,CBG (mg / dl),cbg_mg_dl
+2061_0_20210601.xls,Blood Ketone (mmol / L),blood_ketone
+2061_0_20210601.xls,Dietary intake,dietary_intake
+2061_0_20210601.xls,饮食,dietary_intake_chinese
+2061_0_20210601.xls,Insulin dose - s.c.,insulin_sc
+2061_0_20210601.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2061_0_20210601.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2061_0_20210601.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2061_0_20210601.xls,Insulin dose - i.v.,insulin_iv
+2062_0_20210601.xls,Date,timestamp
+2062_0_20210601.xls,CGM (mg / dl),cgm_mg_dl
+2062_0_20210601.xls,CBG (mg / dl),cbg_mg_dl
+2062_0_20210601.xls,Blood Ketone (mmol / L),blood_ketone
+2062_0_20210601.xls,Dietary intake,dietary_intake
+2062_0_20210601.xls,饮食,dietary_intake_chinese
+2062_0_20210601.xls,Insulin dose - s.c.,insulin_sc
+2062_0_20210601.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2062_0_20210601.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2062_0_20210601.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2062_0_20210601.xls,Insulin dose - i.v.,insulin_iv
+2063_0_20210608.xls,Date,timestamp
+2063_0_20210608.xls,CGM (mg / dl),cgm_mg_dl
+2063_0_20210608.xls,CBG (mg / dl),cbg_mg_dl
+2063_0_20210608.xls,Blood Ketone (mmol / L),blood_ketone
+2063_0_20210608.xls,Dietary intake,dietary_intake
+2063_0_20210608.xls,饮食,dietary_intake_chinese
+2063_0_20210608.xls,Insulin dose - s.c.,insulin_sc
+2063_0_20210608.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2063_0_20210608.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2063_0_20210608.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2063_0_20210608.xls,Insulin dose - i.v.,insulin_iv
+2064_0_20210608.xls,Date,timestamp
+2064_0_20210608.xls,CGM (mg / dl),cgm_mg_dl
+2064_0_20210608.xls,CBG (mg / dl),cbg_mg_dl
+2064_0_20210608.xls,Blood Ketone (mmol / L),blood_ketone
+2064_0_20210608.xls,Dietary intake,dietary_intake
+2064_0_20210608.xls,饮食,dietary_intake_chinese
+2064_0_20210608.xls,Insulin dose - s.c.,insulin_sc
+2064_0_20210608.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2064_0_20210608.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2064_0_20210608.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2064_0_20210608.xls,Insulin dose - i.v.,insulin_iv
+2065_0_20210615.xls,Date,timestamp
+2065_0_20210615.xls,CGM (mg / dl),cgm_mg_dl
+2065_0_20210615.xls,CBG (mg / dl),cbg_mg_dl
+2065_0_20210615.xls,Blood Ketone (mmol / L),blood_ketone
+2065_0_20210615.xls,Dietary intake,dietary_intake
+2065_0_20210615.xls,饮食,dietary_intake_chinese
+2065_0_20210615.xls,Insulin dose - s.c.,insulin_sc
+2065_0_20210615.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2065_0_20210615.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2065_0_20210615.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2065_0_20210615.xls,Insulin dose - i.v.,insulin_iv
+2066_0_20210615.xls,Date,timestamp
+2066_0_20210615.xls,CGM (mg / dl),cgm_mg_dl
+2066_0_20210615.xls,CBG (mg / dl),cbg_mg_dl
+2066_0_20210615.xls,Blood Ketone (mmol / L),blood_ketone
+2066_0_20210615.xls,Dietary intake,dietary_intake
+2066_0_20210615.xls,饮食,dietary_intake_chinese
+2066_0_20210615.xls,Insulin dose - s.c.,insulin_sc
+2066_0_20210615.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2066_0_20210615.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2066_0_20210615.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2066_0_20210615.xls,Insulin dose - i.v.,insulin_iv
+2067_0_20210615.xls,Date,timestamp
+2067_0_20210615.xls,CGM (mg / dl),cgm_mg_dl
+2067_0_20210615.xls,CBG (mg / dl),cbg_mg_dl
+2067_0_20210615.xls,Blood Ketone (mmol / L),blood_ketone
+2067_0_20210615.xls,Dietary intake,dietary_intake
+2067_0_20210615.xls,饮食,dietary_intake_chinese
+2067_0_20210615.xls,Insulin dose - s.c.,insulin_sc
+2067_0_20210615.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2067_0_20210615.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2067_0_20210615.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2067_0_20210615.xls,Insulin dose - i.v.,insulin_iv
+2068_0_20210616.xls,Date,timestamp
+2068_0_20210616.xls,CGM (mg / dl),cgm_mg_dl
+2068_0_20210616.xls,CBG (mg / dl),cbg_mg_dl
+2068_0_20210616.xls,Blood Ketone (mmol / L),blood_ketone
+2068_0_20210616.xls,Dietary intake,dietary_intake
+2068_0_20210616.xls,饮食,dietary_intake_chinese
+2068_0_20210616.xls,Insulin dose - s.c.,insulin_sc
+2068_0_20210616.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2068_0_20210616.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2068_0_20210616.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2068_0_20210616.xls,Insulin dose - i.v.,insulin_iv
+2069_0_20210621.xls,Date,timestamp
+2069_0_20210621.xls,CGM (mg / dl),cgm_mg_dl
+2069_0_20210621.xls,CBG (mg / dl),cbg_mg_dl
+2069_0_20210621.xls,Blood Ketone (mmol / L),blood_ketone
+2069_0_20210621.xls,Dietary intake,dietary_intake
+2069_0_20210621.xls,饮食,dietary_intake_chinese
+2069_0_20210621.xls,Insulin dose - s.c.,insulin_sc
+2069_0_20210621.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2069_0_20210621.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2069_0_20210621.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2069_0_20210621.xls,Insulin dose - i.v.,insulin_iv
+2069_1_20210705.xls,Date,timestamp
+2069_1_20210705.xls,CGM (mg / dl),cgm_mg_dl
+2069_1_20210705.xls,CBG (mg / dl),cbg_mg_dl
+2069_1_20210705.xls,Blood Ketone (mmol / L),blood_ketone
+2069_1_20210705.xls,Dietary intake,dietary_intake
+2069_1_20210705.xls,饮食,dietary_intake_chinese
+2069_1_20210705.xls,Insulin dose - s.c.,insulin_sc
+2069_1_20210705.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2069_1_20210705.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2069_1_20210705.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2069_1_20210705.xls,Insulin dose - i.v.,insulin_iv
+2069_2_20210825.xls,Date,timestamp
+2069_2_20210825.xls,CGM (mg / dl),cgm_mg_dl
+2069_2_20210825.xls,CBG (mg / dl),cbg_mg_dl
+2069_2_20210825.xls,Blood Ketone (mmol / L),blood_ketone
+2069_2_20210825.xls,Dietary intake,dietary_intake
+2069_2_20210825.xls,饮食,dietary_intake_chinese
+2069_2_20210825.xls,Insulin dose - s.c.,insulin_sc
+2069_2_20210825.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2069_2_20210825.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2069_2_20210825.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2069_2_20210825.xls,Insulin dose - i.v.,insulin_iv
+2070_0_20210629.xls,Date,timestamp
+2070_0_20210629.xls,CGM (mg / dl),cgm_mg_dl
+2070_0_20210629.xls,CBG (mg / dl),cbg_mg_dl
+2070_0_20210629.xls,Blood Ketone (mmol / L),blood_ketone
+2070_0_20210629.xls,Dietary intake,dietary_intake
+2070_0_20210629.xls,饮食,dietary_intake_chinese
+2070_0_20210629.xls,Insulin dose - s.c.,insulin_sc
+2070_0_20210629.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2070_0_20210629.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2070_0_20210629.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2070_0_20210629.xls,Insulin dose - i.v.,insulin_iv
+2071_0_20210705.xls,Date,timestamp
+2071_0_20210705.xls,CGM (mg / dl),cgm_mg_dl
+2071_0_20210705.xls,CBG (mg / dl),cbg_mg_dl
+2071_0_20210705.xls,Blood Ketone (mmol / L),blood_ketone
+2071_0_20210705.xls,Dietary intake,dietary_intake
+2071_0_20210705.xls,饮食,dietary_intake_chinese
+2071_0_20210705.xls,Insulin dose - s.c.,insulin_sc
+2071_0_20210705.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2071_0_20210705.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2071_0_20210705.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2071_0_20210705.xls,Insulin dose - i.v.,insulin_iv
+2072_0_20210706.xls,Date,timestamp
+2072_0_20210706.xls,CGM (mg / dl),cgm_mg_dl
+2072_0_20210706.xls,CBG (mg / dl),cbg_mg_dl
+2072_0_20210706.xls,Blood Ketone (mmol / L),blood_ketone
+2072_0_20210706.xls,Dietary intake,dietary_intake
+2072_0_20210706.xls,饮食,dietary_intake_chinese
+2072_0_20210706.xls,Insulin dose - s.c.,insulin_sc
+2072_0_20210706.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2072_0_20210706.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2072_0_20210706.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2072_0_20210706.xls,Insulin dose - i.v.,insulin_iv
+2073_0_20210703.xls,Date,timestamp
+2073_0_20210703.xls,CGM (mg / dl),cgm_mg_dl
+2073_0_20210703.xls,CBG (mg / dl),cbg_mg_dl
+2073_0_20210703.xls,Blood Ketone (mmol / L),blood_ketone
+2073_0_20210703.xls,Dietary intake,dietary_intake
+2073_0_20210703.xls,饮食,dietary_intake_chinese
+2073_0_20210703.xls,Insulin dose - s.c.,insulin_sc
+2073_0_20210703.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2073_0_20210703.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2073_0_20210703.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2073_0_20210703.xls,Insulin dose - i.v.,insulin_iv
+2074_0_20210707.xls,Date,timestamp
+2074_0_20210707.xls,CGM (mg / dl),cgm_mg_dl
+2074_0_20210707.xls,CBG (mg / dl),cbg_mg_dl
+2074_0_20210707.xls,Blood Ketone (mmol / L),blood_ketone
+2074_0_20210707.xls,Dietary intake,dietary_intake
+2074_0_20210707.xls,饮食,dietary_intake_chinese
+2074_0_20210707.xls,Insulin dose - s.c.,insulin_sc
+2074_0_20210707.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2074_0_20210707.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2074_0_20210707.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2074_0_20210707.xls,Insulin dose - i.v.,insulin_iv
+2074_1_20210720.xls,Date,timestamp
+2074_1_20210720.xls,CGM (mg / dl),cgm_mg_dl
+2074_1_20210720.xls,CBG (mg / dl),cbg_mg_dl
+2074_1_20210720.xls,Blood Ketone (mmol / L),blood_ketone
+2074_1_20210720.xls,Dietary intake,dietary_intake
+2074_1_20210720.xls,饮食,dietary_intake_chinese
+2074_1_20210720.xls,Insulin dose - s.c.,insulin_sc
+2074_1_20210720.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2074_1_20210720.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2074_1_20210720.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2074_1_20210720.xls,Insulin dose - i.v.,insulin_iv
+2075_0_20210720.xls,Date,timestamp
+2075_0_20210720.xls,CGM (mg / dl),cgm_mg_dl
+2075_0_20210720.xls,CBG (mg / dl),cbg_mg_dl
+2075_0_20210720.xls,Blood Ketone (mmol / L),blood_ketone
+2075_0_20210720.xls,Dietary intake,dietary_intake
+2075_0_20210720.xls,饮食,dietary_intake_chinese
+2075_0_20210720.xls,Insulin dose - s.c.,insulin_sc
+2075_0_20210720.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2075_0_20210720.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2075_0_20210720.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2075_0_20210720.xls,Insulin dose - i.v.,insulin_iv
+2076_0_20210720.xls,Date,timestamp
+2076_0_20210720.xls,CGM (mg / dl),cgm_mg_dl
+2076_0_20210720.xls,CBG (mg / dl),cbg_mg_dl
+2076_0_20210720.xls,Blood Ketone (mmol / L),blood_ketone
+2076_0_20210720.xls,Dietary intake,dietary_intake
+2076_0_20210720.xls,饮食,dietary_intake_chinese
+2076_0_20210720.xls,Insulin dose - s.c.,insulin_sc
+2076_0_20210720.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2076_0_20210720.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2076_0_20210720.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2076_0_20210720.xls,Insulin dose - i.v.,insulin_iv
+2077_0_20210803.xls,Date,timestamp
+2077_0_20210803.xls,CGM (mg / dl),cgm_mg_dl
+2077_0_20210803.xls,CBG (mg / dl),cbg_mg_dl
+2077_0_20210803.xls,Blood Ketone (mmol / L),blood_ketone
+2077_0_20210803.xls,Dietary intake,dietary_intake
+2077_0_20210803.xls,饮食,dietary_intake_chinese
+2077_0_20210803.xls,Insulin dose - s.c.,insulin_sc
+2077_0_20210803.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2077_0_20210803.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2077_0_20210803.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2077_0_20210803.xls,Insulin dose - i.v.,insulin_iv
+2078_0_20210803.xls,Date,timestamp
+2078_0_20210803.xls,CGM (mg / dl),cgm_mg_dl
+2078_0_20210803.xls,CBG (mg / dl),cbg_mg_dl
+2078_0_20210803.xls,Blood Ketone (mmol / L),blood_ketone
+2078_0_20210803.xls,Dietary intake,dietary_intake
+2078_0_20210803.xls,饮食,dietary_intake_chinese
+2078_0_20210803.xls,Insulin dose - s.c.,insulin_sc
+2078_0_20210803.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2078_0_20210803.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2078_0_20210803.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2078_0_20210803.xls,Insulin dose - i.v.,insulin_iv
+2078_1_20210817.xls,Date,timestamp
+2078_1_20210817.xls,CGM (mg / dl),cgm_mg_dl
+2078_1_20210817.xls,CBG (mg / dl),cbg_mg_dl
+2078_1_20210817.xls,Blood Ketone (mmol / L),blood_ketone
+2078_1_20210817.xls,Dietary intake,dietary_intake
+2078_1_20210817.xls,饮食,dietary_intake_chinese
+2078_1_20210817.xls,Insulin dose - s.c.,insulin_sc
+2078_1_20210817.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2078_1_20210817.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2078_1_20210817.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2078_1_20210817.xls,Insulin dose - i.v.,insulin_iv
+2079_0_20210809.xls,Date,timestamp
+2079_0_20210809.xls,CGM (mg / dl),cgm_mg_dl
+2079_0_20210809.xls,CBG (mg / dl),cbg_mg_dl
+2079_0_20210809.xls,Blood Ketone (mmol / L),blood_ketone
+2079_0_20210809.xls,Dietary intake,dietary_intake
+2079_0_20210809.xls,饮食,dietary_intake_chinese
+2079_0_20210809.xls,Insulin dose - s.c.,insulin_sc
+2079_0_20210809.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2079_0_20210809.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2079_0_20210809.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2079_0_20210809.xls,Insulin dose - i.v.,insulin_iv
+2080_0_20210816.xls,Date,timestamp
+2080_0_20210816.xls,CGM (mg / dl),cgm_mg_dl
+2080_0_20210816.xls,CBG (mg / dl),cbg_mg_dl
+2080_0_20210816.xls,Blood Ketone (mmol / L),blood_ketone
+2080_0_20210816.xls,Dietary intake,dietary_intake
+2080_0_20210816.xls,饮食,dietary_intake_chinese
+2080_0_20210816.xls,Insulin dose - s.c.,insulin_sc
+2080_0_20210816.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2080_0_20210816.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2080_0_20210816.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2080_0_20210816.xls,Insulin dose - i.v.,insulin_iv
+2081_0_20210817.xls,Date,timestamp
+2081_0_20210817.xls,CGM (mg / dl),cgm_mg_dl
+2081_0_20210817.xls,CBG (mg / dl),cbg_mg_dl
+2081_0_20210817.xls,Blood Ketone (mmol / L),blood_ketone
+2081_0_20210817.xls,Dietary intake,dietary_intake
+2081_0_20210817.xls,饮食,dietary_intake_chinese
+2081_0_20210817.xls,Insulin dose - s.c.,insulin_sc
+2081_0_20210817.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2081_0_20210817.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2081_0_20210817.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2081_0_20210817.xls,Insulin dose - i.v.,insulin_iv
+2082_0_20210907.xls,Date,timestamp
+2082_0_20210907.xls,CGM (mg / dl),cgm_mg_dl
+2082_0_20210907.xls,CBG (mg / dl),cbg_mg_dl
+2082_0_20210907.xls,Blood Ketone (mmol / L),blood_ketone
+2082_0_20210907.xls,Dietary intake,dietary_intake
+2082_0_20210907.xls,饮食,dietary_intake_chinese
+2082_0_20210907.xls,Insulin dose - s.c.,insulin_sc
+2082_0_20210907.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2082_0_20210907.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2082_0_20210907.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2082_0_20210907.xls,Insulin dose - i.v.,insulin_iv
+2083_0_20201214.xls,Date,timestamp
+2083_0_20201214.xls,CGM (mg / dl),cgm_mg_dl
+2083_0_20201214.xls,CBG (mg / dl),cbg_mg_dl
+2083_0_20201214.xls,Blood Ketone (mmol / L),blood_ketone
+2083_0_20201214.xls,Dietary intake,dietary_intake
+2083_0_20201214.xls,进食量,dietary_intake_chinese
+2083_0_20201214.xls,Insulin dose - s.c.,insulin_sc
+2083_0_20201214.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2083_0_20201214.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2083_0_20201214.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2083_0_20201214.xls,Insulin dose - i.v.,insulin_iv
+2084_0_20211013.xls,Date,timestamp
+2084_0_20211013.xls,CGM (mg / dl),cgm_mg_dl
+2084_0_20211013.xls,CBG (mg / dl),cbg_mg_dl
+2084_0_20211013.xls,Blood Ketone (mmol / L),blood_ketone
+2084_0_20211013.xls,Dietary intake,dietary_intake
+2084_0_20211013.xls,饮食,dietary_intake_chinese
+2084_0_20211013.xls,Insulin dose - s.c.,insulin_sc
+2084_0_20211013.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2084_0_20211013.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2084_0_20211013.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2084_0_20211013.xls,Insulin dose - i.v.,insulin_iv
+2085_0_20200907.xls,Date,timestamp
+2085_0_20200907.xls,CGM (mg / dl),cgm_mg_dl
+2085_0_20200907.xls,CBG (mg / dl),cbg_mg_dl
+2085_0_20200907.xls,Blood Ketone (mmol / L),blood_ketone
+2085_0_20200907.xls,Dietary intake,dietary_intake
+2085_0_20200907.xls,饮食,dietary_intake_chinese
+2085_0_20200907.xls,Insulin dose - s.c.,insulin_sc
+2085_0_20200907.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2085_0_20200907.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2085_0_20200907.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2085_0_20200907.xls,Insulin dose - i.v.,insulin_iv
+2086_0_20200914.xls,Date,timestamp
+2086_0_20200914.xls,CGM (mg / dl),cgm_mg_dl
+2086_0_20200914.xls,CBG (mg / dl),cbg_mg_dl
+2086_0_20200914.xls,Blood Ketone (mmol / L),blood_ketone
+2086_0_20200914.xls,Dietary intake,dietary_intake
+2086_0_20200914.xls,饮食,dietary_intake_chinese
+2086_0_20200914.xls,Insulin dose - s.c.,insulin_sc
+2086_0_20200914.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2086_0_20200914.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2086_0_20200914.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2086_0_20200914.xls,Insulin dose - i.v.,insulin_iv
+2087_0_20201012.xls,Date,timestamp
+2087_0_20201012.xls,CGM (mg / dl),cgm_mg_dl
+2087_0_20201012.xls,CBG (mg / dl),cbg_mg_dl
+2087_0_20201012.xls,Blood Ketone (mmol / L),blood_ketone
+2087_0_20201012.xls,Dietary intake,dietary_intake
+2087_0_20201012.xls,饮食,dietary_intake_chinese
+2087_0_20201012.xls,Insulin dose - s.c.,insulin_sc
+2087_0_20201012.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2087_0_20201012.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2087_0_20201012.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2087_0_20201012.xls,Insulin dose - i.v.,insulin_iv
+2088_0_20201123.xls,Date,timestamp
+2088_0_20201123.xls,CGM (mg / dl),cgm_mg_dl
+2088_0_20201123.xls,CBG (mg / dl),cbg_mg_dl
+2088_0_20201123.xls,Blood Ketone (mmol / L),blood_ketone
+2088_0_20201123.xls,Dietary intake,dietary_intake
+2088_0_20201123.xls,饮食,dietary_intake_chinese
+2088_0_20201123.xls,Insulin dose - s.c.,insulin_sc
+2088_0_20201123.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2088_0_20201123.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2088_0_20201123.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2088_0_20201123.xls,Insulin dose - i.v.,insulin_iv
+2089_0_20201019.xls,Date,timestamp
+2089_0_20201019.xls,CGM (mg / dl),cgm_mg_dl
+2089_0_20201019.xls,CBG (mg / dl),cbg_mg_dl
+2089_0_20201019.xls,Blood Ketone (mmol / L),blood_ketone
+2089_0_20201019.xls,Dietary intake,dietary_intake
+2089_0_20201019.xls,饮食,dietary_intake_chinese
+2089_0_20201019.xls,Insulin dose - s.c.,insulin_sc
+2089_0_20201019.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2089_0_20201019.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2089_0_20201019.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2089_0_20201019.xls,Insulin dose - i.v.,insulin_iv
+2090_0_20201130.xls,Date,timestamp
+2090_0_20201130.xls,CGM (mg / dl),cgm_mg_dl
+2090_0_20201130.xls,CBG (mg / dl),cbg_mg_dl
+2090_0_20201130.xls,Blood Ketone (mmol / L),blood_ketone
+2090_0_20201130.xls,Dietary intake,dietary_intake
+2090_0_20201130.xls,饮食,dietary_intake_chinese
+2090_0_20201130.xls,Insulin dose - s.c.,insulin_sc
+2090_0_20201130.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2090_0_20201130.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2090_0_20201130.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2090_0_20201130.xls,Insulin dose - i.v.,insulin_iv
+2091_0_20201029.xls,Date,timestamp
+2091_0_20201029.xls,CGM (mg / dl),cgm_mg_dl
+2091_0_20201029.xls,CBG (mg / dl),cbg_mg_dl
+2091_0_20201029.xls,Blood Ketone (mmol / L),blood_ketone
+2091_0_20201029.xls,Dietary intake,dietary_intake
+2091_0_20201029.xls,饮食,dietary_intake_chinese
+2091_0_20201029.xls,Insulin dose - s.c.,insulin_sc
+2091_0_20201029.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2091_0_20201029.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2091_0_20201029.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2091_0_20201029.xls,Insulin dose - i.v.,insulin_iv
+2092_0_20201109.xls,Date,timestamp
+2092_0_20201109.xls,CGM (mg / dl),cgm_mg_dl
+2092_0_20201109.xls,CBG (mg / dl),cbg_mg_dl
+2092_0_20201109.xls,Blood Ketone (mmol / L),blood_ketone
+2092_0_20201109.xls,Dietary intake,dietary_intake
+2092_0_20201109.xls,饮食,dietary_intake_chinese
+2092_0_20201109.xls,Insulin dose - s.c.,insulin_sc
+2092_0_20201109.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2092_0_20201109.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2092_0_20201109.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2092_0_20201109.xls,Insulin dose - i.v.,insulin_iv
+2093_0_20201109.xls,Date,timestamp
+2093_0_20201109.xls,CGM (mg / dl),cgm_mg_dl
+2093_0_20201109.xls,CBG (mg / dl),cbg_mg_dl
+2093_0_20201109.xls,Blood Ketone (mmol / L),blood_ketone
+2093_0_20201109.xls,Dietary intake,dietary_intake
+2093_0_20201109.xls,饮食,dietary_intake_chinese
+2093_0_20201109.xls,Insulin dose - s.c.,insulin_sc
+2093_0_20201109.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2093_0_20201109.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2093_0_20201109.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2093_0_20201109.xls,Insulin dose - i.v.,insulin_iv
+2094_0_20211109.xls,Date,timestamp
+2094_0_20211109.xls,CGM (mg / dl),cgm_mg_dl
+2094_0_20211109.xls,CBG (mg / dl),cbg_mg_dl
+2094_0_20211109.xls,Blood Ketone (mmol / L),blood_ketone
+2094_0_20211109.xls,Dietary intake,dietary_intake
+2094_0_20211109.xls,饮食,dietary_intake_chinese
+2094_0_20211109.xls,Insulin dose - s.c.,insulin_sc
+2094_0_20211109.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2094_0_20211109.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2094_0_20211109.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2094_0_20211109.xls,Insulin dose - i.v.,insulin_iv
+2095_0_20201116.xls,Date,timestamp
+2095_0_20201116.xls,CGM ,cgm_mg_dl
+2095_0_20201116.xls,CBG ,cbg_mg_dl
+2095_0_20201116.xls,Blood Ketone ,blood_ketone
+2095_0_20201116.xls,Dietary intake,dietary_intake
+2095_0_20201116.xls,饮食,dietary_intake_chinese
+2095_0_20201116.xls,Insulin dose - s.c.,insulin_sc
+2095_0_20201116.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2095_0_20201116.xls,CSII - bolus insulin ,csii_bolus
+2095_0_20201116.xls,CSII - basal insulin ,csii_basal
+2095_0_20201116.xls,Insulin dose - i.v.,insulin_iv
+2096_0_20201116.xls,Date,timestamp
+2096_0_20201116.xls,CGM (mg / dl),cgm_mg_dl
+2096_0_20201116.xls,CBG (mg / dl),cbg_mg_dl
+2096_0_20201116.xls,Blood Ketone (mmol / L),blood_ketone
+2096_0_20201116.xls,Dietary intake,dietary_intake
+2096_0_20201116.xls,饮食,dietary_intake_chinese
+2096_0_20201116.xls,Insulin dose - s.c.,insulin_sc
+2096_0_20201116.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2096_0_20201116.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2096_0_20201116.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2096_0_20201116.xls,Insulin dose - i.v.,insulin_iv
+2097_0_20201116.xls,Date,timestamp
+2097_0_20201116.xls,CGM (mg / dl),cgm_mg_dl
+2097_0_20201116.xls,CBG (mg / dl),cbg_mg_dl
+2097_0_20201116.xls,Blood Ketone (mmol / L),blood_ketone
+2097_0_20201116.xls,Dietary intake,dietary_intake
+2097_0_20201116.xls,饮食,dietary_intake_chinese
+2097_0_20201116.xls,Insulin dose - s.c.,insulin_sc
+2097_0_20201116.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2097_0_20201116.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2097_0_20201116.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2097_0_20201116.xls,Insulin dose - i.v.,insulin_iv
+2098_0_20201106.xls,Date,timestamp
+2098_0_20201106.xls,CGM (mg / dl),cgm_mg_dl
+2098_0_20201106.xls,CBG (mg / dl),cbg_mg_dl
+2098_0_20201106.xls,Blood Ketone (mmol / L),blood_ketone
+2098_0_20201106.xls,Dietary intake,dietary_intake
+2098_0_20201106.xls,饮食,dietary_intake_chinese
+2098_0_20201106.xls,Insulin dose - s.c.,insulin_sc
+2098_0_20201106.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2098_0_20201106.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2098_0_20201106.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2098_0_20201106.xls,Insulin dose - i.v.,insulin_iv
+2099_0_20201116.xls,Date,timestamp
+2099_0_20201116.xls,CGM (mg / dl),cgm_mg_dl
+2099_0_20201116.xls,CBG (mg / dl),cbg_mg_dl
+2099_0_20201116.xls,Blood Ketone (mmol / L),blood_ketone
+2099_0_20201116.xls,Dietary intake,dietary_intake
+2099_0_20201116.xls,饮食,dietary_intake_chinese
+2099_0_20201116.xls,Insulin dose - s.c.,insulin_sc
+2099_0_20201116.xls,Non-insulin hypoglycemic agents,non_insulin_agents
+2099_0_20201116.xls,"CSII - bolus insulin (Novolin R, IU)",csii_bolus
+2099_0_20201116.xls,"CSII - basal insulin (Novolin R, IU / H)",csii_basal
+2099_0_20201116.xls,Insulin dose - i.v.,insulin_iv

@@ -1,0 +1,14 @@
+column,total_rows,non_null,missing_count,missing_percent
+timestamp,687580,687580,0,0.0
+glucose_mg_dl,687580,687360,220,0.03
+dexcom_glucose_mg_dl,687580,629825,57755,8.4
+heart_rate_bpm,687580,610256,77324,11.25
+activity_calories_last_min,687580,652134,35446,5.16
+mets,687580,501078,186502,27.12
+meal_type,687580,1706,685874,99.75
+meal_calories,687580,1706,685874,99.75
+meal_carbs_g,687580,1706,685874,99.75
+meal_protein_g,687580,1706,685874,99.75
+meal_fat_g,687580,1706,685874,99.75
+meal_fiber_g,687580,1705,685875,99.75
+meal_amount_consumed_percent,687580,1642,685938,99.76

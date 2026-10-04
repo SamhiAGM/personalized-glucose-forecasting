@@ -1,0 +1,8 @@
+metric,value
+rows,678070
+participants,45
+activity_features_created,9
+missing_prediction_targets,0
+hr_outside_documented_range,0
+mets_outside_documented_range,1
+activity_calories_outside_documented_range,2

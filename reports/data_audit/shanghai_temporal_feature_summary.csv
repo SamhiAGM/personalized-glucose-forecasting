@@ -1,0 +1,9 @@
+metric,value
+input_rows,111753
+output_rows,111753
+rows_with_complete_temporal_features,111753
+participants,100
+sessions,109
+temporal_features_created,4
+day_rows,54942
+night_rows,56811

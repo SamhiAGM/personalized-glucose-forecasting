@@ -61,3 +61,22 @@ Aggregate results are in `results/member4/permutation/`; exact selected-row/cove
 Within-participant block permutations cannot identify participant-constant feature reliance. Global permutations can generate implausible combinations of correlated histories and other inputs. Read the report's limitations before interpreting rankings or comparing schemes. Glucose units remain unverified.
 
 The saved-result verifier reads assignment metadata and Member 4 outputs only. It checks exact held-out membership, source-row uniqueness, block continuity, sample/output hashes, seeds, signs, repeat counts and reconstruction of fold/aggregate means. Its record is `reports/member4/permutation_verification.json`.
+
+## Tree importance and SHAP
+
+```powershell
+python -B notebooks/member4/test_tree_shap.py
+python -B notebooks/member4/tree_shap_analysis.py --source-root C:\Users\mssmo\Documents\glucose\Smart_Glucose_Work
+# Inspect reports/member4/tree_shap_pilot.json before processing the remaining folds.
+python -B notebooks/member4/tree_shap_analysis.py --source-root C:\Users\mssmo\Documents\glucose\Smart_Glucose_Work --all-folds
+python -B notebooks/member4/report_tree_shap.py
+python -B notebooks/member4/verify_tree_shap.py --source-root C:\Users\mssmo\Documents\glucose\Smart_Glucose_Work
+```
+
+Tree extraction verifies the original four model hashes and maps fitted transformed outputs to original approved features. It saves normalized impurity importance, with one-hot columns summed, under `results/member4/tree_importance/`. These are descriptions of saved development-fitted trees; no tree refitting or held-out tree-performance claim is made.
+
+Ridge SHAP reuses all ten cached fold models. Training-only backgrounds have eight rows per participant; held-out explanation samples have 24 rows per participant, selected deterministically from the prior permutation samples. SHAP 0.52.0 LinearExplainer with Independent masker uses the full balanced background (explicit max_samples). It checks the exact linear formula and additivity to atol=1e-7, rtol=1e-9. Feature/group contributions sum signed values before taking absolute values.
+
+Tables are in `results/member4/shap/`. Six global plots are in `results/member4/figures/`. The short report is `reports/member4/tree_shap_interpretation.md`; evidence, pilot and verification JSONs record runtime, sampling, hashes, settings and errors. All row-level arrays, sample IDs/indices, private local example manifests and six waterfall PNGs remain in ignored `results/member4/shap/local/`.
+
+The pilot is Shanghai Fold 1. The full run checks its script/configuration identity and reuses that completed fold; the other folds are deterministically recalculated on a rerun. Run the pilot command again before a full rerun if changing the main script. SHAP backgrounds affect the interpretation reference. Independent masking breaks feature dependence and cannot identify causal medical effects. The original glucose-unit and notebook-provenance uncertainties remain documented. No clustering, commit or push belongs to this step.

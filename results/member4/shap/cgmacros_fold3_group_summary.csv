@@ -1,0 +1,6 @@
+dataset,validation_fold,level,name,mean_abs_shap,mean_signed_shap,rank,participants,explained_rows
+cgmacros,3,group,glucose_history,22.30730929371577,4.077618908585757,1.0,7,168
+cgmacros,3,group,meal_nutrition,1.1820392757420095,-0.11649467396077018,3.0,7,168
+cgmacros,3,group,temporal,0.35037156233280026,-0.03176487580463382,5.0,7,168
+cgmacros,3,group,participant_clinical,2.346510994798526,0.5085332837200244,2.0,7,168
+cgmacros,3,group,activity_heart_rate,0.9614740872088159,-0.2159182876755839,4.0,7,168

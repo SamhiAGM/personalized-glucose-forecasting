@@ -27,3 +27,6 @@ results/member4/**/*.local.csv
 
 # Reproducible Member 4 fitted-model caches stay local
 models/member4/
+
+# SHAP row-level arrays and local explanation figures
+results/member4/shap/local/

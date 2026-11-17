@@ -1,0 +1,340 @@
+[
+  {
+    "dataset": "shanghai",
+    "shap_top": [
+      {
+        "name": "glucose_lag_45min",
+        "dataset": "shanghai",
+        "level": "original",
+        "mean_abs_shap": 36.60001094570311,
+        "fold_sd": 3.659767485587323,
+        "fold_min": 33.54366548318701,
+        "fold_max": 40.66869822845858,
+        "participant_weighted_mean_abs_shap": 36.68354427942542,
+        "mean_signed_shap": 1.586082078856381,
+        "folds": 5,
+        "rank_mean": 1.0,
+        "rank_min": 1.0,
+        "rank_max": 1.0,
+        "rank": 1.0
+      },
+      {
+        "name": "glucose_lag_30min",
+        "dataset": "shanghai",
+        "level": "original",
+        "mean_abs_shap": 20.56562642555304,
+        "fold_sd": 2.435924596539462,
+        "fold_min": 18.386480862061955,
+        "fold_max": 23.33867301541213,
+        "participant_weighted_mean_abs_shap": 20.617332600050844,
+        "mean_signed_shap": -0.6907268775713369,
+        "folds": 5,
+        "rank_mean": 2.0,
+        "rank_min": 2.0,
+        "rank_max": 2.0,
+        "rank": 2.0
+      },
+      {
+        "name": "rolling_glucose_max_60min",
+        "dataset": "shanghai",
+        "level": "original",
+        "mean_abs_shap": 17.257285281051086,
+        "fold_sd": 1.7227290401564788,
+        "fold_min": 15.469903437763332,
+        "fold_max": 19.23522537924851,
+        "participant_weighted_mean_abs_shap": 17.28337863988384,
+        "mean_signed_shap": -0.2999758719053525,
+        "folds": 5,
+        "rank_mean": 3.0,
+        "rank_min": 3.0,
+        "rank_max": 3.0,
+        "rank": 3.0
+      },
+      {
+        "name": "current_glucose",
+        "dataset": "shanghai",
+        "level": "original",
+        "mean_abs_shap": 15.782793361870384,
+        "fold_sd": 1.351500661139967,
+        "fold_min": 14.25848710527615,
+        "fold_max": 17.265021770806392,
+        "participant_weighted_mean_abs_shap": 15.802223741986763,
+        "mean_signed_shap": 0.0069223009536975,
+        "folds": 5,
+        "rank_mean": 4.0,
+        "rank_min": 4.0,
+        "rank_max": 4.0,
+        "rank": 4.0
+      },
+      {
+        "name": "glucose_lag_15min",
+        "dataset": "shanghai",
+        "level": "original",
+        "mean_abs_shap": 13.64579324730544,
+        "fold_sd": 1.1849059501286137,
+        "fold_min": 12.427735958888848,
+        "fold_max": 15.078896149183343,
+        "participant_weighted_mean_abs_shap": 13.666894036188188,
+        "mean_signed_shap": -0.2541673001169045,
+        "folds": 5,
+        "rank_mean": 5.4,
+        "rank_min": 5.0,
+        "rank_max": 6.0,
+        "rank": 5.0
+      }
+    ],
+    "rf_top": [
+      {
+        "original_feature": "current_glucose",
+        "feature_group": "glucose_history",
+        "importance": 0.9030401572350836,
+        "rank": 1.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "glucose_change_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0212731220120523,
+        "rank": 2.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "glucose_slope_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0192645420290724,
+        "rank": 3.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "time_since_last_meal_min",
+        "feature_group": "meal_timing",
+        "importance": 0.009500400387324,
+        "rank": 4.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "hour_of_day_sin",
+        "feature_group": "temporal",
+        "importance": 0.0052125883782668,
+        "rank": 5.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      }
+    ],
+    "gb_top": [
+      {
+        "original_feature": "current_glucose",
+        "feature_group": "glucose_history",
+        "importance": 0.9378850651378792,
+        "rank": 1.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "glucose_slope_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0232844613219596,
+        "rank": 2.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "glucose_change_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0182096088459519,
+        "rank": 3.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "time_since_last_meal_min",
+        "feature_group": "meal_timing",
+        "importance": 0.0079945642486559,
+        "rank": 4.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "rolling_glucose_min_60min",
+        "feature_group": "glucose_history",
+        "importance": 0.002459379986747,
+        "rank": 5.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      }
+    ]
+  },
+  {
+    "dataset": "cgmacros",
+    "shap_top": [
+      {
+        "name": "rolling_glucose_mean_60min",
+        "dataset": "cgmacros",
+        "level": "original",
+        "mean_abs_shap": 308.5341940233238,
+        "fold_sd": 101.12606597550688,
+        "fold_min": 218.4310190102091,
+        "fold_max": 474.8468623426879,
+        "participant_weighted_mean_abs_shap": 313.1539903655284,
+        "mean_signed_shap": -2.3501840712031763,
+        "folds": 5,
+        "rank_mean": 1.0,
+        "rank_min": 1.0,
+        "rank_max": 1.0,
+        "rank": 1.0
+      },
+      {
+        "name": "glucose_lag_30min",
+        "dataset": "cgmacros",
+        "level": "original",
+        "mean_abs_shap": 85.27757222899271,
+        "fold_sd": 28.346676790208196,
+        "fold_min": 58.7538420570918,
+        "fold_max": 130.99593883389963,
+        "participant_weighted_mean_abs_shap": 86.54752685690679,
+        "mean_signed_shap": 0.4418185651097374,
+        "folds": 5,
+        "rank_mean": 2.0,
+        "rank_min": 2.0,
+        "rank_max": 2.0,
+        "rank": 2.0
+      },
+      {
+        "name": "current_glucose",
+        "dataset": "cgmacros",
+        "level": "original",
+        "mean_abs_shap": 75.40904181106814,
+        "fold_sd": 23.292904742900447,
+        "fold_min": 55.85671386808459,
+        "fold_max": 113.1496215791497,
+        "participant_weighted_mean_abs_shap": 76.4573912490704,
+        "mean_signed_shap": 2.200636607213805,
+        "folds": 5,
+        "rank_mean": 3.2,
+        "rank_min": 3.0,
+        "rank_max": 4.0,
+        "rank": 3.0
+      },
+      {
+        "name": "glucose_lag_15min",
+        "dataset": "cgmacros",
+        "level": "original",
+        "mean_abs_shap": 73.64890086255437,
+        "fold_sd": 23.639064171121,
+        "fold_min": 50.47667876407116,
+        "fold_max": 111.0572786334146,
+        "participant_weighted_mean_abs_shap": 74.68802246730048,
+        "mean_signed_shap": 1.0555467643711651,
+        "folds": 5,
+        "rank_mean": 3.8,
+        "rank_min": 3.0,
+        "rank_max": 4.0,
+        "rank": 4.0
+      },
+      {
+        "name": "glucose_lag_45min",
+        "dataset": "cgmacros",
+        "level": "original",
+        "mean_abs_shap": 51.52004248851824,
+        "fold_sd": 17.37436151275553,
+        "fold_min": 38.244136599473805,
+        "fold_max": 81.07848596676811,
+        "participant_weighted_mean_abs_shap": 52.34111036291408,
+        "mean_signed_shap": 0.3033494571067052,
+        "folds": 5,
+        "rank_mean": 5.0,
+        "rank_min": 5.0,
+        "rank_max": 5.0,
+        "rank": 5.0
+      }
+    ],
+    "rf_top": [
+      {
+        "original_feature": "current_glucose",
+        "feature_group": "glucose_history",
+        "importance": 0.91086816688992,
+        "rank": 1.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "glucose_change_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0222348570357087,
+        "rank": 2.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "glucose_slope_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0208560572304652,
+        "rank": 3.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "fasting_glucose_lab",
+        "feature_group": "participant_clinical",
+        "importance": 0.0108715179653529,
+        "rank": 4.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      },
+      {
+        "original_feature": "time_since_last_meal_min",
+        "feature_group": "meal_nutrition",
+        "importance": 0.0102489994797088,
+        "rank": 5.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "random_forest"
+      }
+    ],
+    "gb_top": [
+      {
+        "original_feature": "current_glucose",
+        "feature_group": "glucose_history",
+        "importance": 0.8939753685959286,
+        "rank": 1.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "glucose_slope_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.0271062254542664,
+        "rank": 2.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "glucose_change_15min",
+        "feature_group": "glucose_history",
+        "importance": 0.026522549451496,
+        "rank": 3.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "fasting_glucose_lab",
+        "feature_group": "participant_clinical",
+        "importance": 0.0220502913221392,
+        "rank": 4.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      },
+      {
+        "original_feature": "time_since_last_meal_min",
+        "feature_group": "meal_nutrition",
+        "importance": 0.0091181212063097,
+        "rank": 5.0,
+        "scope": "saved_all_development_descriptive",
+        "model": "gradient_boosting"
+      }
+    ]
+  }
+]

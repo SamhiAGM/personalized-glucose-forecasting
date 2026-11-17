@@ -1,0 +1,5 @@
+dataset,validation_fold,level,name,mean_abs_shap,mean_signed_shap,rank,participants,explained_rows
+shanghai,1,group,glucose_history,40.09769378821181,3.6246417479579525,1.0,16,384
+shanghai,1,group,temporal,0.9619149260807275,0.02039697832734918,4.0,16,384
+shanghai,1,group,participant_clinical,0.9794333588356123,-0.04006898718064024,3.0,16,384
+shanghai,1,group,meal_timing,2.3125141217829035,0.12668349306212756,2.0,16,384

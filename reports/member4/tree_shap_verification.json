@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "folds": 10,
+  "tree_models": 4,
+  "heldout_explanations": 2784,
+  "max_additivity_error": 7.958078640513122e-13,
+  "protected_files": 252,
+  "protected_changes": 0,
+  "checks": [
+    "train-only backgrounds",
+    "heldout-only explanation memberships",
+    "sample balance and seeds",
+    "reused validation rows",
+    "model/selection hashes",
+    "additivity",
+    "signed original/group collapse",
+    "summary reconstruction",
+    "tree MDI aggregation",
+    "local-example preselection rule",
+    "source baseline integrity"
+  ]
+}

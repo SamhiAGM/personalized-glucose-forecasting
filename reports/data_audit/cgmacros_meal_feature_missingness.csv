@@ -1,0 +1,10 @@
+feature,total_rows,missing_count,missing_percent
+meal_event_at_t,678070,0,0.0
+recent_meal_2h,678070,0,0.0
+time_since_last_meal_min,678070,7441,1.0974
+meal_count_last_2h,678070,0,0.0
+meal_calories_last_2h,678070,0,0.0
+meal_carbs_last_2h_g,678070,0,0.0
+meal_protein_last_2h_g,678070,0,0.0
+meal_fat_last_2h_g,678070,0,0.0
+meal_fiber_last_2h_g,678070,121,0.0178

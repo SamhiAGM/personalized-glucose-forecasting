@@ -1,0 +1,13 @@
+feature,meaning,unit,uses_future_information
+current_glucose,Libre glucose at prediction time t,mg/dL,No
+glucose_lag_15min,Libre glucose exactly 15 minutes before t,mg/dL,No
+glucose_lag_30min,Libre glucose exactly 30 minutes before t,mg/dL,No
+glucose_lag_45min,Libre glucose exactly 45 minutes before t,mg/dL,No
+glucose_lag_60min,Libre glucose exactly 60 minutes before t,mg/dL,No
+glucose_change_15min,Current glucose minus 15-minute lag,mg/dL,No
+glucose_change_30min,Current glucose minus 30-minute lag,mg/dL,No
+glucose_slope_15min,15-minute glucose change divided by 15 minutes,mg/dL/min,No
+rolling_glucose_mean_60min,Mean Libre glucose during the past 60 minutes through t,mg/dL,No
+rolling_glucose_std_60min,Standard deviation of Libre glucose during the past 60 minutes through t,mg/dL,No
+rolling_glucose_min_60min,Minimum Libre glucose during the past 60 minutes through t,mg/dL,No
+rolling_glucose_max_60min,Maximum Libre glucose during the past 60 minutes through t,mg/dL,No

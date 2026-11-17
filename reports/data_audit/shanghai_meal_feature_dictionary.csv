@@ -1,0 +1,5 @@
+feature,meaning,unit,uses_future_information
+meal_event_at_t,1 when a recorded meal event occurs exactly at prediction time t,binary,No
+recent_meal_2h,1 when at least one recorded meal exists from t-120 minutes through t,binary,No
+time_since_last_meal_min,Minutes since most recent recorded meal at or before prediction time t,minutes,No
+meal_count_last_2h,Number of recorded meal events from t-120 minutes through t,count,No

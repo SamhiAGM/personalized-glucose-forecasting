@@ -1,0 +1,1036 @@
+category,file_name,sheet,column,dtype,non_null,unique_values
+participant_id,bio.csv,default,subject,int64,45,45
+age,bio.csv,default,Age,int64,45,28
+sex,bio.csv,default,Gender,str,45,2
+bmi,bio.csv,default,BMI,float64,45,45
+participant_id,bio.csv,default,Self-identify ,str,45,4
+participant_id,bio.csv,default,Triglycerides,int64,45,39
+timestamp,bio.csv,default,Collection time PDL (Lab),str,45,33
+timestamp,bio.csv,default,Time (t),str,45,34
+timestamp,bio.csv,default,Time (t).1,str,45,40
+timestamp,bio.csv,default,Time (t).2,str,45,38
+timestamp,CGMacros-001.csv,default,Timestamp,str,14730,14730
+heart_rate,CGMacros-001.csv,default,HR,float64,14618,126
+energy,CGMacros-001.csv,default,Calories (Activity),float64,14730,84
+activity,CGMacros-001.csv,default,Calories (Activity),float64,14730,84
+activity,CGMacros-001.csv,default,METs,float64,14729,84
+meal,CGMacros-001.csv,default,Meal Type,str,43,4
+energy,CGMacros-001.csv,default,Calories,float64,43,33
+carbohydrate,CGMacros-001.csv,default,Carbs,float64,43,24
+protein,CGMacros-001.csv,default,Protein,float64,43,22
+fat,CGMacros-001.csv,default,Fat,float64,43,19
+fibre,CGMacros-001.csv,default,Fiber,float64,42,6
+age,CGMacros-001.csv,default,Image path,str,81,81
+timestamp,CGMacros-002.csv,default,Timestamp,str,17025,17025
+heart_rate,CGMacros-002.csv,default,HR,float64,14286,73
+energy,CGMacros-002.csv,default,Calories (Activity),float64,14628,48
+activity,CGMacros-002.csv,default,Calories (Activity),float64,14628,48
+activity,CGMacros-002.csv,default,METs,float64,14628,48
+meal,CGMacros-002.csv,default,Meal Type,str,37,4
+energy,CGMacros-002.csv,default,Calories,float64,37,32
+carbohydrate,CGMacros-002.csv,default,Carbs,float64,37,26
+protein,CGMacros-002.csv,default,Protein,float64,37,22
+fat,CGMacros-002.csv,default,Fat,float64,37,19
+fibre,CGMacros-002.csv,default,Fiber,float64,37,9
+age,CGMacros-002.csv,default,Image path,str,75,75
+timestamp,CGMacros-003.csv,default,Timestamp,str,14565,14565
+heart_rate,CGMacros-003.csv,default,HR,float64,14478,94
+energy,CGMacros-003.csv,default,Calories (Activity),float64,14565,46
+activity,CGMacros-003.csv,default,Calories (Activity),float64,14565,46
+activity,CGMacros-003.csv,default,METs,int64,14565,46
+meal,CGMacros-003.csv,default,Meal Type,str,35,4
+energy,CGMacros-003.csv,default,Calories,float64,35,29
+carbohydrate,CGMacros-003.csv,default,Carbs,float64,35,24
+protein,CGMacros-003.csv,default,Protein,float64,35,20
+fat,CGMacros-003.csv,default,Fat,float64,35,19
+fibre,CGMacros-003.csv,default,Fiber,float64,35,13
+age,CGMacros-003.csv,default,Image path,str,64,64
+timestamp,CGMacros-004.csv,default,Timestamp,str,14275,14275
+heart_rate,CGMacros-004.csv,default,HR,float64,14235,86
+energy,CGMacros-004.csv,default,Calories (Activity),float64,14275,54
+activity,CGMacros-004.csv,default,Calories (Activity),float64,14275,54
+activity,CGMacros-004.csv,default,METs,int64,14275,54
+meal,CGMacros-004.csv,default,Meal Type,str,62,4
+energy,CGMacros-004.csv,default,Calories,float64,62,52
+carbohydrate,CGMacros-004.csv,default,Carbs,float64,62,44
+protein,CGMacros-004.csv,default,Protein,float64,62,32
+fat,CGMacros-004.csv,default,Fat,float64,62,34
+fibre,CGMacros-004.csv,default,Fiber,float64,62,16
+age,CGMacros-004.csv,default,Image path,str,115,115
+timestamp,CGMacros-005.csv,default,Timestamp,str,14460,14460
+heart_rate,CGMacros-005.csv,default,HR,float64,14283,94
+energy,CGMacros-005.csv,default,Calories (Activity),float64,14438,66
+activity,CGMacros-005.csv,default,Calories (Activity),float64,14438,66
+activity,CGMacros-005.csv,default,METs,float64,14438,66
+meal,CGMacros-005.csv,default,Meal Type,str,46,4
+energy,CGMacros-005.csv,default,Calories,float64,46,41
+carbohydrate,CGMacros-005.csv,default,Carbs,float64,46,31
+protein,CGMacros-005.csv,default,Protein,float64,46,23
+fat,CGMacros-005.csv,default,Fat,float64,46,21
+fibre,CGMacros-005.csv,default,Fiber,float64,46,14
+age,CGMacros-005.csv,default,Image path,str,92,92
+timestamp,CGMacros-006.csv,default,Timestamp,str,14460,14460
+heart_rate,CGMacros-006.csv,default,HR,float64,14340,88
+energy,CGMacros-006.csv,default,Calories (Activity),float64,14435,64
+activity,CGMacros-006.csv,default,Calories (Activity),float64,14435,64
+activity,CGMacros-006.csv,default,METs,float64,14435,64
+meal,CGMacros-006.csv,default,Meal Type,str,38,4
+energy,CGMacros-006.csv,default,Calories,float64,38,32
+carbohydrate,CGMacros-006.csv,default,Carbs,float64,38,26
+protein,CGMacros-006.csv,default,Protein,float64,38,21
+fat,CGMacros-006.csv,default,Fat,float64,38,21
+fibre,CGMacros-006.csv,default,Fiber,float64,38,15
+age,CGMacros-006.csv,default,Image path,str,74,74
+timestamp,CGMacros-007.csv,default,Timestamp,str,5655,5655
+heart_rate,CGMacros-007.csv,default,HR,float64,5640,82
+activity,CGMacros-007.csv,default,Steps,int64,5655,109
+activity,CGMacros-007.csv,default,METs,int64,5655,62
+meal,CGMacros-007.csv,default,Meal Type,str,17,4
+energy,CGMacros-007.csv,default,Calories,float64,17,16
+carbohydrate,CGMacros-007.csv,default,Carbs,float64,17,13
+protein,CGMacros-007.csv,default,Protein,float64,17,11
+fat,CGMacros-007.csv,default,Fat,float64,17,13
+fibre,CGMacros-007.csv,default,Fiber,float64,17,8
+age,CGMacros-007.csv,default,Image path,str,27,27
+timestamp,CGMacros-008.csv,default,Timestamp,str,14760,14760
+heart_rate,CGMacros-008.csv,default,HR,float64,14435,72
+energy,CGMacros-008.csv,default,Calories (Activity),float64,14496,46
+activity,CGMacros-008.csv,default,Calories (Activity),float64,14496,46
+activity,CGMacros-008.csv,default,METs,float64,14496,46
+meal,CGMacros-008.csv,default,Meal Type,str,30,3
+energy,CGMacros-008.csv,default,Calories,float64,30,25
+carbohydrate,CGMacros-008.csv,default,Carbs,float64,30,22
+protein,CGMacros-008.csv,default,Protein,float64,30,18
+fat,CGMacros-008.csv,default,Fat,float64,30,19
+fibre,CGMacros-008.csv,default,Fiber,float64,30,12
+age,CGMacros-008.csv,default,Image path,str,60,60
+timestamp,CGMacros-009.csv,default,Timestamp,str,14370,14370
+heart_rate,CGMacros-009.csv,default,HR,float64,14157,92
+energy,CGMacros-009.csv,default,Calories (Activity),float64,14370,72
+activity,CGMacros-009.csv,default,Calories (Activity),float64,14370,72
+activity,CGMacros-009.csv,default,METs,int64,14370,72
+meal,CGMacros-009.csv,default,Meal Type,str,41,5
+energy,CGMacros-009.csv,default,Calories,float64,41,31
+carbohydrate,CGMacros-009.csv,default,Carbs,float64,41,26
+protein,CGMacros-009.csv,default,Protein,float64,41,22
+fat,CGMacros-009.csv,default,Fat,float64,41,21
+fibre,CGMacros-009.csv,default,Fiber,float64,41,13
+age,CGMacros-009.csv,default,Image path,str,79,79
+timestamp,CGMacros-010.csv,default,Timestamp,str,16155,16155
+heart_rate,CGMacros-010.csv,default,HR,float64,15139,71
+energy,CGMacros-010.csv,default,Calories (Activity),float64,15282,49
+activity,CGMacros-010.csv,default,Calories (Activity),float64,15282,49
+activity,CGMacros-010.csv,default,METs,float64,15282,49
+meal,CGMacros-010.csv,default,Meal Type,str,45,4
+energy,CGMacros-010.csv,default,Calories,float64,45,35
+carbohydrate,CGMacros-010.csv,default,Carbs,float64,45,28
+protein,CGMacros-010.csv,default,Protein,float64,45,23
+fat,CGMacros-010.csv,default,Fat,float64,45,20
+fibre,CGMacros-010.csv,default,Fiber,float64,45,13
+age,CGMacros-010.csv,default,Image path,str,78,78
+timestamp,CGMacros-011.csv,default,Timestamp,str,14805,14805
+heart_rate,CGMacros-011.csv,default,HR,float64,14656,110
+energy,CGMacros-011.csv,default,Calories (Activity),float64,14805,79
+activity,CGMacros-011.csv,default,Calories (Activity),float64,14805,79
+meal,CGMacros-011.csv,default,Meal Type,str,39,4
+energy,CGMacros-011.csv,default,Calories,float64,39,33
+carbohydrate,CGMacros-011.csv,default,Carbs,float64,39,29
+protein,CGMacros-011.csv,default,Protein,float64,39,23
+fat,CGMacros-011.csv,default,Fat,float64,39,20
+fibre,CGMacros-011.csv,default,Fiber,float64,39,12
+age,CGMacros-011.csv,default,Image path,str,79,79
+timestamp,CGMacros-012.csv,default,Timestamp,str,14655,14655
+heart_rate,CGMacros-012.csv,default,HR,float64,13399,85
+energy,CGMacros-012.csv,default,Calories (Activity),float64,14655,63
+activity,CGMacros-012.csv,default,Calories (Activity),float64,14655,63
+activity,CGMacros-012.csv,default,METs,int64,14655,63
+meal,CGMacros-012.csv,default,Meal Type,str,33,5
+energy,CGMacros-012.csv,default,Calories,float64,33,27
+carbohydrate,CGMacros-012.csv,default,Carbs,float64,33,22
+protein,CGMacros-012.csv,default,Protein,float64,33,20
+fat,CGMacros-012.csv,default,Fat,float64,33,16
+fibre,CGMacros-012.csv,default,Fiber,float64,33,12
+age,CGMacros-012.csv,default,Image path,str,62,62
+timestamp,CGMacros-013.csv,default,Timestamp,str,15840,15840
+heart_rate,CGMacros-013.csv,default,HR,float64,15197,68
+energy,CGMacros-013.csv,default,Calories (Activity),float64,15318,42
+activity,CGMacros-013.csv,default,Calories (Activity),float64,15318,42
+activity,CGMacros-013.csv,default,METs,float64,15318,42
+meal,CGMacros-013.csv,default,Meal Type,str,39,4
+energy,CGMacros-013.csv,default,Calories,float64,39,34
+carbohydrate,CGMacros-013.csv,default,Carbs,float64,39,28
+protein,CGMacros-013.csv,default,Protein,float64,39,23
+fat,CGMacros-013.csv,default,Fat,float64,39,22
+fibre,CGMacros-013.csv,default,Fiber,float64,39,15
+age,CGMacros-013.csv,default,Image path,str,77,77
+timestamp,CGMacros-014.csv,default,Timestamp,str,17250,17250
+heart_rate,CGMacros-014.csv,default,HR,float64,15152,104
+energy,CGMacros-014.csv,default,Calories (Activity),float64,15299,73
+activity,CGMacros-014.csv,default,Calories (Activity),float64,15299,73
+activity,CGMacros-014.csv,default,METs,float64,15299,73
+meal,CGMacros-014.csv,default,Meal Type,str,40,4
+energy,CGMacros-014.csv,default,Calories,float64,40,32
+carbohydrate,CGMacros-014.csv,default,Carbs,float64,40,26
+protein,CGMacros-014.csv,default,Protein,float64,40,25
+fat,CGMacros-014.csv,default,Fat,float64,40,21
+fibre,CGMacros-014.csv,default,Fiber,float64,40,12
+age,CGMacros-014.csv,default,Image path,str,88,88
+timestamp,CGMacros-015.csv,default,Timestamp,str,16875,16875
+heart_rate,CGMacros-015.csv,default,HR,float64,14890,104
+energy,CGMacros-015.csv,default,Calories (Activity),float64,15103,70
+activity,CGMacros-015.csv,default,Calories (Activity),float64,15103,70
+activity,CGMacros-015.csv,default,METs,float64,15103,70
+meal,CGMacros-015.csv,default,Meal Type,str,52,4
+energy,CGMacros-015.csv,default,Calories,float64,52,43
+carbohydrate,CGMacros-015.csv,default,Carbs,float64,52,34
+protein,CGMacros-015.csv,default,Protein,float64,52,24
+fat,CGMacros-015.csv,default,Fat,float64,52,24
+fibre,CGMacros-015.csv,default,Fiber,float64,52,12
+age,CGMacros-015.csv,default,Image path,str,99,99
+timestamp,CGMacros-016.csv,default,Timestamp,str,16290,16290
+heart_rate,CGMacros-016.csv,default,HR,float64,15229,82
+energy,CGMacros-016.csv,default,Calories (Activity),float64,15288,55
+activity,CGMacros-016.csv,default,Calories (Activity),float64,15288,55
+activity,CGMacros-016.csv,default,METs,float64,15288,55
+meal,CGMacros-016.csv,default,Meal Type,str,28,4
+energy,CGMacros-016.csv,default,Calories,float64,28,23
+carbohydrate,CGMacros-016.csv,default,Carbs,float64,28,17
+protein,CGMacros-016.csv,default,Protein,float64,28,16
+fat,CGMacros-016.csv,default,Fat,float64,28,17
+fibre,CGMacros-016.csv,default,Fiber,float64,28,16
+age,CGMacros-016.csv,default,Image path,str,71,71
+timestamp,CGMacros-017.csv,default,Timestamp,str,16185,16185
+heart_rate,CGMacros-017.csv,default,HR,float64,13159,103
+energy,CGMacros-017.csv,default,Calories (Activity),float64,15309,71
+activity,CGMacros-017.csv,default,Calories (Activity),float64,15309,71
+activity,CGMacros-017.csv,default,METs,float64,15309,71
+meal,CGMacros-017.csv,default,Meal Type,str,48,4
+energy,CGMacros-017.csv,default,Calories,float64,48,39
+carbohydrate,CGMacros-017.csv,default,Carbs,float64,48,32
+protein,CGMacros-017.csv,default,Protein,float64,48,25
+fat,CGMacros-017.csv,default,Fat,float64,48,22
+fibre,CGMacros-017.csv,default,Fiber,float64,48,15
+age,CGMacros-017.csv,default,Image path,str,108,108
+timestamp,CGMacros-018.csv,default,Timestamp,str,14085,14085
+heart_rate,CGMacros-018.csv,default,HR,float64,13986,101
+energy,CGMacros-018.csv,default,Calories (Activity),float64,14071,79
+activity,CGMacros-018.csv,default,Calories (Activity),float64,14071,79
+activity,CGMacros-018.csv,default,METs,float64,14071,79
+meal,CGMacros-018.csv,default,Meal Type,str,39,5
+energy,CGMacros-018.csv,default,Calories,float64,39,32
+carbohydrate,CGMacros-018.csv,default,Carbs,float64,39,27
+protein,CGMacros-018.csv,default,Protein,float64,39,25
+fat,CGMacros-018.csv,default,Fat,float64,39,25
+fibre,CGMacros-018.csv,default,Fiber,float64,39,17
+age,CGMacros-018.csv,default,Image path,str,71,71
+timestamp,CGMacros-019.csv,default,Timestamp,str,14430,14430
+heart_rate,CGMacros-019.csv,default,HR,float64,14137,93
+energy,CGMacros-019.csv,default,Calories (Activity),float64,14430,67
+activity,CGMacros-019.csv,default,Calories (Activity),float64,14430,67
+activity,CGMacros-019.csv,default,METs,int64,14430,67
+meal,CGMacros-019.csv,default,Meal Type,str,48,4
+energy,CGMacros-019.csv,default,Calories,float64,48,39
+carbohydrate,CGMacros-019.csv,default,Carbs,float64,48,29
+protein,CGMacros-019.csv,default,Protein,float64,48,25
+fat,CGMacros-019.csv,default,Fat,float64,48,22
+fibre,CGMacros-019.csv,default,Fiber,float64,48,30
+age,CGMacros-019.csv,default,Image path,str,74,74
+timestamp,CGMacros-020.csv,default,Timestamp,str,16260,16260
+heart_rate,CGMacros-020.csv,default,HR,float64,14354,78
+energy,CGMacros-020.csv,default,Calories (Activity),float64,15384,68
+activity,CGMacros-020.csv,default,Calories (Activity),float64,15384,68
+activity,CGMacros-020.csv,default,METs,float64,15384,68
+meal,CGMacros-020.csv,default,Meal Type,str,41,4
+energy,CGMacros-020.csv,default,Calories,float64,41,36
+carbohydrate,CGMacros-020.csv,default,Carbs,float64,41,29
+protein,CGMacros-020.csv,default,Protein,float64,41,27
+fat,CGMacros-020.csv,default,Fat,float64,41,25
+fibre,CGMacros-020.csv,default,Fiber,float64,41,13
+age,CGMacros-020.csv,default,Image path,str,92,92
+timestamp,CGMacros-021.csv,default,Timestamp,str,16125,16125
+heart_rate,CGMacros-021.csv,default,HR,float64,15116,117
+energy,CGMacros-021.csv,default,Calories (Activity),float64,15348,92
+activity,CGMacros-021.csv,default,Calories (Activity),float64,15348,92
+activity,CGMacros-021.csv,default,METs,float64,15348,92
+meal,CGMacros-021.csv,default,Meal Type,str,39,4
+energy,CGMacros-021.csv,default,Calories,float64,39,34
+carbohydrate,CGMacros-021.csv,default,Carbs,float64,39,29
+protein,CGMacros-021.csv,default,Protein,float64,39,22
+fat,CGMacros-021.csv,default,Fat,float64,39,23
+fibre,CGMacros-021.csv,default,Fiber,float64,39,15
+age,CGMacros-021.csv,default,Image path,str,75,75
+timestamp,CGMacros-022.csv,default,Timestamp,str,17625,17625
+heart_rate,CGMacros-022.csv,default,HR,float64,14512,73
+energy,CGMacros-022.csv,default,Calories (Activity),float64,15351,41
+activity,CGMacros-022.csv,default,Calories (Activity),float64,15351,41
+activity,CGMacros-022.csv,default,METs,float64,15351,41
+meal,CGMacros-022.csv,default,Meal Type,str,42,4
+energy,CGMacros-022.csv,default,Calories,float64,42,36
+carbohydrate,CGMacros-022.csv,default,Carbs,float64,42,30
+protein,CGMacros-022.csv,default,Protein,float64,42,25
+fat,CGMacros-022.csv,default,Fat,float64,42,24
+fibre,CGMacros-022.csv,default,Fiber,float64,42,12
+age,CGMacros-022.csv,default,Image path,str,97,97
+timestamp,CGMacros-023.csv,default,Timestamp,str,16185,16185
+heart_rate,CGMacros-023.csv,default,HR,float64,15132,126
+energy,CGMacros-023.csv,default,Calories (Activity),float64,15323,76
+activity,CGMacros-023.csv,default,Calories (Activity),float64,15323,76
+activity,CGMacros-023.csv,default,METs,float64,15323,76
+meal,CGMacros-023.csv,default,Meal Type,str,42,4
+energy,CGMacros-023.csv,default,Calories,float64,42,33
+carbohydrate,CGMacros-023.csv,default,Carbs,float64,42,27
+protein,CGMacros-023.csv,default,Protein,float64,42,22
+fat,CGMacros-023.csv,default,Fat,float64,42,24
+fibre,CGMacros-023.csv,default,Fiber,float64,42,16
+age,CGMacros-023.csv,default,Image path,str,81,81
+timestamp,CGMacros-026.csv,default,Timestamp,str,16320,16320
+heart_rate,CGMacros-026.csv,default,HR,float64,15211,74
+energy,CGMacros-026.csv,default,Calories (Activity),float64,15344,47
+activity,CGMacros-026.csv,default,Calories (Activity),float64,15344,47
+meal,CGMacros-026.csv,default,Meal Type,str,36,4
+energy,CGMacros-026.csv,default,Calories,float64,36,30
+carbohydrate,CGMacros-026.csv,default,Carbs,float64,36,21
+protein,CGMacros-026.csv,default,Protein,float64,36,25
+fat,CGMacros-026.csv,default,Fat,float64,36,19
+fibre,CGMacros-026.csv,default,Fiber,float64,36,13
+age,CGMacros-026.csv,default,Image path,str,59,59
+timestamp,CGMacros-027.csv,default,Timestamp,str,14535,14535
+heart_rate,CGMacros-027.csv,default,HR,float64,14485,101
+energy,CGMacros-027.csv,default,Calories (Activity),float64,14535,74
+activity,CGMacros-027.csv,default,Calories (Activity),float64,14535,74
+meal,CGMacros-027.csv,default,Meal Type,str,36,4
+energy,CGMacros-027.csv,default,Calories,float64,36,28
+carbohydrate,CGMacros-027.csv,default,Carbs,float64,36,22
+protein,CGMacros-027.csv,default,Protein,float64,36,19
+fat,CGMacros-027.csv,default,Fat,float64,36,21
+fibre,CGMacros-027.csv,default,Fiber,float64,36,14
+age,CGMacros-027.csv,default,Image path,str,73,73
+timestamp,CGMacros-028.csv,default,Timestamp,str,18735,18735
+heart_rate,CGMacros-028.csv,default,HR,float64,14289,90
+energy,CGMacros-028.csv,default,Calories (Activity),float64,15356,75
+activity,CGMacros-028.csv,default,Calories (Activity),float64,15356,75
+activity,CGMacros-028.csv,default,METs,float64,15356,75
+meal,CGMacros-028.csv,default,Meal Type,str,34,4
+energy,CGMacros-028.csv,default,Calories,float64,34,28
+carbohydrate,CGMacros-028.csv,default,Carbs,float64,34,24
+protein,CGMacros-028.csv,default,Protein,float64,34,20
+fat,CGMacros-028.csv,default,Fat,float64,34,19
+fibre,CGMacros-028.csv,default,Fiber,float64,34,12
+age,CGMacros-028.csv,default,Image path,str,53,53
+timestamp,CGMacros-029.csv,default,Timestamp,str,17730,17730
+heart_rate,CGMacros-029.csv,default,HR,float64,15072,104
+energy,CGMacros-029.csv,default,Calories (Activity),float64,15347,53
+activity,CGMacros-029.csv,default,Calories (Activity),float64,15347,53
+activity,CGMacros-029.csv,default,METs,float64,15347,53
+meal,CGMacros-029.csv,default,Meal Type,str,30,3
+energy,CGMacros-029.csv,default,Calories,float64,30,25
+carbohydrate,CGMacros-029.csv,default,Carbs,float64,30,20
+protein,CGMacros-029.csv,default,Protein,float64,30,15
+fat,CGMacros-029.csv,default,Fat,float64,30,18
+fibre,CGMacros-029.csv,default,Fiber,float64,30,12
+age,CGMacros-029.csv,default,Image path,str,57,57
+timestamp,CGMacros-030.csv,default,Timestamp,str,15465,15465
+heart_rate,CGMacros-030.csv,default,HR,float64,12372,83
+energy,CGMacros-030.csv,default,Calories (Activity),float64,13833,200
+activity,CGMacros-030.csv,default,Calories (Activity),float64,13833,200
+activity,CGMacros-030.csv,default,METs,float64,13833,48
+meal,CGMacros-030.csv,default,Meal Type,str,28,3
+energy,CGMacros-030.csv,default,Calories,float64,28,23
+carbohydrate,CGMacros-030.csv,default,Carbs,float64,28,20
+protein,CGMacros-030.csv,default,Protein,float64,28,17
+fat,CGMacros-030.csv,default,Fat,float64,28,17
+fibre,CGMacros-030.csv,default,Fiber,float64,28,11
+age,CGMacros-030.csv,default,Image path,str,42,42
+timestamp,CGMacros-031.csv,default,Timestamp,str,13725,13725
+heart_rate,CGMacros-031.csv,default,HR,float64,13536,78
+energy,CGMacros-031.csv,default,Calories (Activity),float64,13725,47
+activity,CGMacros-031.csv,default,Calories (Activity),float64,13725,47
+meal,CGMacros-031.csv,default,Meal Type,str,54,4
+energy,CGMacros-031.csv,default,Calories,float64,54,41
+carbohydrate,CGMacros-031.csv,default,Carbs,float64,54,33
+protein,CGMacros-031.csv,default,Protein,float64,54,28
+fat,CGMacros-031.csv,default,Fat,float64,54,27
+fibre,CGMacros-031.csv,default,Fiber,float64,54,18
+age,CGMacros-031.csv,default,Image path,str,67,67
+timestamp,CGMacros-032.csv,default,Timestamp,str,13785,13785
+heart_rate,CGMacros-032.csv,default,HR,float64,6559,81
+energy,CGMacros-032.csv,default,Calories (Activity),float64,13146,60
+activity,CGMacros-032.csv,default,Calories (Activity),float64,13146,60
+meal,CGMacros-032.csv,default,Meal Type,str,20,3
+energy,CGMacros-032.csv,default,Calories,float64,20,15
+carbohydrate,CGMacros-032.csv,default,Carbs,float64,20,12
+protein,CGMacros-032.csv,default,Protein,float64,20,10
+fat,CGMacros-032.csv,default,Fat,float64,20,10
+fibre,CGMacros-032.csv,default,Fiber,float64,20,7
+age,CGMacros-032.csv,default,Image path,str,35,35
+timestamp,CGMacros-033.csv,default,Timestamp,str,15840,15840
+heart_rate,CGMacros-033.csv,default,HR,float64,10855,85
+energy,CGMacros-033.csv,default,Calories (Activity),float64,12375,50
+activity,CGMacros-033.csv,default,Calories (Activity),float64,12375,50
+meal,CGMacros-033.csv,default,Meal Type,str,33,4
+energy,CGMacros-033.csv,default,Calories,float64,33,28
+carbohydrate,CGMacros-033.csv,default,Carbs,float64,33,24
+protein,CGMacros-033.csv,default,Protein,float64,33,21
+fat,CGMacros-033.csv,default,Fat,float64,33,20
+fibre,CGMacros-033.csv,default,Fiber,float64,33,11
+age,CGMacros-033.csv,default,Image path,str,56,56
+timestamp,CGMacros-034.csv,default,Timestamp,str,14700,14700
+heart_rate,CGMacros-034.csv,default,HR,float64,7951,110
+energy,CGMacros-034.csv,default,Calories (Activity),float64,14700,83
+activity,CGMacros-034.csv,default,Calories (Activity),float64,14700,83
+meal,CGMacros-034.csv,default,Meal Type,str,49,4
+energy,CGMacros-034.csv,default,Calories,float64,49,39
+carbohydrate,CGMacros-034.csv,default,Carbs,float64,49,33
+protein,CGMacros-034.csv,default,Protein,float64,49,28
+fat,CGMacros-034.csv,default,Fat,float64,49,21
+fibre,CGMacros-034.csv,default,Fiber,float64,49,16
+age,CGMacros-034.csv,default,Image path,str,98,98
+timestamp,CGMacros-035.csv,default,Timestamp,str,14400,14400
+heart_rate,CGMacros-035.csv,default,HR,float64,12053,105
+energy,CGMacros-035.csv,default,Calories (Activity),float64,14400,66
+activity,CGMacros-035.csv,default,Calories (Activity),float64,14400,66
+meal,CGMacros-035.csv,default,Meal Type,str,27,3
+energy,CGMacros-035.csv,default,Calories,float64,27,20
+carbohydrate,CGMacros-035.csv,default,Carbs,float64,27,17
+protein,CGMacros-035.csv,default,Protein,float64,27,14
+fat,CGMacros-035.csv,default,Fat,float64,27,15
+fibre,CGMacros-035.csv,default,Fiber,float64,27,9
+age,CGMacros-035.csv,default,Image path,str,52,52
+timestamp,CGMacros-036.csv,default,Timestamp,str,17115,17115
+heart_rate,CGMacros-036.csv,default,HR,float64,14403,86
+energy,CGMacros-036.csv,default,Calories (Activity),float64,15242,56
+activity,CGMacros-036.csv,default,Calories (Activity),float64,15242,56
+activity,CGMacros-036.csv,default,METs,float64,15242,56
+meal,CGMacros-036.csv,default,Meal Type,str,30,3
+energy,CGMacros-036.csv,default,Calories,float64,30,25
+carbohydrate,CGMacros-036.csv,default,Carbs,float64,30,21
+protein,CGMacros-036.csv,default,Protein,float64,30,18
+fat,CGMacros-036.csv,default,Fat,float64,30,19
+fibre,CGMacros-036.csv,default,Fiber,float64,30,13
+age,CGMacros-036.csv,default,Image path,str,59,59
+timestamp,CGMacros-038.csv,default,Timestamp,str,14505,14505
+heart_rate,CGMacros-038.csv,default,HR,float64,14346,77
+energy,CGMacros-038.csv,default,Calories (Activity),float64,14505,71
+activity,CGMacros-038.csv,default,Calories (Activity),float64,14505,71
+meal,CGMacros-038.csv,default,Meal Type,str,40,4
+energy,CGMacros-038.csv,default,Calories,float64,40,23
+carbohydrate,CGMacros-038.csv,default,Carbs,float64,40,21
+protein,CGMacros-038.csv,default,Protein,float64,40,17
+fat,CGMacros-038.csv,default,Fat,float64,40,14
+fibre,CGMacros-038.csv,default,Fiber,float64,40,13
+age,CGMacros-038.csv,default,Image path,str,58,58
+timestamp,CGMacros-039.csv,default,Timestamp,str,17205,17205
+heart_rate,CGMacros-039.csv,default,HR,float64,14338,107
+energy,CGMacros-039.csv,default,Calories (Activity),float64,17205,58
+activity,CGMacros-039.csv,default,Calories (Activity),float64,17205,58
+activity,CGMacros-039.csv,default,METs,int64,17205,58
+meal,CGMacros-039.csv,default,Meal Type,str,34,4
+energy,CGMacros-039.csv,default,Calories,float64,34,27
+carbohydrate,CGMacros-039.csv,default,Carbs,float64,34,22
+protein,CGMacros-039.csv,default,Protein,float64,34,18
+fat,CGMacros-039.csv,default,Fat,float64,34,17
+fibre,CGMacros-039.csv,default,Fiber,float64,34,13
+age,CGMacros-039.csv,default,Image path,str,66,66
+timestamp,CGMacros-041.csv,default,Timestamp,str,14310,14310
+heart_rate,CGMacros-041.csv,default,HR,float64,9848,81
+energy,CGMacros-041.csv,default,Calories (Activity),float64,14310,53
+activity,CGMacros-041.csv,default,Calories (Activity),float64,14310,53
+activity,CGMacros-041.csv,default,METs,int64,14310,53
+meal,CGMacros-041.csv,default,Meal Type,str,48,4
+energy,CGMacros-041.csv,default,Calories,float64,48,42
+carbohydrate,CGMacros-041.csv,default,Carbs,float64,48,36
+protein,CGMacros-041.csv,default,Protein,float64,48,29
+fat,CGMacros-041.csv,default,Fat,float64,48,26
+fibre,CGMacros-041.csv,default,Fiber,float64,48,15
+age,CGMacros-041.csv,default,Image path,str,100,100
+timestamp,CGMacros-042.csv,default,Timestamp,str,14520,14520
+heart_rate,CGMacros-042.csv,default,HR,float64,13235,98
+energy,CGMacros-042.csv,default,Calories (Activity),float64,14520,70
+activity,CGMacros-042.csv,default,Calories (Activity),float64,14520,70
+meal,CGMacros-042.csv,default,Meal Type,str,22,4
+energy,CGMacros-042.csv,default,Calories,float64,22,17
+carbohydrate,CGMacros-042.csv,default,Carbs,float64,22,14
+protein,CGMacros-042.csv,default,Protein,float64,22,12
+fat,CGMacros-042.csv,default,Fat,float64,22,11
+fibre,CGMacros-042.csv,default,Fiber,float64,22,9
+age,CGMacros-042.csv,default,Image path,str,36,36
+timestamp,CGMacros-043.csv,default,Timestamp,str,14520,14520
+heart_rate,CGMacros-043.csv,default,HR,float64,14007,90
+energy,CGMacros-043.csv,default,Calories (Activity),float64,14520,165
+activity,CGMacros-043.csv,default,Calories (Activity),float64,14520,165
+activity,CGMacros-043.csv,default,METs,int64,14520,78
+meal,CGMacros-043.csv,default,Meal Type,str,64,4
+energy,CGMacros-043.csv,default,Calories,float64,64,52
+carbohydrate,CGMacros-043.csv,default,Carbs,float64,64,40
+protein,CGMacros-043.csv,default,Protein,float64,64,29
+fat,CGMacros-043.csv,default,Fat,float64,64,33
+fibre,CGMacros-043.csv,default,Fiber,float64,64,14
+age,CGMacros-043.csv,default,Image path,str,121,121
+timestamp,CGMacros-044.csv,default,Timestamp,str,14535,14535
+heart_rate,CGMacros-044.csv,default,HR,float64,12226,85
+energy,CGMacros-044.csv,default,Calories (Activity),float64,14535,289
+activity,CGMacros-044.csv,default,Calories (Activity),float64,14535,289
+activity,CGMacros-044.csv,default,METs,int64,14535,91
+meal,CGMacros-044.csv,default,Meal Type,str,43,4
+energy,CGMacros-044.csv,default,Calories,float64,43,37
+carbohydrate,CGMacros-044.csv,default,Carbs,float64,43,27
+protein,CGMacros-044.csv,default,Protein,float64,43,23
+fat,CGMacros-044.csv,default,Fat,float64,43,19
+fibre,CGMacros-044.csv,default,Fiber,float64,43,13
+age,CGMacros-044.csv,default,Image path,str,86,86
+timestamp,CGMacros-045.csv,default,Timestamp,str,15570,15570
+heart_rate,CGMacros-045.csv,default,HR,float64,14597,62
+energy,CGMacros-045.csv,default,Calories (Activity),float64,14641,120
+activity,CGMacros-045.csv,default,Calories (Activity),float64,14641,120
+activity,CGMacros-045.csv,default,METs,float64,14641,58
+meal,CGMacros-045.csv,default,Meal Type,str,32,4
+energy,CGMacros-045.csv,default,Calories,float64,32,24
+carbohydrate,CGMacros-045.csv,default,Carbs,float64,32,21
+protein,CGMacros-045.csv,default,Protein,float64,32,17
+fat,CGMacros-045.csv,default,Fat,float64,32,15
+fibre,CGMacros-045.csv,default,Fiber,float64,32,12
+age,CGMacros-045.csv,default,Image path,str,47,47
+timestamp,CGMacros-046.csv,default,Timestamp,str,14655,14655
+heart_rate,CGMacros-046.csv,default,HR,float64,13622,53
+energy,CGMacros-046.csv,default,Calories (Activity),float64,14655,49
+activity,CGMacros-046.csv,default,Calories (Activity),float64,14655,49
+meal,CGMacros-046.csv,default,Meal Type,str,29,3
+energy,CGMacros-046.csv,default,Calories,float64,29,24
+carbohydrate,CGMacros-046.csv,default,Carbs,float64,29,19
+protein,CGMacros-046.csv,default,Protein,float64,29,18
+fat,CGMacros-046.csv,default,Fat,float64,29,17
+fibre,CGMacros-046.csv,default,Fiber,float64,29,11
+age,CGMacros-046.csv,default,Image path,str,50,50
+timestamp,CGMacros-047.csv,default,Timestamp,str,15690,15690
+heart_rate,CGMacros-047.csv,default,HR,float64,14400,86
+energy,CGMacros-047.csv,default,Calories (Activity),float64,15690,50
+activity,CGMacros-047.csv,default,Calories (Activity),float64,15690,50
+activity,CGMacros-047.csv,default,METs,int64,15690,50
+meal,CGMacros-047.csv,default,Meal Type,str,29,3
+energy,CGMacros-047.csv,default,Calories,float64,29,25
+carbohydrate,CGMacros-047.csv,default,Carbs,float64,29,19
+protein,CGMacros-047.csv,default,Protein,float64,29,19
+fat,CGMacros-047.csv,default,Fat,float64,29,18
+fibre,CGMacros-047.csv,default,Fiber,float64,29,12
+age,CGMacros-047.csv,default,Image path,str,40,40
+timestamp,CGMacros-048.csv,default,Timestamp,str,17340,17340
+heart_rate,CGMacros-048.csv,default,HR,float64,14347,99
+energy,CGMacros-048.csv,default,Calories (Activity),float64,17340,194
+activity,CGMacros-048.csv,default,Calories (Activity),float64,17340,194
+activity,CGMacros-048.csv,default,METs,int64,17340,80
+meal,CGMacros-048.csv,default,Meal Type,str,36,4
+energy,CGMacros-048.csv,default,Calories,float64,36,31
+carbohydrate,CGMacros-048.csv,default,Carbs,float64,36,25
+protein,CGMacros-048.csv,default,Protein,float64,36,21
+fat,CGMacros-048.csv,default,Fat,float64,36,19
+fibre,CGMacros-048.csv,default,Fiber,float64,36,13
+age,CGMacros-048.csv,default,Image path,str,76,76
+timestamp,CGMacros-049.csv,default,Timestamp,str,15315,15315
+heart_rate,CGMacros-049.csv,default,HR,float64,13974,102
+energy,CGMacros-049.csv,default,Calories (Activity),float64,15307,109
+activity,CGMacros-049.csv,default,Calories (Activity),float64,15307,109
+activity,CGMacros-049.csv,default,METs,float64,15307,49
+meal,CGMacros-049.csv,default,Meal Type,str,28,3
+energy,CGMacros-049.csv,default,Calories,float64,28,22
+carbohydrate,CGMacros-049.csv,default,Carbs,float64,28,19
+protein,CGMacros-049.csv,default,Protein,float64,28,18
+fat,CGMacros-049.csv,default,Fat,float64,28,17
+fibre,CGMacros-049.csv,default,Fiber,float64,28,14
+age,CGMacros-049.csv,default,Image path,str,47,47
+participant_id,gut_health_test.csv,default,subject,int64,47,47
+activity,gut_health_test.csv,default,Metabolic Fitness,float64,42,3
+activity,gut_health_test.csv,default,Active Microbial Diversity,float64,42,3
+age,gut_health_test.csv,default,Flagellar Assembly Pathways,float64,42,3
+participant_id,gut_health_test.csv,default,Uric Acid Production Pathways,float64,42,3
+participant_id,gut_health_test.csv,default,Bile Acid Metabolism Pathways,float64,42,3
+activity,gut_health_test.csv,default,Bile Acid Metabolism Pathways,float64,42,3
+activity,gut_health_test.csv,default,Inflammatory Activity,float64,42,3
+protein,gut_health_test.csv,default,Protein Fermentation,float64,42,3
+activity,gut_health_test.csv,default,Methane Gas Production Pathways,float64,42,3
+participant_id,gut_health_test.csv,default,Sulfide Gas Production Pathways,float64,42,3
+activity,gut_health_test.csv,default,Oxalate Metabolism Pathways,float64,42,3
+participant_id,microbes.csv,default,subject,int64,45,45
+heart_rate,microbes.csv,default,Achromobacter ,float64,44,2
+participant_id,microbes.csv,default,Acidaminococcus intestini RyC-MR95 ,float64,44,2
+participant_id,microbes.csv,default,Acidaminococcus sp. BV3L6 ,float64,44,2
+participant_id,microbes.csv,default,Acidaminococcus sp. D21 ,float64,44,2
+participant_id,microbes.csv,default,Acidaminococcus sp. HPA0509 ,float64,44,2
+participant_id,microbes.csv,default,Acidovorax sp. JS42 ,float64,44,2
+participant_id,microbes.csv,default,Acidovorax sp. NA3 ,float64,44,2
+participant_id,microbes.csv,default,Acidovorax sp. T1 ,float64,44,2
+heart_rate,microbes.csv,default,Aerococcus christensenii ,float64,44,2
+heart_rate,microbes.csv,default,Aggregatibacter aphrophilus ,float64,44,2
+heart_rate,microbes.csv,default,Aggregatibacter aphrophilus ATCC 33389 ,float64,44,2
+participant_id,microbes.csv,default,Aureobasidium melanogenum ,float64,44,2
+participant_id,microbes.csv,default,Bacteroidales bacterium KA00344 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides acidifaciens ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides acidifaciens JCM 10556 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides barnesiae DSM 18169 = JCM 13652 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides caccae ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides caecimuris ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides caecimuris strain I48 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides cellulosilyticus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides cellulosilyticus strain WH2 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides clarus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides coprocola ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides coprophilus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides coprosuis DSM 18011 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides dorei CL03T12C01 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides eggerthii ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides eggerthii 1_2_48FAA ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides eggerthii DSM 20697 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides faecichinchillae strain DSM ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides faecis ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides finegoldii ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fluxus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis 638R ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis NCTC 9343 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis YCH46 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis str. 3-F-2 #6 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis strain BOB25 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides fragilis strain S14 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides gallinarum DSM 18171 = JCM 13658 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides graminisolvens DSM 19988 = JCM 15093 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides helcogenes P 36-108 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides heparinolyticus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides intestinalis ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides massiliensis ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides massiliensis dnLKV3 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides mediterraneensis strain Marseille-P2644 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides neonati strain MS4 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides nordii ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides oleiciplenus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides ovatus ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides ovatus V975 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides ovatus strain ATCC ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides paurosaccharolyticus JCM 15092 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides phage crAss001 ,float64,44,2
+age,microbes.csv,default,Bacteroides phage crAss001 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides plebeius ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides pyogenes ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides salanitronis DSM 18170 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides salyersiae ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 14(A) ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 1_1_30 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 1_1_6 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 2_1_16 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 2_1_22 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 2_1_33B ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 2_1_56FAA ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 2_2_4 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 3_1_13 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 3_1_19 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 3_1_23 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 3_1_33FAA ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 3_1_40A ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 4_1_36 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 4_3_47FAA ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. 9_1_42FAA ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. A1C1 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. CACC 737 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. CBA7301 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. D2 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. D20 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. D22 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HF-162 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HF-5141 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HF-5287 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HMSC067B03 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HMSC068A09 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HMSC073E02 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. HPS0048 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. Marseille-P2653 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. Marseille-P3108 sp. Marseille-P3108 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. Marseille-P3132 sp. Marseille-P3132 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. Marseille-P3166 sp. Marseille-P3166 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. Marseille-P3208T strain Marseille-P3208 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. PHL 2737 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides sp. ZJ-18 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides stercorirosoris ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides stercoris ATCC 43183 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides stercoris CC31F ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides stercoris strain CL09T03C01 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides stercoris strain DSM ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides thetaiotaomicron ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides thetaiotaomicron VPI-5482 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides thetaiotaomicron strain 7330 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides timonensis AP1 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides uniformis ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides vulgatus ATCC 8482 ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides xylanisolvens ,float64,44,2
+participant_id,microbes.csv,default,Bacteroides zoogleoformans ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium adolescentis ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium adolescentis ATCC 15703 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium adolescentis strain 22L ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium adolescentis strain BBMN23 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium angulatum DSM 20098 = JCM 7096 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium animalis ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium biavatii DSM 23969 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium bifidum BGN4 ,float64,44,2
+glucose,microbes.csv,default,Bifidobacterium bifidum BGN4 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum BGN4.1 ,float64,44,1
+glucose,microbes.csv,default,Bifidobacterium bifidum BGN4.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium bifidum LMG 13195 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum NCIMB 41171 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum PRL2010 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum PRL2010.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium bifidum S17 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum S17.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain 156B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain 2789STDY5608877 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain 791 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain 85B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain BF3 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain LMG ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium bifidum strain MJR8628B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve 689b ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve 689b.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium breve ACS-071-V-Sch8b ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve CECT 7263 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve JCM 7017 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve JCM 7019 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium breve MCC 0121 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium catenulatum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium catenulatum DSM 16992 = JCM 1194 = LMG 11043 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium catenulatum subsp. kashiwanohense ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium dentium ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium dentium Bd1 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium dentium JCM 1195 = DSM 20436 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium gallinarum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum AGR2137 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum DJO10A ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum DJO10A.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum E18 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum NCC2705 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum NCC2705.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum isolate Bifido_01 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum isolate Bifido_05 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum isolate Bifido_06 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum isolate Bifido_09 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum strain 379 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum strain BG7 ,float64,44,2
+glucose,microbes.csv,default,Bifidobacterium longum strain BG7 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis 157F ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis 157F.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis CCUG 52486 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis strain CECT ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. infantis strain IN-07 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum 1-6B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum 17-1B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum 2-2B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum 7-1B ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum ATCC 55813 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum BBMN68 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum BBMN68.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum EK13 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum F8 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum GT15 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum GT15.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum JCM 1217 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum JCM 1217.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum JDM301 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum KACC 91563 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum KACC 91563.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain AH1206 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain LO-10 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain LO-K29a ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain MC-42 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain NCIMB8809 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain VMKB44 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum strain W11 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. longum.1 ,float64,44,1
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. suillum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium longum subsp. suis strain BSM11-5 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium merycicum DSM 6492 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium merycicum strain LMG ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium mongoliense ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium moukalabense ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum IPLA36007 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain 2789STDY5834840 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-05 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-B29 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-C29 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-D29 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-K29a ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-K29b ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pseudocatenulatum strain CECT ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium pullorum DSM 20433 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium saeculare DSM 6531 = LMG 14934 ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium sp. 12_1_47BFAA ,float64,44,2
+participant_id,microbes.csv,default,Bifidobacterium sp. MSTE12 ,float64,44,2
+heart_rate,microbes.csv,default,Brochothrix thermosphacta ,float64,44,2
+participant_id,microbes.csv,default,Bulleidia sp. zg-1006 ,float64,44,2
+participant_id,microbes.csv,default,Candida albicans SC5314 ,float64,44,2
+participant_id,microbes.csv,default,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1 ,float64,44,2
+activity,microbes.csv,default,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1 ,float64,44,2
+participant_id,microbes.csv,default,Candidatus Nanosynbacter ,float64,44,2
+participant_id,microbes.csv,default,Candidatus Nanosynbacter lyticus ,float64,44,2
+participant_id,microbes.csv,default,Candidatus Stoquefichus sp. KLE1796 ,float64,44,2
+participant_id,microbes.csv,default,Candidatus Stoquefichus sp. SB1 ,float64,44,2
+carbohydrate,microbes.csv,default,Cellulomonas carbonis T26 ,float64,44,2
+heart_rate,microbes.csv,default,Christensenella ,float64,44,2
+heart_rate,microbes.csv,default,Christensenella minuta ,float64,44,2
+heart_rate,microbes.csv,default,Christensenella sp. AF73-05CM02 ,float64,44,2
+heart_rate,microbes.csv,default,Christensenella sp. Marseille-P3954 ,float64,44,2
+heart_rate,microbes.csv,default,Christensenella timonensis ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium arthrosphaerae ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium camelliae ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium gallinarum strain DSM ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium indologenes ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium sp. ,float64,44,2
+heart_rate,microbes.csv,default,Chryseobacterium sp. SNU WT5 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-1C12 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-1D1 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-1D10 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-1E11 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-2F7 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-2H11 ,float64,44,2
+participant_id,microbes.csv,default,Clostridia bacterium UC5.1-2H6 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiaceae bacterium MS3 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium 1_7_47FAA ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium KLE1615 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium S5-A14a ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-01 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-03 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-06 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-07 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-08 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-09 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-13 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-14 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-15 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-16 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-18 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-21 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-26 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-27 ,float64,44,2
+participant_id,microbes.csv,default,Clostridiales bacterium VE202-28 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile 2007855 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile 630 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile ATCC 9689 = DSM 1296 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile P28 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile R20291 ,float64,44,2
+participant_id,microbes.csv,default,Clostridioides difficile strain BR81 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium ,float64,44,2
+participant_id,microbes.csv,default,Clostridium bornimense ,float64,44,2
+participant_id,microbes.csv,default,Clostridium butyricum ,float64,44,2
+participant_id,microbes.csv,default,Clostridium celatum ,float64,44,2
+participant_id,microbes.csv,default,Clostridium celatum DSM 1785 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium cochlearium ,float64,44,2
+participant_id,microbes.csv,default,Clostridium disporicum ,float64,44,2
+participant_id,microbes.csv,default,Clostridium disporicum strain 2789STDY5608827 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium disporicum strain 2789STDY5834855 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium disporicum strain 2789STDY5834856 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium paraputrificum ,float64,44,2
+participant_id,microbes.csv,default,Clostridium perfringens ,float64,44,2
+participant_id,microbes.csv,default,Clostridium perfringens ATCC 13124 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium perfringens str. 13 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium perfringens strain FORC_003 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium perfringens strain JP55 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium phoceensis ,float64,44,2
+participant_id,microbes.csv,default,Clostridium phoceensis strain GD3 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sartagoforme ,float64,44,2
+participant_id,microbes.csv,default,Clostridium saudiense strain JCC ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. 1_1_41A1FAA ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. 7_2_43FAA ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. 7_3_54FAA ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. ASF502 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. AT4 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. ATCC BAA-442 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. BNL1100 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. BR31 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. CL-2 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. D5 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. DSM 4029 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. FS41 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. HGF2 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. KLE 1755 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. KNHs214 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. L2-50 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. M62/1 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. Marseille-P2414 sp. Marseille-P2414 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium sp. Marseille-P3244 sp. Marseille-P3244 ,float64,44,2
+participant_id,microbes.csv,default,Clostridium thermarum ,float64,44,2
+participant_id,microbes.csv,default,Clostridium tyrobutyricum strain KCTC ,float64,44,2
+participant_id,microbes.csv,default,Clostridium ventriculi ,float64,44,2
+participant_id,microbes.csv,default,Clostridium ventriculi strain 2789STDY5834858 ,float64,44,2
+participant_id,microbes.csv,default,Coprobacter fastidiosus ,float64,44,2
+participant_id,microbes.csv,default,Coprobacter fastidiosus NSB1 ,float64,44,2
+participant_id,microbes.csv,default,Corynebacterium kefirresidentii ,float64,44,2
+participant_id,microbes.csv,default,Cucurbit aphid borne yellows virus associated RNA (pseudo genus) ,float64,44,2
+participant_id,microbes.csv,default,Cupriavidus ,float64,44,2
+participant_id,microbes.csv,default,Cupriavidus metallidurans ,float64,44,2
+activity,microbes.csv,default,Cupriavidus metallidurans ,float64,44,2
+participant_id,microbes.csv,default,Cutibacterium avidum strain DPC ,float64,44,2
+participant_id,microbes.csv,default,Delftia acidovorans ,float64,44,2
+participant_id,microbes.csv,default,Delftia acidovorans SPH-1 ,float64,44,2
+carbohydrate,microbes.csv,default,Desulfovibrio carbinolicus ,float64,44,2
+participant_id,microbes.csv,default,Dielma fastidiosa ,float64,44,2
+meal,microbes.csv,default,Dietzia alimentaria strain BP ,float64,44,2
+age,microbes.csv,default,Enterobacter phage phiT5282H ,float64,44,2
+participant_id,microbes.csv,default,Erysipelatoclostridium ,float64,44,2
+participant_id,microbes.csv,default,Erysipelatoclostridium ramosum ,float64,44,2
+participant_id,microbes.csv,default,Erysipelatoclostridium ramosum DSM 1402 ,float64,44,2
+heart_rate,microbes.csv,default,Erysipelothrix rhusiopathiae ,float64,44,2
+participant_id,microbes.csv,default,Faecalitalea cylindroides ,float64,44,2
+participant_id,microbes.csv,default,Faecalitalea cylindroides ATCC 27803 ,float64,44,2
+participant_id,microbes.csv,default,Faecalitalea cylindroides T2-87 ,float64,44,2
+participant_id,microbes.csv,default,Fastidiosipila sanguinis ,float64,44,2
+participant_id,microbes.csv,default,Grapevine yellow speckle viroid 1 ,float64,44,2
+participant_id,microbes.csv,default,Idiomarina zobellii strain KMM ,float64,44,2
+age,microbes.csv,default,Klebsiella phage 13 ,float64,44,2
+age,microbes.csv,default,Klebsiella phage PhiKpNIH-2 ,float64,44,2
+age,microbes.csv,default,Klebsiella phage Shelby ,float64,44,2
+age,microbes.csv,default,Klebsiella phage vB_KpnS_15-38_KLPPOU149 ,float64,44,2
+participant_id,microbes.csv,default,Lachnoclostridium ,float64,44,2
+participant_id,microbes.csv,default,Lachnoclostridium phocaeense ,float64,44,2
+participant_id,microbes.csv,default,Lachnoclostridium phocaeense strain Marseille-P3177T sp. Marseille-P3177 ,float64,44,2
+participant_id,microbes.csv,default,Lachnoclostridium sp. YL32 ,float64,44,2
+participant_id,microbes.csv,default,Lachnoclostridium sp. YL32 sp. YL32 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage 79201 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage 88605 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage CHPC362 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage CHPC965 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage M6165 ,float64,44,2
+age,microbes.csv,default,Lactococcus phage ul36 ,float64,44,2
+carbohydrate,microbes.csv,default,Leclercia adecarboxylata ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc gelidum JB7 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc gelidum subsp. gasicomitatum ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc gelidum subsp. gasicomitatum KG16-1 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. cremoris ATCC 19254 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. cremoris TIFN8 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. dextranicum strain LbE15 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides J18 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides strain DRC0211 ,float64,44,2
+participant_id,microbes.csv,default,Leuconostoc mesenteroides.1 ,float64,44,1
+participant_id,microbes.csv,default,Leuconostoc pseudomesenteroides ,float64,44,2
+age,microbes.csv,default,Mageeibacillus ,float64,44,2
+participant_id,microbes.csv,default,Massilioclostridium coli strain Marseille-P2976 ,float64,44,2
+activity,microbes.csv,default,Methanobrevibacter smithii ATCC 35061 ,float64,44,2
+activity,microbes.csv,default,Methanobrevibacter smithii TS145A ,float64,44,2
+activity,microbes.csv,default,Methanosphaera stadtmanae DSM 3091 ,float64,44,2
+participant_id,microbes.csv,default,Mogibacterium timidum ATCC 33093 ,float64,44,2
+participant_id,microbes.csv,default,Myroides odoratimimus ,float64,44,2
+participant_id,microbes.csv,default,Myroides odoratimimus strain PR63039 ,float64,44,2
+participant_id,microbes.csv,default,Myroides phaeus ,float64,44,2
+heart_rate,microbes.csv,default,Ochrobactrum anthropi ,float64,44,2
+heart_rate,microbes.csv,default,Ochrobactrum intermedium M86 ,float64,44,2
+heart_rate,microbes.csv,default,Paenarthrobacter sp. YJN-D ,float64,44,2
+participant_id,microbes.csv,default,Paeniclostridium sordellii ,float64,44,2
+heart_rate,microbes.csv,default,Pannonibacter phragmitetus strain 31801 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides distasonis ATCC 8503 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides goldsteinii ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides goldsteinii CL02T12C30 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides goldsteinii DSM 19448 = WAL 12034 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides goldsteinii dnLKV18 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides goldsteinii strain 910340 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides gordonii ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides gordonii DSM 23371 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides gordonii MS-1 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides johnsonii ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides johnsonii CL02T12C29 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides johnsonii DSM 18315 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides merdae ATCC 43184 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides merdae CL03T12C32 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides merdae CL09T00C40 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides merdae strain 2789STDY5834848 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides phage YZ-2015a ,float64,44,2
+age,microbes.csv,default,Parabacteroides phage YZ-2015a ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides phage YZ-2015b ,float64,44,2
+age,microbes.csv,default,Parabacteroides phage YZ-2015b ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. 20_3 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. 2_1_7 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. CT06 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. D13 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. D26 ,float64,44,2
+participant_id,microbes.csv,default,Parabacteroides sp. HGS0025 ,float64,44,2
+participant_id,microbes.csv,default,"Parabacteroides sp. Marseille-P3236 strain Marseille-P3236, sp. Marseille-P3136 ",float64,44,1
+participant_id,microbes.csv,default,"Parabacteroides sp. SN4 strain SN4, sp. SB4 ",float64,44,2
+participant_id,microbes.csv,default,Pediococcus acidilactici D3 ,float64,44,2
+heart_rate,microbes.csv,default,Penicillium chrysogenum ,float64,44,2
+heart_rate,microbes.csv,default,Persea americana chrysovirus ,float64,44,2
+participant_id,microbes.csv,default,Prevotella pleuritidis JCM 14110 ,float64,44,2
+participant_id,microbes.csv,default,Propionibacterium acidifaciens ,float64,44,2
+participant_id,microbes.csv,default,Providencia rettgeri ,float64,44,2
+heart_rate,microbes.csv,default,Pseudomonas psychrophila ,float64,44,2
+participant_id,microbes.csv,default,Ralstonia insidiosa ,float64,44,2
+participant_id,microbes.csv,default,Ralstonia insidiosa strain ATCC ,float64,44,2
+participant_id,microbes.csv,default,Ruminiclostridium herbifermentans ,float64,44,2
+participant_id,microbes.csv,default,Ruminococcus callidus ATCC 27760 ,float64,44,2
+age,microbes.csv,default,Salmonella phage allotria ,float64,44,2
+participant_id,microbes.csv,default,Sanguibacteroides justesenii ,float64,44,2
+participant_id,microbes.csv,default,Staphylococcus epidermidis ,float64,44,2
+participant_id,microbes.csv,default,Streptococcus acidominimus ,float64,44,2
+age,microbes.csv,default,Streptococcus phage TP-778L ,float64,44,2
+age,microbes.csv,default,Streptococcus phage YMC-2011 ,float64,44,2
+age,microbes.csv,default,Streptococcus phage phiARI0131-1 ,float64,44,2
+participant_id,microbes.csv,default,Streptococcus viridans ,float64,44,2
+participant_id,microbes.csv,default,Tepidimonas fonticaldi strain PL17 ,float64,44,2
+participant_id,microbes.csv,default,Tidjanibacter massiliensis strain Marseille-P3084 ,float64,44,2
+age,microbes.csv,default,Treponema phagedenis ,float64,44,2
+participant_id,microbes.csv,default,Weissella paramesenteroides ,float64,44,2
+participant_id,microbes.csv,default,[Bacteroides] pectinophilus ,float64,44,2
+participant_id,microbes.csv,default,[Candida] intermedia ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] aminophilum strain KH1P1 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] asparagiforme ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] bolteae ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] citroniae ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 2_1_49FAA ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A1 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A3 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A4 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A6 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A7 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90A8 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme 90B1 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme AGR2157 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme CM201 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme WAL-7855 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme strain 2789STDY5834865 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme strain ATCC ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] clostridioforme strain NLAE-zl-G208 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] glycyrrhizinilyticum JCM 13369 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] hylemonae DSM 15053 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] innocuum ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] innocuum 2959 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] innocuum strain 2789STDY5834853 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] innocuum strain AN88 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] innocuum strain NLAE-zl-C381 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] lactatifermentans ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] leptum ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] leptum DSM 753 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] methoxybenzovorans SR3 ,float64,44,2
+activity,microbes.csv,default,[Clostridium] methoxybenzovorans SR3 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] methylpentosum DSM 5476 ,float64,44,2
+activity,microbes.csv,default,[Clostridium] methylpentosum DSM 5476 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] neopropionicum strain DSM-3847 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] saccharogumia DSM 17460 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] saccharolyticum WM1 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] scindens ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] scindens ATCC 35704 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] spiroforme ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] spiroforme DSM 1552 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] symbiosum ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] symbiosum ATCC 14940 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] symbiosum WAL-14163 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] symbiosum WAL-14673 ,float64,44,2
+participant_id,microbes.csv,default,[Clostridium] symbiosum strain 2789STDY5834864 ,float64,44,2

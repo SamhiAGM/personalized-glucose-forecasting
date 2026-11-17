@@ -1,0 +1,2679 @@
+file_name,sheet,column,rows,missing_count,missing_percent
+bio.csv,default,subject,45,0,0.0
+bio.csv,default,Age,45,0,0.0
+bio.csv,default,Gender,45,0,0.0
+bio.csv,default,BMI,45,0,0.0
+bio.csv,default,Body weight ,45,0,0.0
+bio.csv,default,Height ,45,0,0.0
+bio.csv,default,Self-identify ,45,0,0.0
+bio.csv,default,A1c PDL (Lab),45,0,0.0
+bio.csv,default,Fasting GLU - PDL (Lab),45,0,0.0
+bio.csv,default,Insulin ,45,0,0.0
+bio.csv,default,Triglycerides,45,0,0.0
+bio.csv,default,Cholesterol,45,0,0.0
+bio.csv,default,HDL,45,0,0.0
+bio.csv,default,Non HDL ,45,0,0.0
+bio.csv,default,LDL (Cal),45,0,0.0
+bio.csv,default,VLDL (Cal),45,0,0.0
+bio.csv,default,Cho/HDL Ratio,45,0,0.0
+bio.csv,default,Collection time PDL (Lab),45,0,0.0
+bio.csv,default,#1 Contour Fingerstick GLU,45,0,0.0
+bio.csv,default,Time (t),45,0,0.0
+bio.csv,default, #2 Contour Fingerstick GLU,45,0,0.0
+bio.csv,default,Time (t).1,45,0,0.0
+bio.csv,default,#3 Contour Fingerstick GLU,45,0,0.0
+bio.csv,default,Time (t).2,45,0,0.0
+CGMacros-001.csv,default,Unnamed: 0,14730,0,0.0
+CGMacros-001.csv,default,Timestamp,14730,0,0.0
+CGMacros-001.csv,default,Libre GL,14730,0,0.0
+CGMacros-001.csv,default,Dexcom GL,14730,465,3.16
+CGMacros-001.csv,default,HR,14730,112,0.76
+CGMacros-001.csv,default,Calories (Activity),14730,0,0.0
+CGMacros-001.csv,default,METs,14730,1,0.01
+CGMacros-001.csv,default,Meal Type,14730,14687,99.71
+CGMacros-001.csv,default,Calories,14730,14687,99.71
+CGMacros-001.csv,default,Carbs,14730,14687,99.71
+CGMacros-001.csv,default,Protein,14730,14687,99.71
+CGMacros-001.csv,default,Fat,14730,14687,99.71
+CGMacros-001.csv,default,Fiber,14730,14688,99.71
+CGMacros-001.csv,default,Amount Consumed ,14730,14687,99.71
+CGMacros-001.csv,default,Image path,14730,14649,99.45
+CGMacros-002.csv,default,Unnamed: 0,17025,0,0.0
+CGMacros-002.csv,default,Timestamp,17025,0,0.0
+CGMacros-002.csv,default,Libre GL,17025,0,0.0
+CGMacros-002.csv,default,Dexcom GL,17025,3348,19.67
+CGMacros-002.csv,default,HR,17025,2739,16.09
+CGMacros-002.csv,default,Calories (Activity),17025,2397,14.08
+CGMacros-002.csv,default,METs,17025,2397,14.08
+CGMacros-002.csv,default,Meal Type,17025,16988,99.78
+CGMacros-002.csv,default,Calories,17025,16988,99.78
+CGMacros-002.csv,default,Carbs,17025,16988,99.78
+CGMacros-002.csv,default,Protein,17025,16988,99.78
+CGMacros-002.csv,default,Fat,17025,16988,99.78
+CGMacros-002.csv,default,Fiber,17025,16988,99.78
+CGMacros-002.csv,default,Amount Consumed,17025,16988,99.78
+CGMacros-002.csv,default,Image path,17025,16950,99.56
+CGMacros-003.csv,default,Unnamed: 0,14565,0,0.0
+CGMacros-003.csv,default,Timestamp,14565,0,0.0
+CGMacros-003.csv,default,Libre GL,14565,0,0.0
+CGMacros-003.csv,default,Dexcom GL,14565,305,2.09
+CGMacros-003.csv,default,HR,14565,87,0.6
+CGMacros-003.csv,default,Calories (Activity),14565,0,0.0
+CGMacros-003.csv,default,METs,14565,0,0.0
+CGMacros-003.csv,default,Meal Type,14565,14530,99.76
+CGMacros-003.csv,default,Calories,14565,14530,99.76
+CGMacros-003.csv,default,Carbs,14565,14530,99.76
+CGMacros-003.csv,default,Protein,14565,14530,99.76
+CGMacros-003.csv,default,Fat,14565,14530,99.76
+CGMacros-003.csv,default,Fiber,14565,14530,99.76
+CGMacros-003.csv,default,Amount Consumed,14565,14530,99.76
+CGMacros-003.csv,default,Image path,14565,14501,99.56
+CGMacros-004.csv,default,Unnamed: 0,14275,0,0.0
+CGMacros-004.csv,default,Timestamp,14275,0,0.0
+CGMacros-004.csv,default,Dexcom GL,14275,0,0.0
+CGMacros-004.csv,default,Libre GL,14275,220,1.54
+CGMacros-004.csv,default,HR,14275,40,0.28
+CGMacros-004.csv,default,Calories (Activity),14275,0,0.0
+CGMacros-004.csv,default,METs,14275,0,0.0
+CGMacros-004.csv,default,Meal Type,14275,14213,99.57
+CGMacros-004.csv,default,Calories,14275,14213,99.57
+CGMacros-004.csv,default,Carbs,14275,14213,99.57
+CGMacros-004.csv,default,Protein,14275,14213,99.57
+CGMacros-004.csv,default,Fat,14275,14213,99.57
+CGMacros-004.csv,default,Fiber,14275,14213,99.57
+CGMacros-004.csv,default,Amount Consumed,14275,14213,99.57
+CGMacros-004.csv,default,Image path,14275,14160,99.19
+CGMacros-005.csv,default,Unnamed: 0,14460,0,0.0
+CGMacros-005.csv,default,Timestamp,14460,0,0.0
+CGMacros-005.csv,default,Libre GL,14460,0,0.0
+CGMacros-005.csv,default,Dexcom GL,14460,185,1.28
+CGMacros-005.csv,default,HR,14460,177,1.22
+CGMacros-005.csv,default,Calories (Activity),14460,22,0.15
+CGMacros-005.csv,default,METs,14460,22,0.15
+CGMacros-005.csv,default,Meal Type,14460,14414,99.68
+CGMacros-005.csv,default,Calories,14460,14414,99.68
+CGMacros-005.csv,default,Carbs,14460,14414,99.68
+CGMacros-005.csv,default,Protein,14460,14414,99.68
+CGMacros-005.csv,default,Fat,14460,14414,99.68
+CGMacros-005.csv,default,Fiber,14460,14414,99.68
+CGMacros-005.csv,default,Amount Consumed,14460,14414,99.68
+CGMacros-005.csv,default,Image path,14460,14368,99.36
+CGMacros-006.csv,default,Unnamed: 0,14460,0,0.0
+CGMacros-006.csv,default,Timestamp,14460,0,0.0
+CGMacros-006.csv,default,Libre GL,14460,0,0.0
+CGMacros-006.csv,default,Dexcom GL,14460,185,1.28
+CGMacros-006.csv,default,HR,14460,120,0.83
+CGMacros-006.csv,default,Calories (Activity),14460,25,0.17
+CGMacros-006.csv,default,METs,14460,25,0.17
+CGMacros-006.csv,default,Meal Type,14460,14422,99.74
+CGMacros-006.csv,default,Calories,14460,14422,99.74
+CGMacros-006.csv,default,Carbs,14460,14422,99.74
+CGMacros-006.csv,default,Protein,14460,14422,99.74
+CGMacros-006.csv,default,Fat,14460,14422,99.74
+CGMacros-006.csv,default,Fiber,14460,14422,99.74
+CGMacros-006.csv,default,Amount Consumed,14460,14422,99.74
+CGMacros-006.csv,default,Image path,14460,14386,99.49
+CGMacros-007.csv,default,Timestamp,5655,0,0.0
+CGMacros-007.csv,default,Libre GL,5655,0,0.0
+CGMacros-007.csv,default,Dexcom GL,5655,15,0.27
+CGMacros-007.csv,default,HR,5655,15,0.27
+CGMacros-007.csv,default,Steps,5655,0,0.0
+CGMacros-007.csv,default,METs,5655,0,0.0
+CGMacros-007.csv,default,Meal Type,5655,5638,99.7
+CGMacros-007.csv,default,RecordIndex,5655,5638,99.7
+CGMacros-007.csv,default,Calories,5655,5638,99.7
+CGMacros-007.csv,default,Carbs,5655,5638,99.7
+CGMacros-007.csv,default,Protein,5655,5638,99.7
+CGMacros-007.csv,default,Fat,5655,5638,99.7
+CGMacros-007.csv,default,Fiber,5655,5638,99.7
+CGMacros-007.csv,default,Amount Consumed,5655,5638,99.7
+CGMacros-007.csv,default,Image path,5655,5628,99.52
+CGMacros-008.csv,default,Timestamp,14760,0,0.0
+CGMacros-008.csv,default,Libre GL,14760,0,0.0
+CGMacros-008.csv,default,Dexcom GL,14760,540,3.66
+CGMacros-008.csv,default,HR,14760,325,2.2
+CGMacros-008.csv,default,Calories (Activity),14760,264,1.79
+CGMacros-008.csv,default,METs,14760,264,1.79
+CGMacros-008.csv,default,Meal Type,14760,14730,99.8
+CGMacros-008.csv,default,Calories,14760,14730,99.8
+CGMacros-008.csv,default,Carbs,14760,14730,99.8
+CGMacros-008.csv,default,Protein,14760,14730,99.8
+CGMacros-008.csv,default,Fat,14760,14730,99.8
+CGMacros-008.csv,default,Fiber,14760,14730,99.8
+CGMacros-008.csv,default,Amount Consumed,14760,14730,99.8
+CGMacros-008.csv,default,Image path,14760,14700,99.59
+CGMacros-009.csv,default,Timestamp,14370,0,0.0
+CGMacros-009.csv,default,Libre GL,14370,0,0.0
+CGMacros-009.csv,default,Dexcom GL,14370,144,1.0
+CGMacros-009.csv,default,HR,14370,213,1.48
+CGMacros-009.csv,default,Calories (Activity),14370,0,0.0
+CGMacros-009.csv,default,METs,14370,0,0.0
+CGMacros-009.csv,default,Meal Type,14370,14329,99.71
+CGMacros-009.csv,default,Calories,14370,14329,99.71
+CGMacros-009.csv,default,Carbs,14370,14329,99.71
+CGMacros-009.csv,default,Protein,14370,14329,99.71
+CGMacros-009.csv,default,Fat,14370,14329,99.71
+CGMacros-009.csv,default,Fiber,14370,14329,99.71
+CGMacros-009.csv,default,Amount Consumed,14370,14329,99.71
+CGMacros-009.csv,default,Image path,14370,14291,99.45
+CGMacros-010.csv,default,Timestamp,16155,0,0.0
+CGMacros-010.csv,default,Libre GL,16155,0,0.0
+CGMacros-010.csv,default,Dexcom GL,16155,1880,11.64
+CGMacros-010.csv,default,HR,16155,1016,6.29
+CGMacros-010.csv,default,Calories (Activity),16155,873,5.4
+CGMacros-010.csv,default,METs,16155,873,5.4
+CGMacros-010.csv,default,Meal Type,16155,16110,99.72
+CGMacros-010.csv,default,Calories,16155,16110,99.72
+CGMacros-010.csv,default,Carbs,16155,16110,99.72
+CGMacros-010.csv,default,Protein,16155,16110,99.72
+CGMacros-010.csv,default,Fat,16155,16110,99.72
+CGMacros-010.csv,default,Fiber,16155,16110,99.72
+CGMacros-010.csv,default,Amount Consumed,16155,16110,99.72
+CGMacros-010.csv,default,Image path,16155,16077,99.52
+CGMacros-011.csv,default,Timestamp,14805,0,0.0
+CGMacros-011.csv,default,Libre GL,14805,0,0.0
+CGMacros-011.csv,default,Dexcom GL,14805,530,3.58
+CGMacros-011.csv,default,HR,14805,149,1.01
+CGMacros-011.csv,default,Calories (Activity),14805,0,0.0
+CGMacros-011.csv,default,Intensity,14805,0,0.0
+CGMacros-011.csv,default,Meal Type,14805,14766,99.74
+CGMacros-011.csv,default,Calories,14805,14766,99.74
+CGMacros-011.csv,default,Carbs,14805,14766,99.74
+CGMacros-011.csv,default,Protein,14805,14766,99.74
+CGMacros-011.csv,default,Fat,14805,14766,99.74
+CGMacros-011.csv,default,Fiber,14805,14766,99.74
+CGMacros-011.csv,default,Amount Consumed,14805,14766,99.74
+CGMacros-011.csv,default,Image path,14805,14726,99.47
+CGMacros-012.csv,default,Timestamp,14655,0,0.0
+CGMacros-012.csv,default,Libre GL,14655,0,0.0
+CGMacros-012.csv,default,Dexcom GL,14655,385,2.63
+CGMacros-012.csv,default,HR,14655,1256,8.57
+CGMacros-012.csv,default,Calories (Activity),14655,0,0.0
+CGMacros-012.csv,default,METs,14655,0,0.0
+CGMacros-012.csv,default,Meal Type,14655,14622,99.77
+CGMacros-012.csv,default,Calories,14655,14622,99.77
+CGMacros-012.csv,default,Carbs,14655,14622,99.77
+CGMacros-012.csv,default,Protein,14655,14622,99.77
+CGMacros-012.csv,default,Fat,14655,14622,99.77
+CGMacros-012.csv,default,Fiber,14655,14622,99.77
+CGMacros-012.csv,default,Amount Consumed,14655,14622,99.77
+CGMacros-012.csv,default,Image path,14655,14593,99.58
+CGMacros-013.csv,default,Timestamp,15840,0,0.0
+CGMacros-013.csv,default,Libre GL,15840,0,0.0
+CGMacros-013.csv,default,Dexcom GL,15840,1565,9.88
+CGMacros-013.csv,default,HR,15840,643,4.06
+CGMacros-013.csv,default,Calories (Activity),15840,522,3.3
+CGMacros-013.csv,default,METs,15840,522,3.3
+CGMacros-013.csv,default,Meal Type,15840,15801,99.75
+CGMacros-013.csv,default,Calories,15840,15801,99.75
+CGMacros-013.csv,default,Carbs,15840,15801,99.75
+CGMacros-013.csv,default,Protein,15840,15801,99.75
+CGMacros-013.csv,default,Fat,15840,15801,99.75
+CGMacros-013.csv,default,Fiber,15840,15801,99.75
+CGMacros-013.csv,default,Sugar,15840,15801,99.75
+CGMacros-013.csv,default,Amount Consumed,15840,15801,99.75
+CGMacros-013.csv,default,Image path,15840,15763,99.51
+CGMacros-014.csv,default,Timestamp,17250,0,0.0
+CGMacros-014.csv,default,Libre GL,17250,0,0.0
+CGMacros-014.csv,default,Dexcom GL,17250,2975,17.25
+CGMacros-014.csv,default,HR,17250,2098,12.16
+CGMacros-014.csv,default,Calories (Activity),17250,1951,11.31
+CGMacros-014.csv,default,METs,17250,1951,11.31
+CGMacros-014.csv,default,Meal Type,17250,17210,99.77
+CGMacros-014.csv,default,Calories,17250,17210,99.77
+CGMacros-014.csv,default,Carbs,17250,17210,99.77
+CGMacros-014.csv,default,Protein,17250,17210,99.77
+CGMacros-014.csv,default,Fat,17250,17210,99.77
+CGMacros-014.csv,default,Fiber,17250,17210,99.77
+CGMacros-014.csv,default,Amount Consumed,17250,17210,99.77
+CGMacros-014.csv,default,Image path,17250,17162,99.49
+CGMacros-015.csv,default,Timestamp,16875,0,0.0
+CGMacros-015.csv,default,Libre GL,16875,0,0.0
+CGMacros-015.csv,default,Dexcom GL,16875,2665,15.79
+CGMacros-015.csv,default,HR,16875,1985,11.76
+CGMacros-015.csv,default,Calories (Activity),16875,1772,10.5
+CGMacros-015.csv,default,METs,16875,1772,10.5
+CGMacros-015.csv,default,Meal Type,16875,16823,99.69
+CGMacros-015.csv,default,Calories,16875,16823,99.69
+CGMacros-015.csv,default,Carbs,16875,16823,99.69
+CGMacros-015.csv,default,Protein,16875,16823,99.69
+CGMacros-015.csv,default,Fat,16875,16823,99.69
+CGMacros-015.csv,default,Fiber,16875,16823,99.69
+CGMacros-015.csv,default,Amount Consumed,16875,16823,99.69
+CGMacros-015.csv,default,Image path,16875,16776,99.41
+CGMacros-016.csv,default,Timestamp,16290,0,0.0
+CGMacros-016.csv,default,Libre GL,16290,0,0.0
+CGMacros-016.csv,default,Dexcom GL,16290,2015,12.37
+CGMacros-016.csv,default,HR,16290,1061,6.51
+CGMacros-016.csv,default,Calories (Activity),16290,1002,6.15
+CGMacros-016.csv,default,METs,16290,1002,6.15
+CGMacros-016.csv,default,Meal Type,16290,16262,99.83
+CGMacros-016.csv,default,Calories,16290,16262,99.83
+CGMacros-016.csv,default,Carbs,16290,16262,99.83
+CGMacros-016.csv,default,Protein,16290,16262,99.83
+CGMacros-016.csv,default,Fat,16290,16262,99.83
+CGMacros-016.csv,default,Fiber,16290,16262,99.83
+CGMacros-016.csv,default,Amount Consumed,16290,16262,99.83
+CGMacros-016.csv,default,Image path,16290,16219,99.56
+CGMacros-017.csv,default,Timestamp,16185,0,0.0
+CGMacros-017.csv,default,Libre GL,16185,0,0.0
+CGMacros-017.csv,default,Dexcom GL,16185,1945,12.02
+CGMacros-017.csv,default,HR,16185,3026,18.7
+CGMacros-017.csv,default,Calories (Activity),16185,876,5.41
+CGMacros-017.csv,default,METs,16185,876,5.41
+CGMacros-017.csv,default,Meal Type,16185,16137,99.7
+CGMacros-017.csv,default,Calories,16185,16137,99.7
+CGMacros-017.csv,default,Carbs,16185,16137,99.7
+CGMacros-017.csv,default,Protein,16185,16137,99.7
+CGMacros-017.csv,default,Fat,16185,16137,99.7
+CGMacros-017.csv,default,Fiber,16185,16137,99.7
+CGMacros-017.csv,default,Amount Consumed,16185,16137,99.7
+CGMacros-017.csv,default,Image path,16185,16077,99.33
+CGMacros-018.csv,default,Timestamp,14085,0,0.0
+CGMacros-018.csv,default,Libre GL,14085,0,0.0
+CGMacros-018.csv,default,Dexcom GL,14085,151,1.07
+CGMacros-018.csv,default,HR,14085,99,0.7
+CGMacros-018.csv,default,Calories (Activity),14085,14,0.1
+CGMacros-018.csv,default,METs,14085,14,0.1
+CGMacros-018.csv,default,Meal Type,14085,14046,99.72
+CGMacros-018.csv,default,Calories,14085,14046,99.72
+CGMacros-018.csv,default,Carbs,14085,14046,99.72
+CGMacros-018.csv,default,Protein,14085,14046,99.72
+CGMacros-018.csv,default,Fat,14085,14046,99.72
+CGMacros-018.csv,default,Fiber,14085,14046,99.72
+CGMacros-018.csv,default,Amount Consumed,14085,14046,99.72
+CGMacros-018.csv,default,Image path,14085,14014,99.5
+CGMacros-019.csv,default,Timestamp,14430,0,0.0
+CGMacros-019.csv,default,Libre GL,14430,0,0.0
+CGMacros-019.csv,default,Dexcom GL,14430,170,1.18
+CGMacros-019.csv,default,HR,14430,293,2.03
+CGMacros-019.csv,default,Calories (Activity),14430,0,0.0
+CGMacros-019.csv,default,METs,14430,0,0.0
+CGMacros-019.csv,default,Meal Type,14430,14382,99.67
+CGMacros-019.csv,default,Calories,14430,14382,99.67
+CGMacros-019.csv,default,Carbs,14430,14382,99.67
+CGMacros-019.csv,default,Protein,14430,14382,99.67
+CGMacros-019.csv,default,Fat,14430,14382,99.67
+CGMacros-019.csv,default,Fiber,14430,14382,99.67
+CGMacros-019.csv,default,Amount Consumed,14430,14382,99.67
+CGMacros-019.csv,default,Image path,14430,14356,99.49
+CGMacros-020.csv,default,Timestamp,16260,0,0.0
+CGMacros-020.csv,default,Libre GL,16260,0,0.0
+CGMacros-020.csv,default,Dexcom GL,16260,1985,12.21
+CGMacros-020.csv,default,HR,16260,1906,11.72
+CGMacros-020.csv,default,Calories (Activity),16260,876,5.39
+CGMacros-020.csv,default,METs,16260,876,5.39
+CGMacros-020.csv,default,Meal Type,16260,16219,99.75
+CGMacros-020.csv,default,Calories,16260,16219,99.75
+CGMacros-020.csv,default,Carbs,16260,16219,99.75
+CGMacros-020.csv,default,Protein,16260,16219,99.75
+CGMacros-020.csv,default,Fat,16260,16219,99.75
+CGMacros-020.csv,default,Fiber,16260,16219,99.75
+CGMacros-020.csv,default,Amount Consumed,16260,16219,99.75
+CGMacros-020.csv,default,Image path,16260,16168,99.43
+CGMacros-021.csv,default,Timestamp,16125,0,0.0
+CGMacros-021.csv,default,Libre GL,16125,0,0.0
+CGMacros-021.csv,default,Dexcom GL,16125,1850,11.47
+CGMacros-021.csv,default,HR,16125,1009,6.26
+CGMacros-021.csv,default,Calories (Activity),16125,777,4.82
+CGMacros-021.csv,default,METs,16125,777,4.82
+CGMacros-021.csv,default,Meal Type,16125,16086,99.76
+CGMacros-021.csv,default,Calories,16125,16086,99.76
+CGMacros-021.csv,default,Carbs,16125,16086,99.76
+CGMacros-021.csv,default,Protein,16125,16086,99.76
+CGMacros-021.csv,default,Fat,16125,16086,99.76
+CGMacros-021.csv,default,Fiber,16125,16086,99.76
+CGMacros-021.csv,default,Amount Consumed,16125,16086,99.76
+CGMacros-021.csv,default,Image path,16125,16050,99.53
+CGMacros-022.csv,default,Timestamp,17625,0,0.0
+CGMacros-022.csv,default,Libre GL,17625,0,0.0
+CGMacros-022.csv,default,Dexcom GL,17625,3350,19.01
+CGMacros-022.csv,default,HR,17625,3113,17.66
+CGMacros-022.csv,default,Calories (Activity),17625,2274,12.9
+CGMacros-022.csv,default,METs,17625,2274,12.9
+CGMacros-022.csv,default,Meal Type,17625,17583,99.76
+CGMacros-022.csv,default,Calories,17625,17583,99.76
+CGMacros-022.csv,default,Carbs,17625,17583,99.76
+CGMacros-022.csv,default,Protein,17625,17583,99.76
+CGMacros-022.csv,default,Fat,17625,17583,99.76
+CGMacros-022.csv,default,Fiber,17625,17583,99.76
+CGMacros-022.csv,default,Amount Consumed,17625,17583,99.76
+CGMacros-022.csv,default,Image path,17625,17528,99.45
+CGMacros-023.csv,default,Timestamp,16185,0,0.0
+CGMacros-023.csv,default,Libre GL,16185,0,0.0
+CGMacros-023.csv,default,Dexcom GL,16185,1920,11.86
+CGMacros-023.csv,default,HR,16185,1053,6.51
+CGMacros-023.csv,default,Calories (Activity),16185,862,5.33
+CGMacros-023.csv,default,METs,16185,862,5.33
+CGMacros-023.csv,default,Meal Type,16185,16143,99.74
+CGMacros-023.csv,default,Calories,16185,16143,99.74
+CGMacros-023.csv,default,Carbs,16185,16143,99.74
+CGMacros-023.csv,default,Protein,16185,16143,99.74
+CGMacros-023.csv,default,Fat,16185,16143,99.74
+CGMacros-023.csv,default,Fiber,16185,16143,99.74
+CGMacros-023.csv,default,Amount Consumed,16185,16143,99.74
+CGMacros-023.csv,default,Image path,16185,16104,99.5
+CGMacros-026.csv,default,Timestamp,16320,0,0.0
+CGMacros-026.csv,default,Libre GL,16320,0,0.0
+CGMacros-026.csv,default,Dexcom GL,16320,2496,15.29
+CGMacros-026.csv,default,HR,16320,1109,6.8
+CGMacros-026.csv,default,Calories (Activity),16320,976,5.98
+CGMacros-026.csv,default,Intensity,16320,976,5.98
+CGMacros-026.csv,default,Meal Type,16320,16284,99.78
+CGMacros-026.csv,default,Calories,16320,16284,99.78
+CGMacros-026.csv,default,Carbs,16320,16284,99.78
+CGMacros-026.csv,default,Protein,16320,16284,99.78
+CGMacros-026.csv,default,Fat,16320,16284,99.78
+CGMacros-026.csv,default,Fiber,16320,16284,99.78
+CGMacros-026.csv,default,Amount Consumed,16320,16284,99.78
+CGMacros-026.csv,default,Image path,16320,16261,99.64
+CGMacros-027.csv,default,Timestamp,14535,0,0.0
+CGMacros-027.csv,default,Libre GL,14535,0,0.0
+CGMacros-027.csv,default,Dexcom GL,14535,325,2.24
+CGMacros-027.csv,default,HR,14535,50,0.34
+CGMacros-027.csv,default,Calories (Activity),14535,0,0.0
+CGMacros-027.csv,default,Intensity,14535,0,0.0
+CGMacros-027.csv,default,Meal Type,14535,14499,99.75
+CGMacros-027.csv,default,Calories,14535,14499,99.75
+CGMacros-027.csv,default,Carbs,14535,14499,99.75
+CGMacros-027.csv,default,Protein,14535,14499,99.75
+CGMacros-027.csv,default,Fat,14535,14499,99.75
+CGMacros-027.csv,default,Fiber,14535,14499,99.75
+CGMacros-027.csv,default,Amount Consumed,14535,14499,99.75
+CGMacros-027.csv,default,Image path,14535,14462,99.5
+CGMacros-028.csv,default,Timestamp,18735,0,0.0
+CGMacros-028.csv,default,Libre GL,18735,0,0.0
+CGMacros-028.csv,default,Dexcom GL,18735,4505,24.05
+CGMacros-028.csv,default,HR,18735,4446,23.73
+CGMacros-028.csv,default,Calories (Activity),18735,3379,18.04
+CGMacros-028.csv,default,METs,18735,3379,18.04
+CGMacros-028.csv,default,Meal Type,18735,18701,99.82
+CGMacros-028.csv,default,Calories,18735,18701,99.82
+CGMacros-028.csv,default,Carbs,18735,18701,99.82
+CGMacros-028.csv,default,Protein,18735,18701,99.82
+CGMacros-028.csv,default,Fat,18735,18701,99.82
+CGMacros-028.csv,default,Fiber,18735,18701,99.82
+CGMacros-028.csv,default,Image path,18735,18682,99.72
+CGMacros-029.csv,default,Timestamp,17730,0,0.0
+CGMacros-029.csv,default,Libre GL,17730,0,0.0
+CGMacros-029.csv,default,Dexcom GL,17730,3455,19.49
+CGMacros-029.csv,default,HR,17730,2658,14.99
+CGMacros-029.csv,default,Calories (Activity),17730,2383,13.44
+CGMacros-029.csv,default,METs,17730,2383,13.44
+CGMacros-029.csv,default,Meal Type,17730,17700,99.83
+CGMacros-029.csv,default,Calories,17730,17700,99.83
+CGMacros-029.csv,default,Carbs,17730,17700,99.83
+CGMacros-029.csv,default,Protein,17730,17700,99.83
+CGMacros-029.csv,default,Fat,17730,17700,99.83
+CGMacros-029.csv,default,Fiber,17730,17700,99.83
+CGMacros-029.csv,default,Image path,17730,17673,99.68
+CGMacros-030.csv,default,Timestamp,15465,0,0.0
+CGMacros-030.csv,default,Libre GL,15465,0,0.0
+CGMacros-030.csv,default,Dexcom GL,15465,1255,8.12
+CGMacros-030.csv,default,HR,15465,3093,20.0
+CGMacros-030.csv,default,Calories (Activity),15465,1632,10.55
+CGMacros-030.csv,default,METs,15465,1632,10.55
+CGMacros-030.csv,default,Meal Type,15465,15437,99.82
+CGMacros-030.csv,default,Calories,15465,15437,99.82
+CGMacros-030.csv,default,Carbs,15465,15437,99.82
+CGMacros-030.csv,default,Protein,15465,15437,99.82
+CGMacros-030.csv,default,Fat,15465,15437,99.82
+CGMacros-030.csv,default,Fiber,15465,15437,99.82
+CGMacros-030.csv,default,Amount Consumed,15465,15437,99.82
+CGMacros-030.csv,default,Image path,15465,15423,99.73
+CGMacros-031.csv,default,Timestamp,13725,0,0.0
+CGMacros-031.csv,default,Libre GL,13725,0,0.0
+CGMacros-031.csv,default,Dexcom GL,13725,52,0.38
+CGMacros-031.csv,default,HR,13725,189,1.38
+CGMacros-031.csv,default,Calories (Activity),13725,0,0.0
+CGMacros-031.csv,default,Intensity,13725,0,0.0
+CGMacros-031.csv,default,Meal Type,13725,13671,99.61
+CGMacros-031.csv,default,Calories,13725,13671,99.61
+CGMacros-031.csv,default,Carbs,13725,13671,99.61
+CGMacros-031.csv,default,Protein,13725,13671,99.61
+CGMacros-031.csv,default,Fat,13725,13671,99.61
+CGMacros-031.csv,default,Fiber,13725,13671,99.61
+CGMacros-031.csv,default,Amount Consumed,13725,13671,99.61
+CGMacros-031.csv,default,Image path,13725,13658,99.51
+CGMacros-032.csv,default,Timestamp,13785,0,0.0
+CGMacros-032.csv,default,Libre GL,13785,0,0.0
+CGMacros-032.csv,default,Dexcom GL,13785,129,0.94
+CGMacros-032.csv,default,HR,13785,7226,52.42
+CGMacros-032.csv,default,Calories (Activity),13785,639,4.64
+CGMacros-032.csv,default,Intensity,13785,639,4.64
+CGMacros-032.csv,default,Meal Type,13785,13765,99.85
+CGMacros-032.csv,default,Calories,13785,13765,99.85
+CGMacros-032.csv,default,Carbs,13785,13765,99.85
+CGMacros-032.csv,default,Protein,13785,13765,99.85
+CGMacros-032.csv,default,Fat,13785,13765,99.85
+CGMacros-032.csv,default,Fiber,13785,13765,99.85
+CGMacros-032.csv,default,Amount Consumed,13785,13765,99.85
+CGMacros-032.csv,default,Image path,13785,13750,99.75
+CGMacros-033.csv,default,Unnamed: 0,15840,0,0.0
+CGMacros-033.csv,default,Timestamp,15840,0,0.0
+CGMacros-033.csv,default,Libre GL,15840,0,0.0
+CGMacros-033.csv,default,Dexcom GL,15840,1625,10.26
+CGMacros-033.csv,default,HR,15840,4985,31.47
+CGMacros-033.csv,default,Calories (Activity),15840,3465,21.88
+CGMacros-033.csv,default,Intensity,15840,3465,21.88
+CGMacros-033.csv,default,Meal Type,15840,15807,99.79
+CGMacros-033.csv,default,Calories,15840,15807,99.79
+CGMacros-033.csv,default,Carbs,15840,15807,99.79
+CGMacros-033.csv,default,Protein,15840,15807,99.79
+CGMacros-033.csv,default,Fat,15840,15807,99.79
+CGMacros-033.csv,default,Fiber,15840,15807,99.79
+CGMacros-033.csv,default,Amount Consumed,15840,15807,99.79
+CGMacros-033.csv,default,Image path,15840,15784,99.65
+CGMacros-034.csv,default,Timestamp,14700,0,0.0
+CGMacros-034.csv,default,Libre GL,14700,0,0.0
+CGMacros-034.csv,default,Dexcom GL,14700,425,2.89
+CGMacros-034.csv,default,HR,14700,6749,45.91
+CGMacros-034.csv,default,Calories (Activity),14700,0,0.0
+CGMacros-034.csv,default,Intensity,14700,0,0.0
+CGMacros-034.csv,default,Meal Type,14700,14651,99.67
+CGMacros-034.csv,default,Calories,14700,14651,99.67
+CGMacros-034.csv,default,Carbs,14700,14651,99.67
+CGMacros-034.csv,default,Protein,14700,14651,99.67
+CGMacros-034.csv,default,Fat,14700,14651,99.67
+CGMacros-034.csv,default,Fiber,14700,14651,99.67
+CGMacros-034.csv,default,Amount Consumed,14700,14651,99.67
+CGMacros-034.csv,default,Image path,14700,14602,99.33
+CGMacros-035.csv,default,Timestamp,14400,0,0.0
+CGMacros-035.csv,default,Libre GL,14400,0,0.0
+CGMacros-035.csv,default,Dexcom GL,14400,130,0.9
+CGMacros-035.csv,default,HR,14400,2347,16.3
+CGMacros-035.csv,default,Calories (Activity),14400,0,0.0
+CGMacros-035.csv,default,Intensity,14400,0,0.0
+CGMacros-035.csv,default,Meal Type,14400,14373,99.81
+CGMacros-035.csv,default,Calories,14400,14373,99.81
+CGMacros-035.csv,default,Carbs,14400,14373,99.81
+CGMacros-035.csv,default,Protein,14400,14373,99.81
+CGMacros-035.csv,default,Fat,14400,14373,99.81
+CGMacros-035.csv,default,Fiber,14400,14373,99.81
+CGMacros-035.csv,default,Amount Consumed,14400,14373,99.81
+CGMacros-035.csv,default,Image path,14400,14348,99.64
+CGMacros-036.csv,default,Unnamed: 0,17115,0,0.0
+CGMacros-036.csv,default,Timestamp,17115,0,0.0
+CGMacros-036.csv,default,Libre GL,17115,0,0.0
+CGMacros-036.csv,default,Dexcom GL,17115,2840,16.59
+CGMacros-036.csv,default,HR,17115,2712,15.85
+CGMacros-036.csv,default,Calories (Activity),17115,1873,10.94
+CGMacros-036.csv,default,METs,17115,1873,10.94
+CGMacros-036.csv,default,Meal Type,17115,17085,99.82
+CGMacros-036.csv,default,Calories,17115,17085,99.82
+CGMacros-036.csv,default,Carbs,17115,17085,99.82
+CGMacros-036.csv,default,Protein,17115,17085,99.82
+CGMacros-036.csv,default,Fat,17115,17085,99.82
+CGMacros-036.csv,default,Fiber,17115,17085,99.82
+CGMacros-036.csv,default,Amount Consumed,17115,17085,99.82
+CGMacros-036.csv,default,Image path,17115,17056,99.66
+CGMacros-038.csv,default,Timestamp,14505,0,0.0
+CGMacros-038.csv,default,Libre GL,14505,0,0.0
+CGMacros-038.csv,default,Dexcom GL,14505,235,1.62
+CGMacros-038.csv,default,HR,14505,159,1.1
+CGMacros-038.csv,default,Calories (Activity),14505,0,0.0
+CGMacros-038.csv,default,Intensity,14505,0,0.0
+CGMacros-038.csv,default,Meal Type,14505,14465,99.72
+CGMacros-038.csv,default,Calories,14505,14465,99.72
+CGMacros-038.csv,default,Carbs,14505,14465,99.72
+CGMacros-038.csv,default,Protein,14505,14465,99.72
+CGMacros-038.csv,default,Fat,14505,14465,99.72
+CGMacros-038.csv,default,Fiber,14505,14465,99.72
+CGMacros-038.csv,default,Amount Consumed,14505,14465,99.72
+CGMacros-038.csv,default,Image path,14505,14447,99.6
+CGMacros-039.csv,default,Timestamp,17205,0,0.0
+CGMacros-039.csv,default,Libre GL,17205,0,0.0
+CGMacros-039.csv,default,Dexcom GL,17205,2930,17.03
+CGMacros-039.csv,default,HR,17205,2867,16.66
+CGMacros-039.csv,default,Calories (Activity),17205,0,0.0
+CGMacros-039.csv,default,METs,17205,0,0.0
+CGMacros-039.csv,default,Meal Type,17205,17171,99.8
+CGMacros-039.csv,default,Calories,17205,17171,99.8
+CGMacros-039.csv,default,Carbs,17205,17171,99.8
+CGMacros-039.csv,default,Protein,17205,17171,99.8
+CGMacros-039.csv,default,Fat,17205,17171,99.8
+CGMacros-039.csv,default,Fiber,17205,17171,99.8
+CGMacros-039.csv,default,Amount Consumed,17205,17171,99.8
+CGMacros-039.csv,default,Image path,17205,17139,99.62
+CGMacros-041.csv,default,Timestamp,14310,0,0.0
+CGMacros-041.csv,default,Libre GL,14310,0,0.0
+CGMacros-041.csv,default,Dexcom GL,14310,69,0.48
+CGMacros-041.csv,default,HR,14310,4462,31.18
+CGMacros-041.csv,default,Calories (Activity),14310,0,0.0
+CGMacros-041.csv,default,METs,14310,0,0.0
+CGMacros-041.csv,default,Meal Type,14310,14262,99.66
+CGMacros-041.csv,default,Calories,14310,14262,99.66
+CGMacros-041.csv,default,Carbs,14310,14262,99.66
+CGMacros-041.csv,default,Protein,14310,14262,99.66
+CGMacros-041.csv,default,Fat,14310,14262,99.66
+CGMacros-041.csv,default,Fiber,14310,14262,99.66
+CGMacros-041.csv,default,Amount Consumed,14310,14262,99.66
+CGMacros-041.csv,default,Image path,14310,14210,99.3
+CGMacros-042.csv,default,Timestamp,14520,0,0.0
+CGMacros-042.csv,default,Libre GL,14520,0,0.0
+CGMacros-042.csv,default,Dexcom GL,14520,245,1.69
+CGMacros-042.csv,default,HR,14520,1285,8.85
+CGMacros-042.csv,default,Calories (Activity),14520,0,0.0
+CGMacros-042.csv,default,Intensity,14520,0,0.0
+CGMacros-042.csv,default,Meal Type,14520,14498,99.85
+CGMacros-042.csv,default,Calories,14520,14498,99.85
+CGMacros-042.csv,default,Carbs,14520,14498,99.85
+CGMacros-042.csv,default,Protein,14520,14498,99.85
+CGMacros-042.csv,default,Fat,14520,14498,99.85
+CGMacros-042.csv,default,Fiber,14520,14498,99.85
+CGMacros-042.csv,default,Amount Consumed,14520,14498,99.85
+CGMacros-042.csv,default,Image path,14520,14484,99.75
+CGMacros-043.csv,default,Timestamp,14520,0,0.0
+CGMacros-043.csv,default,Libre GL,14520,0,0.0
+CGMacros-043.csv,default,Dexcom GL,14520,260,1.79
+CGMacros-043.csv,default,HR,14520,513,3.53
+CGMacros-043.csv,default,Calories (Activity),14520,0,0.0
+CGMacros-043.csv,default,METs,14520,0,0.0
+CGMacros-043.csv,default,Meal Type,14520,14456,99.56
+CGMacros-043.csv,default,Calories,14520,14456,99.56
+CGMacros-043.csv,default,Carbs,14520,14456,99.56
+CGMacros-043.csv,default,Protein,14520,14456,99.56
+CGMacros-043.csv,default,Fat,14520,14456,99.56
+CGMacros-043.csv,default,Fiber,14520,14456,99.56
+CGMacros-043.csv,default,Amount Consumed,14520,14456,99.56
+CGMacros-043.csv,default,Image path,14520,14399,99.17
+CGMacros-044.csv,default,Timestamp,14535,0,0.0
+CGMacros-044.csv,default,Libre GL,14535,0,0.0
+CGMacros-044.csv,default,Dexcom GL,14535,310,2.13
+CGMacros-044.csv,default,HR,14535,2309,15.89
+CGMacros-044.csv,default,Calories (Activity),14535,0,0.0
+CGMacros-044.csv,default,METs,14535,0,0.0
+CGMacros-044.csv,default,Meal Type,14535,14492,99.7
+CGMacros-044.csv,default,Calories,14535,14492,99.7
+CGMacros-044.csv,default,Carbs,14535,14492,99.7
+CGMacros-044.csv,default,Protein,14535,14492,99.7
+CGMacros-044.csv,default,Fat,14535,14492,99.7
+CGMacros-044.csv,default,Fiber,14535,14492,99.7
+CGMacros-044.csv,default,Amount Consumed,14535,14492,99.7
+CGMacros-044.csv,default,Image path,14535,14449,99.41
+CGMacros-045.csv,default,Timestamp,15570,0,0.0
+CGMacros-045.csv,default,Libre GL,15570,0,0.0
+CGMacros-045.csv,default,Dexcom GL,15570,1901,12.21
+CGMacros-045.csv,default,HR,15570,973,6.25
+CGMacros-045.csv,default,Calories (Activity),15570,929,5.97
+CGMacros-045.csv,default,METs,15570,929,5.97
+CGMacros-045.csv,default,Meal Type,15570,15538,99.79
+CGMacros-045.csv,default,Calories,15570,15538,99.79
+CGMacros-045.csv,default,Carbs,15570,15538,99.79
+CGMacros-045.csv,default,Protein,15570,15538,99.79
+CGMacros-045.csv,default,Fat,15570,15538,99.79
+CGMacros-045.csv,default,Fiber,15570,15538,99.79
+CGMacros-045.csv,default,Amount Consumed,15570,15538,99.79
+CGMacros-045.csv,default,Image path,15570,15523,99.7
+CGMacros-046.csv,default,Timestamp,14655,0,0.0
+CGMacros-046.csv,default,Libre GL,14655,0,0.0
+CGMacros-046.csv,default,Dexcom GL,14655,410,2.8
+CGMacros-046.csv,default,HR,14655,1033,7.05
+CGMacros-046.csv,default,Calories (Activity),14655,0,0.0
+CGMacros-046.csv,default,Intensity,14655,0,0.0
+CGMacros-046.csv,default,Meal Type,14655,14626,99.8
+CGMacros-046.csv,default,Calories,14655,14626,99.8
+CGMacros-046.csv,default,Carbs,14655,14626,99.8
+CGMacros-046.csv,default,Protein,14655,14626,99.8
+CGMacros-046.csv,default,Fat,14655,14626,99.8
+CGMacros-046.csv,default,Fiber,14655,14626,99.8
+CGMacros-046.csv,default,Amount Consumed,14655,14626,99.8
+CGMacros-046.csv,default,Image path,14655,14605,99.66
+CGMacros-047.csv,default,Timestamp,15690,0,0.0
+CGMacros-047.csv,default,Libre GL,15690,0,0.0
+CGMacros-047.csv,default,Dexcom GL,15690,1465,9.34
+CGMacros-047.csv,default,HR,15690,1290,8.22
+CGMacros-047.csv,default,Calories (Activity),15690,0,0.0
+CGMacros-047.csv,default,METs,15690,0,0.0
+CGMacros-047.csv,default,Meal Type,15690,15661,99.82
+CGMacros-047.csv,default,Calories,15690,15661,99.82
+CGMacros-047.csv,default,Carbs,15690,15661,99.82
+CGMacros-047.csv,default,Protein,15690,15661,99.82
+CGMacros-047.csv,default,Fat,15690,15661,99.82
+CGMacros-047.csv,default,Fiber,15690,15661,99.82
+CGMacros-047.csv,default,Amount Consumed,15690,15661,99.82
+CGMacros-047.csv,default,Image path,15690,15650,99.75
+CGMacros-048.csv,default,Timestamp,17340,0,0.0
+CGMacros-048.csv,default,Libre GL,17340,0,0.0
+CGMacros-048.csv,default,Dexcom GL,17340,3080,17.76
+CGMacros-048.csv,default,HR,17340,2993,17.26
+CGMacros-048.csv,default,Calories (Activity),17340,0,0.0
+CGMacros-048.csv,default,METs,17340,0,0.0
+CGMacros-048.csv,default,Meal Type,17340,17304,99.79
+CGMacros-048.csv,default,Calories,17340,17304,99.79
+CGMacros-048.csv,default,Carbs,17340,17304,99.79
+CGMacros-048.csv,default,Protein,17340,17304,99.79
+CGMacros-048.csv,default,Fat,17340,17304,99.79
+CGMacros-048.csv,default,Fiber,17340,17304,99.79
+CGMacros-048.csv,default,Amount Consumed,17340,17304,99.79
+CGMacros-048.csv,default,Image path,17340,17264,99.56
+CGMacros-049.csv,default,Unnamed: 0,15315,0,0.0
+CGMacros-049.csv,default,Timestamp,15315,0,0.0
+CGMacros-049.csv,default,Libre GL,15315,0,0.0
+CGMacros-049.csv,default,Dexcom GL,15315,1040,6.79
+CGMacros-049.csv,default,HR,15315,1341,8.76
+CGMacros-049.csv,default,Calories (Activity),15315,8,0.05
+CGMacros-049.csv,default,METs,15315,8,0.05
+CGMacros-049.csv,default,Meal Type,15315,15287,99.82
+CGMacros-049.csv,default,Calories,15315,15287,99.82
+CGMacros-049.csv,default,Carbs,15315,15287,99.82
+CGMacros-049.csv,default,Protein,15315,15287,99.82
+CGMacros-049.csv,default,Fat,15315,15287,99.82
+CGMacros-049.csv,default,Fiber,15315,15287,99.82
+CGMacros-049.csv,default,Amount Consumed,15315,15287,99.82
+CGMacros-049.csv,default,Image path,15315,15268,99.69
+gut_health_test.csv,default,subject,47,0,0.0
+gut_health_test.csv,default,Gut Lining Health,47,5,10.64
+gut_health_test.csv,default,LPS Biosynthesis Pathways,47,5,10.64
+gut_health_test.csv,default,"Biofilm, Chemotaxis, and Virulence Pathways",47,5,10.64
+gut_health_test.csv,default,TMA Production Pathways,47,5,10.64
+gut_health_test.csv,default,Ammonia Production Pathways,47,5,10.64
+gut_health_test.csv,default,Metabolic Fitness,47,5,10.64
+gut_health_test.csv,default,Active Microbial Diversity,47,5,10.64
+gut_health_test.csv,default,Butyrate Production Pathways,47,5,10.64
+gut_health_test.csv,default,Flagellar Assembly Pathways,47,5,10.64
+gut_health_test.csv,default,Putrescine Production Pathways,47,5,10.64
+gut_health_test.csv,default,Uric Acid Production Pathways,47,5,10.64
+gut_health_test.csv,default,Bile Acid Metabolism Pathways,47,5,10.64
+gut_health_test.csv,default,Inflammatory Activity,47,5,10.64
+gut_health_test.csv,default,Gut Microbiome Health,47,5,10.64
+gut_health_test.csv,default,Digestive Efficiency,47,5,10.64
+gut_health_test.csv,default,Protein Fermentation,47,5,10.64
+gut_health_test.csv,default,Gas Production,47,5,10.64
+gut_health_test.csv,default,Methane Gas Production Pathways,47,5,10.64
+gut_health_test.csv,default,Sulfide Gas Production Pathways,47,5,10.64
+gut_health_test.csv,default,Oxalate Metabolism Pathways,47,5,10.64
+gut_health_test.csv,default,Salt Stress Pathways,47,5,10.64
+gut_health_test.csv,default,Microbiome-Induced Stress,47,5,10.64
+microbes.csv,default,subject,45,0,0.0
+microbes.csv,default,Abiotrophia defectiva ,45,1,2.22
+microbes.csv,default,Abiotrophia sp. HMSC24B09 ,45,1,2.22
+microbes.csv,default,Acetivibrio ethanolgignens ,45,1,2.22
+microbes.csv,default,Acetivibrio ethanolgignens strain ACET-33324 ,45,1,2.22
+microbes.csv,default,Achromobacter ,45,1,2.22
+microbes.csv,default,Acidaminococcus intestini RyC-MR95 ,45,1,2.22
+microbes.csv,default,Acidaminococcus sp. BV3L6 ,45,1,2.22
+microbes.csv,default,Acidaminococcus sp. D21 ,45,1,2.22
+microbes.csv,default,Acidaminococcus sp. HPA0509 ,45,1,2.22
+microbes.csv,default,Acidovorax sp. JS42 ,45,1,2.22
+microbes.csv,default,Acidovorax sp. NA3 ,45,1,2.22
+microbes.csv,default,Acidovorax sp. T1 ,45,1,2.22
+microbes.csv,default,Acinetobacter ,45,1,2.22
+microbes.csv,default,Acinetobacter johnsonii ,45,1,2.22
+microbes.csv,default,Acinetobacter towneri ,45,1,2.22
+microbes.csv,default,Actinobaculum sp. oral taxon 183 str. F0552 ,45,1,2.22
+microbes.csv,default,Actinomyces ,45,1,2.22
+microbes.csv,default,Actinomyces cardiffensis F0333 ,45,1,2.22
+microbes.csv,default,Actinomyces dentalis DSM 19115 ,45,1,2.22
+microbes.csv,default,Actinomyces georgiae ,45,1,2.22
+microbes.csv,default,Actinomyces gerencseriae DSM 6844 ,45,1,2.22
+microbes.csv,default,Actinomyces graevenitzii ,45,1,2.22
+microbes.csv,default,Actinomyces graevenitzii C83 ,45,1,2.22
+microbes.csv,default,Actinomyces graevenitzii F0530 ,45,1,2.22
+microbes.csv,default,Actinomyces howellii ,45,1,2.22
+microbes.csv,default,Actinomyces johnsonii ,45,1,2.22
+microbes.csv,default,Actinomyces massiliensis 4401292 ,45,1,2.22
+microbes.csv,default,Actinomyces massiliensis F0489 ,45,1,2.22
+microbes.csv,default,Actinomyces naeslundii ,45,1,2.22
+microbes.csv,default,Actinomyces odontolyticus ,45,1,2.22
+microbes.csv,default,Actinomyces oris strain T14V ,45,1,2.22
+microbes.csv,default,Actinomyces pacaensis ,45,1,2.22
+microbes.csv,default,Actinomyces slackii ,45,1,2.22
+microbes.csv,default,Actinomyces sp. Chiba101 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. HMSC035G02 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. HMSC08A09 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. HMT 175 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. HMT897 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. HPA0247 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. ICM39 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. ICM47 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. ICM54 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. ICM58 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. Marseille-P2825 sp. Marseille-P2825 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. Marseille-P2985 strain Marseille-P2985T ,45,1,2.22
+microbes.csv,default,Actinomyces sp. S6-Spd3 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 169 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 170 str. F0386 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 171 str. F0337 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 172 str. F0311 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 175 str. F0384 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 178 str. F0338 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 180 str. F0310 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 181 str. F0379 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 414 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 448 str. F0400 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 848 str. F0332 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 849 str. F0330 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 877 str. F0543 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. oral taxon 897 ,45,1,2.22
+microbes.csv,default,Actinomyces sp. ph3 ,45,1,2.22
+microbes.csv,default,Actinomyces turicensis ,45,1,2.22
+microbes.csv,default,Actinomyces viscosus ,45,1,2.22
+microbes.csv,default,Adlercreutzia ,45,1,2.22
+microbes.csv,default,Adlercreutzia equolifaciens DSM 19450 ,45,1,2.22
+microbes.csv,default,Adlercreutzia sp. 8CFCBH1 ,45,1,2.22
+microbes.csv,default,Aerococcus christensenii ,45,1,2.22
+microbes.csv,default,Aerococcus sp. HMSC072A12 ,45,1,2.22
+microbes.csv,default,Aeromonas caviae ,45,1,2.22
+microbes.csv,default,Aeromonas sp. WP2-W18-CRE-05 ,45,1,2.22
+microbes.csv,default,Afipia birgiae 34632 ,45,1,2.22
+microbes.csv,default,Aggregatibacter ,45,1,2.22
+microbes.csv,default,Aggregatibacter aphrophilus ,45,1,2.22
+microbes.csv,default,Aggregatibacter aphrophilus ATCC 33389 ,45,1,2.22
+microbes.csv,default,Aggregatibacter segnis ATCC 33393 ,45,1,2.22
+microbes.csv,default,Aggregatibacter sp. 2125159857 ,45,1,2.22
+microbes.csv,default,Aggregatibacter sp. oral taxon 458 str. W10330 ,45,1,2.22
+microbes.csv,default,Agrobacterium fabacearum ,45,1,2.22
+microbes.csv,default,Akkermansia muciniphila ,45,1,2.22
+microbes.csv,default,Akkermansia muciniphila ATCC BAA-835 ,45,1,2.22
+microbes.csv,default,Akkermansia muciniphila strain YL44 ,45,1,2.22
+microbes.csv,default,Akkermansia sp. KLE1797 ,45,1,2.22
+microbes.csv,default,Akkermansia sp. KLE1798 ,45,1,2.22
+microbes.csv,default,Alicycliphilus denitrificans K601 ,45,1,2.22
+microbes.csv,default,Alistipes ,45,1,2.22
+microbes.csv,default,Alistipes communis ,45,1,2.22
+microbes.csv,default,Alistipes dispar ,45,1,2.22
+microbes.csv,default,Alistipes finegoldii DSM 17242 ,45,1,2.22
+microbes.csv,default,Alistipes ihumii AP11 ,45,1,2.22
+microbes.csv,default,Alistipes indistinctus ,45,1,2.22
+microbes.csv,default,Alistipes indistinctus YIT 12060 ,45,1,2.22
+microbes.csv,default,Alistipes inops strain 627 ,45,1,2.22
+microbes.csv,default,Alistipes megaguti ,45,1,2.22
+microbes.csv,default,Alistipes obesi ,45,1,2.22
+microbes.csv,default,Alistipes onderdonkii ,45,1,2.22
+microbes.csv,default,Alistipes onderdonkii WAL 8169 = DSM 19147 ,45,1,2.22
+microbes.csv,default,Alistipes putredinis DSM 17216 ,45,1,2.22
+microbes.csv,default,Alistipes senegalensis ,45,1,2.22
+microbes.csv,default,Alistipes senegalensis JC50 ,45,1,2.22
+microbes.csv,default,Alistipes shahii WAL 8301 ,45,1,2.22
+microbes.csv,default,Alistipes sp. AL-1 ,45,1,2.22
+microbes.csv,default,Alistipes sp. HGB5 ,45,1,2.22
+microbes.csv,default,Alistipes sp. Marseille-P2431 sp. Marseille-P2431 ,45,1,2.22
+microbes.csv,default,Alistipes sp. dk3624 ,45,1,2.22
+microbes.csv,default,Alistipes timonensis JC136 ,45,1,2.22
+microbes.csv,default,Alloprevotella ,45,1,2.22
+microbes.csv,default,Alloprevotella sp. E39 ,45,1,2.22
+microbes.csv,default,Alloprevotella tannerae ATCC 51259 ,45,1,2.22
+microbes.csv,default,Alphaendornavirus ,45,1,2.22
+microbes.csv,default,Alternaria alternata strain SRC1lrK2f ,45,1,2.22
+microbes.csv,default,Amedibacterium ,45,1,2.22
+microbes.csv,default,Amedibacterium intestinale ,45,1,2.22
+microbes.csv,default,Aminipila sp. JN-18 ,45,1,2.22
+microbes.csv,default,Anaerobutyricum ,45,1,2.22
+microbes.csv,default,Anaerobutyricum hallii ,45,1,2.22
+microbes.csv,default,Anaerococcus ,45,1,2.22
+microbes.csv,default,Anaerococcus lactolyticus ATCC 51172 ,45,1,2.22
+microbes.csv,default,Anaerococcus mediterraneensis ,45,1,2.22
+microbes.csv,default,Anaerococcus obesiensis ,45,1,2.22
+microbes.csv,default,Anaerococcus obesiensis ph10 ,45,1,2.22
+microbes.csv,default,Anaerococcus prevotii DSM 20548 ,45,1,2.22
+microbes.csv,default,Anaerococcus sp. HMSC065G05 ,45,1,2.22
+microbes.csv,default,Anaerococcus sp. HMSC068A02 ,45,1,2.22
+microbes.csv,default,Anaerococcus sp. HMSC075B03 ,45,1,2.22
+microbes.csv,default,"Anaerococcus sp. Marseille-P2143 strain Marseille-P2143, sp. FC4 ",45,1,2.22
+microbes.csv,default,Anaerococcus tetradius ATCC 35098 ,45,1,2.22
+microbes.csv,default,Anaerococcus tetradius strain MJR8151 ,45,1,2.22
+microbes.csv,default,Anaerococcus vaginalis ,45,1,2.22
+microbes.csv,default,Anaerococcus vaginalis ATCC 51170 ,45,1,2.22
+microbes.csv,default,Anaerococcus vaginalis strain PH9 ,45,1,2.22
+microbes.csv,default,Anaerofustis stercorihominis ,45,1,2.22
+microbes.csv,default,Anaeroglobus geminatus F0357 ,45,1,2.22
+microbes.csv,default,Anaerosphaera sp. HMSC064C01 ,45,1,2.22
+microbes.csv,default,Anaerosporobacter mobilis DSM 15930 ,45,1,2.22
+microbes.csv,default,Anaerostipes ,45,1,2.22
+microbes.csv,default,Anaerostipes caccae ,45,1,2.22
+microbes.csv,default,Anaerostipes hadrus ,45,1,2.22
+microbes.csv,default,Anaerostipes hadrus strain BPB5 ,45,1,2.22
+microbes.csv,default,Anaerostipes rhamnosivorans ,45,1,2.22
+microbes.csv,default,Anaerostipes sp. 3_2_56FAA ,45,1,2.22
+microbes.csv,default,Anaerostipes sp. 494a ,45,1,2.22
+microbes.csv,default,Anaerostipes sp. 992a ,45,1,2.22
+microbes.csv,default,Anaerotruncus colihominis ,45,1,2.22
+microbes.csv,default,Anaerotruncus rubiinfantis ,45,1,2.22
+microbes.csv,default,Anaerotruncus sp. G3(2012) ,45,1,2.22
+microbes.csv,default,Angelakisella massiliensis strain Marseille-P3217 ,45,1,2.22
+microbes.csv,default,Angomonas deanei ,45,1,2.22
+microbes.csv,default,Anoxybacillus ,45,1,2.22
+microbes.csv,default,Anoxybacillus flavithermus ,45,1,2.22
+microbes.csv,default,Apple luteovirus 1 ,45,1,2.22
+microbes.csv,default,Aquabacterium parvum strain B6 ,45,1,2.22
+microbes.csv,default,Aquabacterium sp. NJ1 ,45,1,2.22
+microbes.csv,default,Arachnia ,45,1,2.22
+microbes.csv,default,Arachnia propionica ,45,1,2.22
+microbes.csv,default,Arachnia propionica F0230a ,45,1,2.22
+microbes.csv,default,Aspergillus ,45,1,2.22
+microbes.csv,default,Aspergillus chevalieri ,45,1,2.22
+microbes.csv,default,Aspergillus flavus ,45,1,2.22
+microbes.csv,default,Aspergillus niger ,45,1,2.22
+microbes.csv,default,Atlantibacter hermannii ,45,1,2.22
+microbes.csv,default,Atopobium ,45,1,2.22
+microbes.csv,default,Atopobium parvulum DSM 20469 ,45,1,2.22
+microbes.csv,default,Atopobium rimae ,45,1,2.22
+microbes.csv,default,Atopobium rimae ATCC 49626 ,45,1,2.22
+microbes.csv,default,Atopobium rimae strain DSM ,45,1,2.22
+microbes.csv,default,Atopobium sp. BS2 ,45,1,2.22
+microbes.csv,default,Atopobium sp. ICM42b ,45,1,2.22
+microbes.csv,default,Aureobasidium melanogenum ,45,1,2.22
+microbes.csv,default,Avibacterium paragallinarum ,45,1,2.22
+microbes.csv,default,Bacillus siamensis strain SRCM100169 ,45,1,2.22
+microbes.csv,default,Bacillus subtilis ,45,1,2.22
+microbes.csv,default,Bacteroidales bacterium KA00344 ,45,1,2.22
+microbes.csv,default,Bacteroides ,45,1,2.22
+microbes.csv,default,Bacteroides acidifaciens ,45,1,2.22
+microbes.csv,default,Bacteroides acidifaciens JCM 10556 ,45,1,2.22
+microbes.csv,default,Bacteroides barnesiae DSM 18169 = JCM 13652 ,45,1,2.22
+microbes.csv,default,Bacteroides caccae ,45,1,2.22
+microbes.csv,default,Bacteroides caecimuris ,45,1,2.22
+microbes.csv,default,Bacteroides caecimuris strain I48 ,45,1,2.22
+microbes.csv,default,Bacteroides cellulosilyticus ,45,1,2.22
+microbes.csv,default,Bacteroides cellulosilyticus strain WH2 ,45,1,2.22
+microbes.csv,default,Bacteroides clarus ,45,1,2.22
+microbes.csv,default,Bacteroides coprocola ,45,1,2.22
+microbes.csv,default,Bacteroides coprophilus ,45,1,2.22
+microbes.csv,default,Bacteroides coprosuis DSM 18011 ,45,1,2.22
+microbes.csv,default,Bacteroides dorei CL03T12C01 ,45,1,2.22
+microbes.csv,default,Bacteroides eggerthii ,45,1,2.22
+microbes.csv,default,Bacteroides eggerthii 1_2_48FAA ,45,1,2.22
+microbes.csv,default,Bacteroides eggerthii DSM 20697 ,45,1,2.22
+microbes.csv,default,Bacteroides faecichinchillae strain DSM ,45,1,2.22
+microbes.csv,default,Bacteroides faecis ,45,1,2.22
+microbes.csv,default,Bacteroides finegoldii ,45,1,2.22
+microbes.csv,default,Bacteroides fluxus ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis 638R ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis NCTC 9343 ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis YCH46 ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis str. 3-F-2 #6 ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis strain BOB25 ,45,1,2.22
+microbes.csv,default,Bacteroides fragilis strain S14 ,45,1,2.22
+microbes.csv,default,Bacteroides gallinarum DSM 18171 = JCM 13658 ,45,1,2.22
+microbes.csv,default,Bacteroides graminisolvens DSM 19988 = JCM 15093 ,45,1,2.22
+microbes.csv,default,Bacteroides helcogenes P 36-108 ,45,1,2.22
+microbes.csv,default,Bacteroides heparinolyticus ,45,1,2.22
+microbes.csv,default,Bacteroides intestinalis ,45,1,2.22
+microbes.csv,default,Bacteroides massiliensis ,45,1,2.22
+microbes.csv,default,Bacteroides massiliensis dnLKV3 ,45,1,2.22
+microbes.csv,default,Bacteroides mediterraneensis strain Marseille-P2644 ,45,1,2.22
+microbes.csv,default,Bacteroides neonati strain MS4 ,45,1,2.22
+microbes.csv,default,Bacteroides nordii ,45,1,2.22
+microbes.csv,default,Bacteroides oleiciplenus ,45,1,2.22
+microbes.csv,default,Bacteroides ovatus ,45,1,2.22
+microbes.csv,default,Bacteroides ovatus V975 ,45,1,2.22
+microbes.csv,default,Bacteroides ovatus strain ATCC ,45,1,2.22
+microbes.csv,default,Bacteroides paurosaccharolyticus JCM 15092 ,45,1,2.22
+microbes.csv,default,Bacteroides phage crAss001 ,45,1,2.22
+microbes.csv,default,Bacteroides plebeius ,45,1,2.22
+microbes.csv,default,Bacteroides pyogenes ,45,1,2.22
+microbes.csv,default,Bacteroides salanitronis DSM 18170 ,45,1,2.22
+microbes.csv,default,Bacteroides salyersiae ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 14(A) ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 1_1_30 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 1_1_6 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 2_1_16 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 2_1_22 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 2_1_33B ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 2_1_56FAA ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 2_2_4 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 3_1_13 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 3_1_19 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 3_1_23 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 3_1_33FAA ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 3_1_40A ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 4_1_36 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 4_3_47FAA ,45,1,2.22
+microbes.csv,default,Bacteroides sp. 9_1_42FAA ,45,1,2.22
+microbes.csv,default,Bacteroides sp. A1C1 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. CACC 737 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. CBA7301 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. D2 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. D20 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. D22 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HF-162 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HF-5141 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HF-5287 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HMSC067B03 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HMSC068A09 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HMSC073E02 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. HPS0048 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. Marseille-P2653 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. Marseille-P3108 sp. Marseille-P3108 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. Marseille-P3132 sp. Marseille-P3132 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. Marseille-P3166 sp. Marseille-P3166 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. Marseille-P3208T strain Marseille-P3208 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. PHL 2737 ,45,1,2.22
+microbes.csv,default,Bacteroides sp. ZJ-18 ,45,1,2.22
+microbes.csv,default,Bacteroides stercorirosoris ,45,1,2.22
+microbes.csv,default,Bacteroides stercoris ATCC 43183 ,45,1,2.22
+microbes.csv,default,Bacteroides stercoris CC31F ,45,1,2.22
+microbes.csv,default,Bacteroides stercoris strain CL09T03C01 ,45,1,2.22
+microbes.csv,default,Bacteroides stercoris strain DSM ,45,1,2.22
+microbes.csv,default,Bacteroides thetaiotaomicron ,45,1,2.22
+microbes.csv,default,Bacteroides thetaiotaomicron VPI-5482 ,45,1,2.22
+microbes.csv,default,Bacteroides thetaiotaomicron strain 7330 ,45,1,2.22
+microbes.csv,default,Bacteroides timonensis AP1 ,45,1,2.22
+microbes.csv,default,Bacteroides uniformis ,45,1,2.22
+microbes.csv,default,Bacteroides vulgatus ATCC 8482 ,45,1,2.22
+microbes.csv,default,Bacteroides xylanisolvens ,45,1,2.22
+microbes.csv,default,Bacteroides zoogleoformans ,45,1,2.22
+microbes.csv,default,Bariatricus massiliensis strain AT12 ,45,1,2.22
+microbes.csv,default,Barnesiella intestinihominis YIT 11860 ,45,1,2.22
+microbes.csv,default,Barnesiella viscericola DSM 18177 ,45,1,2.22
+microbes.csv,default,Beet necrotic yellow vein virus ,45,1,2.22
+microbes.csv,default,Berryella intestinalis ,45,1,2.22
+microbes.csv,default,Bifidobacterium ,45,1,2.22
+microbes.csv,default,Bifidobacterium adolescentis ,45,1,2.22
+microbes.csv,default,Bifidobacterium adolescentis ATCC 15703 ,45,1,2.22
+microbes.csv,default,Bifidobacterium adolescentis strain 22L ,45,1,2.22
+microbes.csv,default,Bifidobacterium adolescentis strain BBMN23 ,45,1,2.22
+microbes.csv,default,Bifidobacterium angulatum DSM 20098 = JCM 7096 ,45,1,2.22
+microbes.csv,default,Bifidobacterium animalis ,45,1,2.22
+microbes.csv,default,Bifidobacterium biavatii DSM 23969 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum BGN4 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum BGN4.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum LMG 13195 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum NCIMB 41171 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum PRL2010 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum PRL2010.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum S17 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum S17.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain 156B ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain 2789STDY5608877 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain 791 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain 85B ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain BF3 ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain LMG ,45,1,2.22
+microbes.csv,default,Bifidobacterium bifidum strain MJR8628B ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve 689b ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve 689b.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve ACS-071-V-Sch8b ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve CECT 7263 ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve JCM 7017 ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve JCM 7019 ,45,1,2.22
+microbes.csv,default,Bifidobacterium breve MCC 0121 ,45,1,2.22
+microbes.csv,default,Bifidobacterium catenulatum ,45,1,2.22
+microbes.csv,default,Bifidobacterium catenulatum DSM 16992 = JCM 1194 = LMG 11043 ,45,1,2.22
+microbes.csv,default,Bifidobacterium catenulatum subsp. kashiwanohense ,45,1,2.22
+microbes.csv,default,Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854 ,45,1,2.22
+microbes.csv,default,Bifidobacterium dentium ,45,1,2.22
+microbes.csv,default,Bifidobacterium dentium Bd1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium dentium JCM 1195 = DSM 20436 ,45,1,2.22
+microbes.csv,default,Bifidobacterium gallinarum ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum AGR2137 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum DJO10A ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum DJO10A.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum E18 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum NCC2705 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum NCC2705.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum isolate Bifido_01 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum isolate Bifido_05 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum isolate Bifido_06 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum isolate Bifido_09 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum strain 379 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum strain BG7 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis 157F ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis 157F.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis CCUG 52486 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis strain CECT ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. infantis strain IN-07 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum 1-6B ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum 17-1B ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum 2-2B ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum 7-1B ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum ATCC 55813 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum BBMN68 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum BBMN68.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum EK13 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum F8 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum GT15 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum GT15.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum JCM 1217 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum JCM 1217.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum JDM301 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum KACC 91563 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum KACC 91563.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain AH1206 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain LO-10 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain LO-K29a ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain MC-42 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain NCIMB8809 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain VMKB44 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum strain W11 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. longum.1 ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. suillum ,45,1,2.22
+microbes.csv,default,Bifidobacterium longum subsp. suis strain BSM11-5 ,45,1,2.22
+microbes.csv,default,Bifidobacterium merycicum DSM 6492 ,45,1,2.22
+microbes.csv,default,Bifidobacterium merycicum strain LMG ,45,1,2.22
+microbes.csv,default,Bifidobacterium mongoliense ,45,1,2.22
+microbes.csv,default,Bifidobacterium moukalabense ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum IPLA36007 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain 2789STDY5834840 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-05 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-B29 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-C29 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-D29 ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-K29a ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CA-K29b ,45,1,2.22
+microbes.csv,default,Bifidobacterium pseudocatenulatum strain CECT ,45,1,2.22
+microbes.csv,default,Bifidobacterium pullorum DSM 20433 ,45,1,2.22
+microbes.csv,default,Bifidobacterium saeculare DSM 6531 = LMG 14934 ,45,1,2.22
+microbes.csv,default,Bifidobacterium sp. 12_1_47BFAA ,45,1,2.22
+microbes.csv,default,Bifidobacterium sp. MSTE12 ,45,1,2.22
+microbes.csv,default,Bilophila sp. 4_1_30 ,45,1,2.22
+microbes.csv,default,Bilophila wadsworthia 3_1_6 ,45,1,2.22
+microbes.csv,default,Bilophila wadsworthia ATCC 49260 ,45,1,2.22
+microbes.csv,default,Bittarella massiliensis strain GD6 ,45,1,2.22
+microbes.csv,default,Blastocystis hominis isolate B ,45,1,2.22
+microbes.csv,default,Blastocystis sp. ATCC 50177/Nand II ,45,1,2.22
+microbes.csv,default,Blastocystis sp. subtype 3 ,45,1,2.22
+microbes.csv,default,Blastocystis sp. subtype 4 strain WR1 ,45,1,2.22
+microbes.csv,default,Blautia ,45,1,2.22
+microbes.csv,default,Blautia argi ,45,1,2.22
+microbes.csv,default,Blautia hansenii DSM 20583 ,45,1,2.22
+microbes.csv,default,Blautia hydrogenotrophica DSM 10507 ,45,1,2.22
+microbes.csv,default,Blautia hydrogenotrophica strain 2789STDY5608857 ,45,1,2.22
+microbes.csv,default,Blautia massiliensis sp. GD8 ,45,1,2.22
+microbes.csv,default,Blautia obeum ATCC 29174 ,45,1,2.22
+microbes.csv,default,Blautia obeum strain 2789STDY5608837 ,45,1,2.22
+microbes.csv,default,Blautia obeum strain 2789STDY5608838 ,45,1,2.22
+microbes.csv,default,Blautia obeum strain 2789STDY5834861 ,45,1,2.22
+microbes.csv,default,Blautia obeum strain 2789STDY5834921 ,45,1,2.22
+microbes.csv,default,Blautia obeum strain 2789STDY5834957 ,45,1,2.22
+microbes.csv,default,Blautia producta ,45,1,2.22
+microbes.csv,default,Blautia producta ATCC 27340 = DSM 2950 ,45,1,2.22
+microbes.csv,default,Blautia schinkii DSM 10518 ,45,1,2.22
+microbes.csv,default,Blautia sp. KLE 1732 ,45,1,2.22
+microbes.csv,default,Blautia sp. LZLJ-3 ,45,1,2.22
+microbes.csv,default,Blautia sp. Marseille-P2398 ,45,1,2.22
+microbes.csv,default,Blautia sp. Marseille-P3087 sp. Marseille-P3087 ,45,1,2.22
+microbes.csv,default,Blautia sp. Marseille-P3201T strain Marseille-P3201 ,45,1,2.22
+microbes.csv,default,Blautia sp. N6H1-15 ,45,1,2.22
+microbes.csv,default,Blautia sp. SC05B48 ,45,1,2.22
+microbes.csv,default,Blautia sp. YL58 ,45,1,2.22
+microbes.csv,default,Blautia sp. YL58 sp. YL58 ,45,1,2.22
+microbes.csv,default,Blautia wexlerae ,45,1,2.22
+microbes.csv,default,Blumeria ,45,1,2.22
+microbes.csv,default,Bordetella trematum ,45,1,2.22
+microbes.csv,default,Borreliella bissettii DN127 ,45,1,2.22
+microbes.csv,default,Botrytis cinerea B05.10 ,45,1,2.22
+microbes.csv,default,Bradyrhizobium ,45,1,2.22
+microbes.csv,default,Brochothrix thermosphacta ,45,1,2.22
+microbes.csv,default,Brome mosaic virus ,45,1,2.22
+microbes.csv,default,Bubaline alphaherpesvirus 1 ,45,1,2.22
+microbes.csv,default,Bulleidia sp. zg-1006 ,45,1,2.22
+microbes.csv,default,Burkholderiales bacterium 1_1_47 ,45,1,2.22
+microbes.csv,default,Burkholderiales bacterium YL45 ,45,1,2.22
+microbes.csv,default,Butyricicoccus desmolans ATCC 43058 ,45,1,2.22
+microbes.csv,default,Butyricicoccus pullicaecorum ,45,1,2.22
+microbes.csv,default,Butyricimonas ,45,1,2.22
+microbes.csv,default,Butyricimonas faecalis ,45,1,2.22
+microbes.csv,default,Butyricimonas sp. Marseille-P2440 sp. Marseille-P2440 ,45,1,2.22
+microbes.csv,default,Butyricimonas synergistica ,45,1,2.22
+microbes.csv,default,Butyricimonas virosa ,45,1,2.22
+microbes.csv,default,Butyrivibrio crossotus DSM 2876 ,45,1,2.22
+microbes.csv,default,Butyrivibrio fibrisolvens ,45,1,2.22
+microbes.csv,default,Butyrivibrio fibrisolvens AB2020 ,45,1,2.22
+microbes.csv,default,Butyrivibrio sp. AD3002 ,45,1,2.22
+microbes.csv,default,Cactus virus X ,45,1,2.22
+microbes.csv,default,Caenorhabditis briggsae ,45,1,2.22
+microbes.csv,default,Candida albicans SC5314 ,45,1,2.22
+microbes.csv,default,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1 ,45,1,2.22
+microbes.csv,default,Candidatus Nanosynbacter ,45,1,2.22
+microbes.csv,default,Candidatus Nanosynbacter lyticus ,45,1,2.22
+microbes.csv,default,Candidatus Stoquefichus sp. KLE1796 ,45,1,2.22
+microbes.csv,default,Candidatus Stoquefichus sp. SB1 ,45,1,2.22
+microbes.csv,default,Capnocytophaga sp. oral taxon 329 str. F0087 ,45,1,2.22
+microbes.csv,default,Capnocytophaga sputigena ,45,1,2.22
+microbes.csv,default,Cardiobacterium hominis ,45,1,2.22
+microbes.csv,default,Carnobacterium divergens ,45,1,2.22
+microbes.csv,default,Carnobacterium maltaromaticum ,45,1,2.22
+microbes.csv,default,Carnobacterium maltaromaticum LMA28 ,45,1,2.22
+microbes.csv,default,Carrot cryptic virus ,45,1,2.22
+microbes.csv,default,Catabacter hongkongensis strain ABBA15k ,45,1,2.22
+microbes.csv,default,Catabacter hongkongensis strain HKU16 ,45,1,2.22
+microbes.csv,default,Catenibacterium mitsuokai ,45,1,2.22
+microbes.csv,default,Catonella morbi ATCC 51271 ,45,1,2.22
+microbes.csv,default,Caulobacter sp. K31 ,45,1,2.22
+microbes.csv,default,Cellulomonas carbonis T26 ,45,1,2.22
+microbes.csv,default,Christensenella ,45,1,2.22
+microbes.csv,default,Christensenella minuta ,45,1,2.22
+microbes.csv,default,Christensenella sp. AF73-05CM02 ,45,1,2.22
+microbes.csv,default,Christensenella sp. Marseille-P3954 ,45,1,2.22
+microbes.csv,default,Christensenella timonensis ,45,1,2.22
+microbes.csv,default,Chryseobacterium arthrosphaerae ,45,1,2.22
+microbes.csv,default,Chryseobacterium camelliae ,45,1,2.22
+microbes.csv,default,Chryseobacterium gallinarum strain DSM ,45,1,2.22
+microbes.csv,default,Chryseobacterium indologenes ,45,1,2.22
+microbes.csv,default,Chryseobacterium sp. ,45,1,2.22
+microbes.csv,default,Chryseobacterium sp. SNU WT5 ,45,1,2.22
+microbes.csv,default,Citrobacter amalonaticus ,45,1,2.22
+microbes.csv,default,Citrobacter amalonaticus strain FDAARGOS_122 ,45,1,2.22
+microbes.csv,default,Citrobacter braakii ,45,1,2.22
+microbes.csv,default,Citrobacter koseri ATCC BAA-895 ,45,1,2.22
+microbes.csv,default,Citrobacter pasteurii ,45,1,2.22
+microbes.csv,default,Citrobacter portucalensis ,45,1,2.22
+microbes.csv,default,Citrobacter sp. ABFQG ,45,1,2.22
+microbes.csv,default,Citrobacter sp. CF971 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. FDAARGOS_156 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. LUTT5 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. LY-1 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHB20-C15 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHB20-C16 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00053 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00107 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00127 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00229 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00446 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00535 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00696 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00821 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00859 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00881 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00903 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00944 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-00986 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. RHBSTW-01013 ,45,1,2.22
+microbes.csv,default,Citrobacter sp. Y3 ,45,1,2.22
+microbes.csv,default,Citrobacter youngae ,45,1,2.22
+microbes.csv,default,Clavispora lusitaniae ATCC 42720 ,45,1,2.22
+microbes.csv,default,Cloacibacillus evryensis DSM 19522 ,45,1,2.22
+microbes.csv,default,Cloacibacillus porcorum ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-1C12 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-1D1 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-1D10 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-1E11 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-2F7 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-2H11 ,45,1,2.22
+microbes.csv,default,Clostridia bacterium UC5.1-2H6 ,45,1,2.22
+microbes.csv,default,Clostridiaceae bacterium MS3 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium 1_7_47FAA ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium KLE1615 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium S5-A14a ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-01 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-03 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-06 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-07 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-08 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-09 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-13 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-14 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-15 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-16 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-18 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-21 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-26 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-27 ,45,1,2.22
+microbes.csv,default,Clostridiales bacterium VE202-28 ,45,1,2.22
+microbes.csv,default,Clostridioides ,45,1,2.22
+microbes.csv,default,Clostridioides difficile ,45,1,2.22
+microbes.csv,default,Clostridioides difficile 2007855 ,45,1,2.22
+microbes.csv,default,Clostridioides difficile 630 ,45,1,2.22
+microbes.csv,default,Clostridioides difficile ATCC 9689 = DSM 1296 ,45,1,2.22
+microbes.csv,default,Clostridioides difficile P28 ,45,1,2.22
+microbes.csv,default,Clostridioides difficile R20291 ,45,1,2.22
+microbes.csv,default,Clostridioides difficile strain BR81 ,45,1,2.22
+microbes.csv,default,Clostridium ,45,1,2.22
+microbes.csv,default,Clostridium bornimense ,45,1,2.22
+microbes.csv,default,Clostridium butyricum ,45,1,2.22
+microbes.csv,default,Clostridium celatum ,45,1,2.22
+microbes.csv,default,Clostridium celatum DSM 1785 ,45,1,2.22
+microbes.csv,default,Clostridium cochlearium ,45,1,2.22
+microbes.csv,default,Clostridium disporicum ,45,1,2.22
+microbes.csv,default,Clostridium disporicum strain 2789STDY5608827 ,45,1,2.22
+microbes.csv,default,Clostridium disporicum strain 2789STDY5834855 ,45,1,2.22
+microbes.csv,default,Clostridium disporicum strain 2789STDY5834856 ,45,1,2.22
+microbes.csv,default,Clostridium paraputrificum ,45,1,2.22
+microbes.csv,default,Clostridium perfringens ,45,1,2.22
+microbes.csv,default,Clostridium perfringens ATCC 13124 ,45,1,2.22
+microbes.csv,default,Clostridium perfringens str. 13 ,45,1,2.22
+microbes.csv,default,Clostridium perfringens strain FORC_003 ,45,1,2.22
+microbes.csv,default,Clostridium perfringens strain JP55 ,45,1,2.22
+microbes.csv,default,Clostridium phoceensis ,45,1,2.22
+microbes.csv,default,Clostridium phoceensis strain GD3 ,45,1,2.22
+microbes.csv,default,Clostridium sartagoforme ,45,1,2.22
+microbes.csv,default,Clostridium saudiense strain JCC ,45,1,2.22
+microbes.csv,default,Clostridium sp. 1_1_41A1FAA ,45,1,2.22
+microbes.csv,default,Clostridium sp. 7_2_43FAA ,45,1,2.22
+microbes.csv,default,Clostridium sp. 7_3_54FAA ,45,1,2.22
+microbes.csv,default,Clostridium sp. ASF502 ,45,1,2.22
+microbes.csv,default,Clostridium sp. AT4 ,45,1,2.22
+microbes.csv,default,Clostridium sp. ATCC BAA-442 ,45,1,2.22
+microbes.csv,default,Clostridium sp. BNL1100 ,45,1,2.22
+microbes.csv,default,Clostridium sp. BR31 ,45,1,2.22
+microbes.csv,default,Clostridium sp. CL-2 ,45,1,2.22
+microbes.csv,default,Clostridium sp. D5 ,45,1,2.22
+microbes.csv,default,Clostridium sp. DSM 4029 ,45,1,2.22
+microbes.csv,default,Clostridium sp. FS41 ,45,1,2.22
+microbes.csv,default,Clostridium sp. HGF2 ,45,1,2.22
+microbes.csv,default,Clostridium sp. KLE 1755 ,45,1,2.22
+microbes.csv,default,Clostridium sp. KNHs214 ,45,1,2.22
+microbes.csv,default,Clostridium sp. L2-50 ,45,1,2.22
+microbes.csv,default,Clostridium sp. M62/1 ,45,1,2.22
+microbes.csv,default,Clostridium sp. Marseille-P2414 sp. Marseille-P2414 ,45,1,2.22
+microbes.csv,default,Clostridium sp. Marseille-P3244 sp. Marseille-P3244 ,45,1,2.22
+microbes.csv,default,Clostridium thermarum ,45,1,2.22
+microbes.csv,default,Clostridium tyrobutyricum strain KCTC ,45,1,2.22
+microbes.csv,default,Clostridium ventriculi ,45,1,2.22
+microbes.csv,default,Clostridium ventriculi strain 2789STDY5834858 ,45,1,2.22
+microbes.csv,default,Collinsella ,45,1,2.22
+microbes.csv,default,Collinsella aerofaciens ,45,1,2.22
+microbes.csv,default,Collinsella aerofaciens ATCC 25986 ,45,1,2.22
+microbes.csv,default,Collinsella intestinalis DSM 13280 ,45,1,2.22
+microbes.csv,default,Collinsella sp. 4_8_47FAA ,45,1,2.22
+microbes.csv,default,Collinsella sp. MS5 ,45,1,2.22
+microbes.csv,default,Collinsella sp. Marseille-P3245 sp. Marseille-P3245 ,45,1,2.22
+microbes.csv,default,Collinsella stercoris DSM 13279 ,45,1,2.22
+microbes.csv,default,Collinsella tanakaei ,45,1,2.22
+microbes.csv,default,Collinsella tanakaei YIT 12063 ,45,1,2.22
+microbes.csv,default,Comamonas kerstersii ,45,1,2.22
+microbes.csv,default,Coprobacillus cateniformis ,45,1,2.22
+microbes.csv,default,Coprobacillus sp. 3_3_56FAA ,45,1,2.22
+microbes.csv,default,Coprobacillus sp. 8_1_38FAA ,45,1,2.22
+microbes.csv,default,Coprobacillus sp. 8_2_54BFAA ,45,1,2.22
+microbes.csv,default,Coprobacillus sp. D6 ,45,1,2.22
+microbes.csv,default,Coprobacillus sp. D7 ,45,1,2.22
+microbes.csv,default,Coprobacter ,45,1,2.22
+microbes.csv,default,Coprobacter fastidiosus ,45,1,2.22
+microbes.csv,default,Coprobacter fastidiosus NSB1 ,45,1,2.22
+microbes.csv,default,Coprobacter secundus strain 177 ,45,1,2.22
+microbes.csv,default,Coprobacter sp. 2CBH44 ,45,1,2.22
+microbes.csv,default,Coprococcus ,45,1,2.22
+microbes.csv,default,Coprococcus comes ,45,1,2.22
+microbes.csv,default,Coprococcus eutactus ATCC 27759 ,45,1,2.22
+microbes.csv,default,Coprococcus eutactus strain 2789STDY5608829 ,45,1,2.22
+microbes.csv,default,Coprococcus eutactus strain 2789STDY5608843 ,45,1,2.22
+microbes.csv,default,Coprococcus eutactus strain 2789STDY5608888 ,45,1,2.22
+microbes.csv,default,Coprococcus eutactus strain 2789STDY5834963 ,45,1,2.22
+microbes.csv,default,Coprococcus sp. HPP0048 ,45,1,2.22
+microbes.csv,default,Coprococcus sp. HPP0074 ,45,1,2.22
+microbes.csv,default,Corynebacterium ,45,1,2.22
+microbes.csv,default,Corynebacterium genitalium ,45,1,2.22
+microbes.csv,default,Corynebacterium kefirresidentii ,45,1,2.22
+microbes.csv,default,Corynebacterium matruchotii ,45,1,2.22
+microbes.csv,default,Corynebacterium propinquum ,45,1,2.22
+microbes.csv,default,Corynebacterium pseudodiphtheriticum ,45,1,2.22
+microbes.csv,default,Corynebacterium segmentosum ,45,1,2.22
+microbes.csv,default,Corynebacterium sp. HMSC073H12 ,45,1,2.22
+microbes.csv,default,Corynebacterium striatum ,45,1,2.22
+microbes.csv,default,Corynebacterium tuberculostearicum SK141 ,45,1,2.22
+microbes.csv,default,Corynebacterium tuscaniense ,45,1,2.22
+microbes.csv,default,Criibacterium bergeronii ,45,1,2.22
+microbes.csv,default,Cronobacter sakazakii ,45,1,2.22
+microbes.csv,default,Cryptobacterium ,45,1,2.22
+microbes.csv,default,Cryptobacterium curtum DSM 15641 ,45,1,2.22
+microbes.csv,default,Cucumber green mottle mosaic virus ,45,1,2.22
+microbes.csv,default,Cucurbit aphid borne yellows virus associated RNA (pseudo genus) ,45,1,2.22
+microbes.csv,default,Cucurbit chlorotic yellows virus ,45,1,2.22
+microbes.csv,default,Cucurbit yellow stunting disorder virus ,45,1,2.22
+microbes.csv,default,Culturomica massiliensis ,45,1,2.22
+microbes.csv,default,Culturomica massiliensis strain Marseille-P2698 ,45,1,2.22
+microbes.csv,default,Cupriavidus ,45,1,2.22
+microbes.csv,default,Cupriavidus metallidurans ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes TypeIA2 P.acn17 ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes TypeIA2 P.acn31 ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes TypeIA2 P.acn33 ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes strain KCOM ,45,1,2.22
+microbes.csv,default,Cutibacterium acnes strain PA_12_1_L1 ,45,1,2.22
+microbes.csv,default,Cutibacterium avidum strain DPC ,45,1,2.22
+microbes.csv,default,Debaryomyces hansenii ,45,1,2.22
+microbes.csv,default,Delftia ,45,1,2.22
+microbes.csv,default,Delftia acidovorans ,45,1,2.22
+microbes.csv,default,Delftia acidovorans SPH-1 ,45,1,2.22
+microbes.csv,default,Desulfobulbus ,45,1,2.22
+microbes.csv,default,Desulfobulbus oralis ,45,1,2.22
+microbes.csv,default,Desulfovibrio carbinolicus ,45,1,2.22
+microbes.csv,default,Desulfovibrio desulfuricans ,45,1,2.22
+microbes.csv,default,Desulfovibrio fairfieldensis ,45,1,2.22
+microbes.csv,default,Desulfovibrio fairfieldensis strain CCUG ,45,1,2.22
+microbes.csv,default,Desulfovibrio piger ,45,1,2.22
+microbes.csv,default,Desulfovibrio piger isolate DESPIGER1 ,45,1,2.22
+microbes.csv,default,Desulfovibrio sp. 3_1_syn3 ,45,1,2.22
+microbes.csv,default,Desulfovibrio sp. 6_1_46AFAA ,45,1,2.22
+microbes.csv,default,Desulfovibrio sp. G11 ,45,1,2.22
+microbes.csv,default,Desulfovibrio sp. Marseille-P3199 sp. Marseille-P3199 ,45,1,2.22
+microbes.csv,default,Dialister ,45,1,2.22
+microbes.csv,default,Dialister hominis ,45,1,2.22
+microbes.csv,default,Dialister invisus DSM 15470 ,45,1,2.22
+microbes.csv,default,Dialister massiliensis ,45,1,2.22
+microbes.csv,default,Dialister pneumosintes ,45,1,2.22
+microbes.csv,default,Dialister pneumosintes strain F0677 ,45,1,2.22
+microbes.csv,default,Dialister succinatiphilus ,45,1,2.22
+microbes.csv,default,Dielma fastidiosa ,45,1,2.22
+microbes.csv,default,Dietzia alimentaria strain BP ,45,1,2.22
+microbes.csv,default,Dorea formicigenerans 4_6_53AFAA ,45,1,2.22
+microbes.csv,default,Dorea formicigenerans ATCC 27755 ,45,1,2.22
+microbes.csv,default,Dorea longicatena AGR2136 ,45,1,2.22
+microbes.csv,default,Dorea longicatena DSM 13814 ,45,1,2.22
+microbes.csv,default,Dorea longicatena strain 2789STDY5608851 ,45,1,2.22
+microbes.csv,default,Dorea longicatena strain 2789STDY5608866 ,45,1,2.22
+microbes.csv,default,Dorea longicatena strain 2789STDY5834914 ,45,1,2.22
+microbes.csv,default,Dorea longicatena strain 2789STDY5834961 ,45,1,2.22
+microbes.csv,default,Dorea sp. 5-2 ,45,1,2.22
+microbes.csv,default,Dorea sp. AGR2135 ,45,1,2.22
+microbes.csv,default,Dorea sp. D27 ,45,1,2.22
+microbes.csv,default,Drancourtella massiliensis strain GD1 ,45,1,2.22
+microbes.csv,default,Duncaniella sp. B8 ,45,1,2.22
+microbes.csv,default,Dysosmobacter ,45,1,2.22
+microbes.csv,default,Dysosmobacter welbionis ,45,1,2.22
+microbes.csv,default,Eggerthella ,45,1,2.22
+microbes.csv,default,Eggerthella lenta ,45,1,2.22
+microbes.csv,default,Eggerthella lenta 1_1_60AFAA ,45,1,2.22
+microbes.csv,default,Eggerthella lenta DSM 2243 ,45,1,2.22
+microbes.csv,default,Eggerthella sp. 1_3_56FAA ,45,1,2.22
+microbes.csv,default,Eggerthella sp. HF-1101 ,45,1,2.22
+microbes.csv,default,Eggerthella sp. HGA1 ,45,1,2.22
+microbes.csv,default,Eggerthella sp. YY7918 ,45,1,2.22
+microbes.csv,default,Eisenbergiella tayi ,45,1,2.22
+microbes.csv,default,Elizabethkingia anophelis ,45,1,2.22
+microbes.csv,default,Emergencia timonensis strain SN18 ,45,1,2.22
+microbes.csv,default,Entamoeba ,45,1,2.22
+microbes.csv,default,Enterobacter asburiae ,45,1,2.22
+microbes.csv,default,Enterobacter bugandensis ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae EcWSU1 ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae P101 ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae complex 'Hoffmann cluster IV' ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae complex sp. ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae complex sp. ECNIH7 ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae complex sp. FDA-CDC-AR_0132 ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae complex sp. FDA-CDC-AR_0164 ,45,1,2.22
+microbes.csv,default,Enterobacter cloacae strain UW5 ,45,1,2.22
+microbes.csv,default,Enterobacter hormaechei ,45,1,2.22
+microbes.csv,default,Enterobacter hormaechei subsp. hormaechei ,45,1,2.22
+microbes.csv,default,Enterobacter hormaechei subsp. oharae ,45,1,2.22
+microbes.csv,default,Enterobacter hormaechei subsp. steigerwaltii ,45,1,2.22
+microbes.csv,default,Enterobacter hormaechei subsp. xiangfangensis ,45,1,2.22
+microbes.csv,default,Enterobacter kobei ,45,1,2.22
+microbes.csv,default,Enterobacter ludwigii ,45,1,2.22
+microbes.csv,default,Enterobacter ludwigii strain EN-119 ,45,1,2.22
+microbes.csv,default,Enterobacter phage phiT5282H ,45,1,2.22
+microbes.csv,default,Enterobacter roggenkampii ,45,1,2.22
+microbes.csv,default,Enterobacter sp. CRENT-193 ,45,1,2.22
+microbes.csv,default,Enterobacter sp. Crenshaw ,45,1,2.22
+microbes.csv,default,Enterobacter sp. DSM 30060 ,45,1,2.22
+microbes.csv,default,Enterobacter sp. LU1 ,45,1,2.22
+microbes.csv,default,Enterobacter sp. ODB01 ,45,1,2.22
+microbes.csv,default,Enterobacter sp. RHBSTW-00422 ,45,1,2.22
+microbes.csv,default,Enterobacter sp. RHBSTW-00975 ,45,1,2.22
+microbes.csv,default,Enterocloster ,45,1,2.22
+microbes.csv,default,Enterocloster bolteae ,45,1,2.22
+microbes.csv,default,Enterococcus ,45,1,2.22
+microbes.csv,default,Enterococcus avium ,45,1,2.22
+microbes.csv,default,Enterococcus casseliflavus ,45,1,2.22
+microbes.csv,default,Enterococcus casseliflavus EC20 ,45,1,2.22
+microbes.csv,default,Enterococcus durans ,45,1,2.22
+microbes.csv,default,Enterococcus durans strain KLDS ,45,1,2.22
+microbes.csv,default,Enterococcus durans strain KLDS6.0933 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis ARO1/DG ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis ATCC 29212 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis D32 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis OG1RF ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis R712 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis V583 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis str. Symbioflor 1 ,45,1,2.22
+microbes.csv,default,Enterococcus faecalis strain KB1 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium ,45,1,2.22
+microbes.csv,default,Enterococcus faecium 10/96A ,45,1,2.22
+microbes.csv,default,Enterococcus faecium ATCC 8459 = NRRL B-2354 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium DO ,45,1,2.22
+microbes.csv,default,Enterococcus faecium EnGen0004 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium EnGen0191 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium FB129-CNAB4 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium NEF1 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium T110 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium isolate Hp_21-11 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium isolate Hp_23-14 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium isolate Hp_6-10 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium isolate Hp_6-9 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium isolate Hp_74-d6 ,45,1,2.22
+microbes.csv,default,Enterococcus faecium strain D344RRF isolate H ,45,1,2.22
+microbes.csv,default,Enterococcus gallinarum ,45,1,2.22
+microbes.csv,default,Enterococcus gilvus ,45,1,2.22
+microbes.csv,default,Enterococcus lactis ,45,1,2.22
+microbes.csv,default,Enterococcus raffinosus ,45,1,2.22
+microbes.csv,default,Enterococcus saccharolyticus strain DSM ,45,1,2.22
+microbes.csv,default,Enterococcus saccharolyticus subsp. saccharolyticus ATCC 43076 ,45,1,2.22
+microbes.csv,default,Enterococcus saigonensis ,45,1,2.22
+microbes.csv,default,Enterococcus sp. DA9 ,45,1,2.22
+microbes.csv,default,Enterococcus sp. FDAARGOS_375 ,45,1,2.22
+microbes.csv,default,Enterococcus sp. FDAARGOS_553 ,45,1,2.22
+microbes.csv,default,Enterococcus sp. M190262 ,45,1,2.22
+microbes.csv,default,Enterorhabdus caecimuris B7 ,45,1,2.22
+microbes.csv,default,Eptesicus fuscus gammaherpesvirus ,45,1,2.22
+microbes.csv,default,Erysipelatoclostridium ,45,1,2.22
+microbes.csv,default,Erysipelatoclostridium ramosum ,45,1,2.22
+microbes.csv,default,Erysipelatoclostridium ramosum DSM 1402 ,45,1,2.22
+microbes.csv,default,Erysipelothrix rhusiopathiae ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium 21_3 ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium 2_2_44A ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium 3_1_53 ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium 5_2_54FAA ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium 6_1_45 ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium I46 ,45,1,2.22
+microbes.csv,default,Erysipelotrichaceae bacterium MTC7 ,45,1,2.22
+microbes.csv,default,Escherichia albertii ,45,1,2.22
+microbes.csv,default,Escherichia coli ,45,1,2.22
+microbes.csv,default,Escherichia coli 536 ,45,1,2.22
+microbes.csv,default,Escherichia coli DEC6E ,45,1,2.22
+microbes.csv,default,Escherichia coli ETEC H10407 ,45,1,2.22
+microbes.csv,default,Escherichia coli K-12 ,45,1,2.22
+microbes.csv,default,Escherichia coli LF82 ,45,1,2.22
+microbes.csv,default,Escherichia coli M17 ,45,1,2.22
+microbes.csv,default,Escherichia coli NCCP15648 ,45,1,2.22
+microbes.csv,default,Escherichia coli O103 str. RM10042 ,45,1,2.22
+microbes.csv,default,Escherichia coli O103 str. RM8385 ,45,1,2.22
+microbes.csv,default,Escherichia coli O111 str. RM9322 ,45,1,2.22
+microbes.csv,default,Escherichia coli O111:H- ,45,1,2.22
+microbes.csv,default,Escherichia coli O111:H- str. 11128 ,45,1,2.22
+microbes.csv,default,Escherichia coli O113:H21 ,45,1,2.22
+microbes.csv,default,Escherichia coli O121 str. RM8352 ,45,1,2.22
+microbes.csv,default,Escherichia coli O121:H19 ,45,1,2.22
+microbes.csv,default,Escherichia coli O145:H28 str. RM12581 ,45,1,2.22
+microbes.csv,default,Escherichia coli O145:H28 str. RM13514 ,45,1,2.22
+microbes.csv,default,Escherichia coli O169:H41 ,45,1,2.22
+microbes.csv,default,Escherichia coli O25:NM ,45,1,2.22
+microbes.csv,default,Escherichia coli O25b:H4 ,45,1,2.22
+microbes.csv,default,Escherichia coli O25b:H4-ST131 ,45,1,2.22
+microbes.csv,default,Escherichia coli O2:H6 ,45,1,2.22
+microbes.csv,default,Escherichia coli O6:H16 ,45,1,2.22
+microbes.csv,default,Escherichia coli O91 str. RM7190 ,45,1,2.22
+microbes.csv,default,Escherichia coli PCN061 ,45,1,2.22
+microbes.csv,default,Escherichia coli UMNK88 ,45,1,2.22
+microbes.csv,default,Escherichia coli VR50 ,45,1,2.22
+microbes.csv,default,Escherichia coli W ,45,1,2.22
+microbes.csv,default,Escherichia coli isolate NCTC86EC ,45,1,2.22
+microbes.csv,default,Escherichia coli str. K-12 substr. MG1655 ,45,1,2.22
+microbes.csv,default,Escherichia coli str. Sanji ,45,1,2.22
+microbes.csv,default,Escherichia coli strain 09-00049 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain 2009C-3133 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain 2011C-3911 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain 2012C-4227 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain 789 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain C4 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain D1 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain D3 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain D5 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain D7 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain ECONIH1 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain ECONIH2 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Eco889 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_224 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_244 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_316 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_448 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_542 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_656 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_745 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_881 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_AZ159 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_AZ161 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Ecol_AZ162 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain GB089 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain H10 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain H15 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain H2 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain H3 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain JJ2434 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain K-15KW01 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain M1 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain M6 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain M9 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain MRE600 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain MS6198 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain NCTC86 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain NGF1 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain O177:H21 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain RM9387 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain S21 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain S40 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain SEC470 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain SF-166 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain ST2747 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain ST648 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain SaT040 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain Y5 ,45,1,2.22
+microbes.csv,default,Escherichia coli strain ZH063 ,45,1,2.22
+microbes.csv,default,Escherichia fergusonii ,45,1,2.22
+microbes.csv,default,Escherichia marmotae ,45,1,2.22
+microbes.csv,default,Escherichia sp. E4742 ,45,1,2.22
+microbes.csv,default,Escherichia sp. KTE114 ,45,1,2.22
+microbes.csv,default,Escherichia sp. SCLE84 ,45,1,2.22
+microbes.csv,default,Escherichia virus P1 ,45,1,2.22
+microbes.csv,default,Eubacterium ,45,1,2.22
+microbes.csv,default,Eubacterium brachy ATCC 33089 ,45,1,2.22
+microbes.csv,default,Eubacterium callanderi ,45,1,2.22
+microbes.csv,default,Eubacterium infirmum F0142 ,45,1,2.22
+microbes.csv,default,Eubacterium limosum ,45,1,2.22
+microbes.csv,default,Eubacterium limosum strain SA11 ,45,1,2.22
+microbes.csv,default,Eubacterium maltosivorans ,45,1,2.22
+microbes.csv,default,Eubacterium nodatum ATCC 33099 ,45,1,2.22
+microbes.csv,default,Eubacterium plexicaudatum ASF492 ,45,1,2.22
+microbes.csv,default,Eubacterium ramulus ATCC 29099 ,45,1,2.22
+microbes.csv,default,Eubacterium ramulus strain 2789STDY5608891 ,45,1,2.22
+microbes.csv,default,Eubacterium saphenum ATCC 49989 ,45,1,2.22
+microbes.csv,default,Eubacterium sp. 3_1_31 ,45,1,2.22
+microbes.csv,default,Eubacterium sp. 68-3-10 ,45,1,2.22
+microbes.csv,default,Eubacterium sp. ER2 ,45,1,2.22
+microbes.csv,default,Eubacterium sp. NSJ-61 ,45,1,2.22
+microbes.csv,default,Eubacterium sp. SB2 ,45,1,2.22
+microbes.csv,default,Eubacterium sulci ATCC 35585 ,45,1,2.22
+microbes.csv,default,Eubacterium ventriosum ,45,1,2.22
+microbes.csv,default,Eubacterium ventriosum ATCC 27560 ,45,1,2.22
+microbes.csv,default,Exiguobacterium profundum strain PHM ,45,1,2.22
+microbes.csv,default,Exophiala phaeomuriformis ,45,1,2.22
+microbes.csv,default,Exophiala spinifera ,45,1,2.22
+microbes.csv,default,Ezakiella massiliensis ,45,1,2.22
+microbes.csv,default,Ezakiella massiliensis strain Marseille-P2951T sp. Marseille-P2951 ,45,1,2.22
+microbes.csv,default,Facklamia hominis ,45,1,2.22
+microbes.csv,default,Facklamia sp. HMSC062C11 ,45,1,2.22
+microbes.csv,default,Faecalibacillus ,45,1,2.22
+microbes.csv,default,Faecalibacillus intestinalis ,45,1,2.22
+microbes.csv,default,Faecalibacterium ,45,1,2.22
+microbes.csv,default,Faecalibacterium prausnitzii ,45,1,2.22
+microbes.csv,default,Faecalibacterium prausnitzii A2-165 ,45,1,2.22
+microbes.csv,default,Faecalicoccus pleomorphus ,45,1,2.22
+microbes.csv,default,Faecalitalea cylindroides ,45,1,2.22
+microbes.csv,default,Faecalitalea cylindroides ATCC 27803 ,45,1,2.22
+microbes.csv,default,Faecalitalea cylindroides T2-87 ,45,1,2.22
+microbes.csv,default,Fannyhessea vaginae ,45,1,2.22
+microbes.csv,default,Fastidiosipila sanguinis ,45,1,2.22
+microbes.csv,default,Fenollaria massiliensis ,45,1,2.22
+microbes.csv,default,Fenollaria timonensis ,45,1,2.22
+microbes.csv,default,Fibrobacter sp. UWB12 sp. UWB12 ,45,1,2.22
+microbes.csv,default,Filifactor alocis ATCC 35896 ,45,1,2.22
+microbes.csv,default,Finegoldia ,45,1,2.22
+microbes.csv,default,Finegoldia magna ,45,1,2.22
+microbes.csv,default,Finegoldia magna ATCC 29328 ,45,1,2.22
+microbes.csv,default,Firmicutes bacterium ASF500 ,45,1,2.22
+microbes.csv,default,Flavobacterium sp. I3-2 ,45,1,2.22
+microbes.csv,default,Flavonifractor ,45,1,2.22
+microbes.csv,default,Flavonifractor plautii ,45,1,2.22
+microbes.csv,default,Flavonifractor plautii strain YL31 ,45,1,2.22
+microbes.csv,default,Flintibacter ,45,1,2.22
+microbes.csv,default,Flintibacter sp. KGMB00164 ,45,1,2.22
+microbes.csv,default,Fournierella massiliensis ,45,1,2.22
+microbes.csv,default,Furfurilactobacillus rossiae ,45,1,2.22
+microbes.csv,default,Fusicatenibacter saccharivorans ,45,1,2.22
+microbes.csv,default,Fusobacterium ,45,1,2.22
+microbes.csv,default,Fusobacterium nucleatum subsp. animalis strain KCOM ,45,1,2.22
+microbes.csv,default,Fusobacterium periodonticum ,45,1,2.22
+microbes.csv,default,Fusobacterium pseudoperiodonticum ,45,1,2.22
+microbes.csv,default,Fusobacterium sp. CM21 ,45,1,2.22
+microbes.csv,default,Fusobacterium ulcerans ATCC 49185 ,45,1,2.22
+microbes.csv,default,Fusobacterium varium ATCC 27725 ,45,1,2.22
+microbes.csv,default,Gabonia massiliensis strain GM3 ,45,1,2.22
+microbes.csv,default,Gardnerella vaginalis 409-05 ,45,1,2.22
+microbes.csv,default,Garlic common latent virus ,45,1,2.22
+microbes.csv,default,Gemella ,45,1,2.22
+microbes.csv,default,Gemella bergeriae ATCC 700627 ,45,1,2.22
+microbes.csv,default,Gemella haemolysans ,45,1,2.22
+microbes.csv,default,Gemella morbillorum ,45,1,2.22
+microbes.csv,default,Gemella sanguinis ,45,1,2.22
+microbes.csv,default,Gemella sanguinis ATCC 700632 ,45,1,2.22
+microbes.csv,default,Gemella sanguinis M325 ,45,1,2.22
+microbes.csv,default,Gemella sanguinis strain 1094_BTHU ,45,1,2.22
+microbes.csv,default,Gemella sp. ND 6198 ,45,1,2.22
+microbes.csv,default,Gemella sp. oral taxon 928 ,45,1,2.22
+microbes.csv,default,Geobacillus ,45,1,2.22
+microbes.csv,default,Geobacillus thermocatenulatus ,45,1,2.22
+microbes.csv,default,Geobacter sp. M18 ,45,1,2.22
+microbes.csv,default,Glaesserella parasuis ,45,1,2.22
+microbes.csv,default,Gordonibacter pamelaeae ,45,1,2.22
+microbes.csv,default,Gordonibacter pamelaeae 7-10-1-b ,45,1,2.22
+microbes.csv,default,Gordonibacter urolithinfaciens ,45,1,2.22
+microbes.csv,default,Gorganvirus ,45,1,2.22
+microbes.csv,default,Granulicatella elegans ATCC 700633 ,45,1,2.22
+microbes.csv,default,Granulicatella sp. HMSC30F09 ,45,1,2.22
+microbes.csv,default,Granulicatella sp. HMSC31F03 ,45,1,2.22
+microbes.csv,default,Grapevine yellow speckle viroid 1 ,45,1,2.22
+microbes.csv,default,Haemophilus ,45,1,2.22
+microbes.csv,default,Haemophilus haemolyticus ,45,1,2.22
+microbes.csv,default,Haemophilus parahaemolyticus ,45,1,2.22
+microbes.csv,default,Haemophilus parainfluenzae ,45,1,2.22
+microbes.csv,default,Haemophilus parainfluenzae T3T1 ,45,1,2.22
+microbes.csv,default,Haemophilus pittmaniae ,45,1,2.22
+microbes.csv,default,Haemophilus sp. C1 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. CCUG 60358 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. HMSC061E01 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. HMSC068C11 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. HMSC073C03 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. HMSC61B11 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. HMSC71H05 ,45,1,2.22
+microbes.csv,default,Haemophilus sp. oral taxon 036 ,45,1,2.22
+microbes.csv,default,Hafnia alvei ,45,1,2.22
+microbes.csv,default,Hafnia paralvei ,45,1,2.22
+microbes.csv,default,Hallella seregens ATCC 51272 ,45,1,2.22
+microbes.csv,default,Helianthus annuus alphaendornavirus ,45,1,2.22
+microbes.csv,default,Helicobacter bizzozeronii ,45,1,2.22
+microbes.csv,default,Hericium erinaceus ,45,1,2.22
+microbes.csv,default,Hespellia stercorisuis DSM 15480 ,45,1,2.22
+microbes.csv,default,Holdemanella biformis ,45,1,2.22
+microbes.csv,default,Holdemanella biformis DSM 3989 ,45,1,2.22
+microbes.csv,default,Holdemania filiformis DSM 12042 ,45,1,2.22
+microbes.csv,default,Holdemania massiliensis ,45,1,2.22
+microbes.csv,default,Holdemania massiliensis AP2 ,45,1,2.22
+microbes.csv,default,Holdemania sp. Marseille-P2844 sp. Marseille-P2844 ,45,1,2.22
+microbes.csv,default,Human feces pecovirus ,45,1,2.22
+microbes.csv,default,Hungatella hathewayi WAL-18680 ,45,1,2.22
+microbes.csv,default,Hyphopichia pseudoburtonii ,45,1,2.22
+microbes.csv,default,Idiomarina zobellii strain KMM ,45,1,2.22
+microbes.csv,default,Intestinibacter bartlettii ,45,1,2.22
+microbes.csv,default,Intestinibacter bartlettii DSM 16795 ,45,1,2.22
+microbes.csv,default,Intestinibacter bartlettii strain 2789STDY5834879 ,45,1,2.22
+microbes.csv,default,Intestinibaculum porci ,45,1,2.22
+microbes.csv,default,Intestinimonas butyriciproducens ,45,1,2.22
+microbes.csv,default,Intestinimonas butyriciproducens strain AF211 ,45,1,2.22
+microbes.csv,default,Intestinimonas massiliensis ,45,1,2.22
+microbes.csv,default,Intestinimonas massiliensis sp. GD2 ,45,1,2.22
+microbes.csv,default,Johnsonella ignava ATCC 51276 ,45,1,2.22
+microbes.csv,default,Kallipyga massiliensis ph2 ,45,1,2.22
+microbes.csv,default,Kandleria vitulina MC3001 ,45,1,2.22
+microbes.csv,default,Kingella ,45,1,2.22
+microbes.csv,default,Klebsiella aerogenes ,45,1,2.22
+microbes.csv,default,Klebsiella aerogenes EA1509E ,45,1,2.22
+microbes.csv,default,Klebsiella aerogenes strain FDAARGOS_139 ,45,1,2.22
+microbes.csv,default,Klebsiella aerogenes strain FDAARGOS_152 ,45,1,2.22
+microbes.csv,default,Klebsiella aerogenes strain G7 ,45,1,2.22
+microbes.csv,default,Klebsiella africana ,45,1,2.22
+microbes.csv,default,Klebsiella grimontii ,45,1,2.22
+microbes.csv,default,Klebsiella huaxiensis ,45,1,2.22
+microbes.csv,default,Klebsiella michiganensis ,45,1,2.22
+microbes.csv,default,Klebsiella michiganensis E718 ,45,1,2.22
+microbes.csv,default,Klebsiella michiganensis KCTC 1686 ,45,1,2.22
+microbes.csv,default,Klebsiella michiganensis strain M1 ,45,1,2.22
+microbes.csv,default,Klebsiella oxytoca ,45,1,2.22
+microbes.csv,default,Klebsiella phage 13 ,45,1,2.22
+microbes.csv,default,Klebsiella phage PhiKpNIH-2 ,45,1,2.22
+microbes.csv,default,Klebsiella phage Shelby ,45,1,2.22
+microbes.csv,default,Klebsiella phage vB_KpnS_15-38_KLPPOU149 ,45,1,2.22
+microbes.csv,default,Klebsiella quasipneumoniae ,45,1,2.22
+microbes.csv,default,Klebsiella quasipneumoniae subsp. quasipneumoniae ,45,1,2.22
+microbes.csv,default,Klebsiella quasipneumoniae subsp. similipneumoniae ,45,1,2.22
+microbes.csv,default,Klebsiella sp. BDA134-6 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. FDAARGOS_511 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. M5al ,45,1,2.22
+microbes.csv,default,Klebsiella sp. P1CD1 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. RHBSTW-00464 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. WP3-S18-ESBL-05 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. WP3-W18-ESBL-02 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. WP4-W18-ESBL-05 ,45,1,2.22
+microbes.csv,default,Klebsiella sp. WP8-S18-ESBL-06 ,45,1,2.22
+microbes.csv,default,Kluyvera ascorbata ,45,1,2.22
+microbes.csv,default,Kluyvera intermedia ,45,1,2.22
+microbes.csv,default,Kocuria indica ,45,1,2.22
+microbes.csv,default,Kocuria kristinae ,45,1,2.22
+microbes.csv,default,Kocuria kristinae strain SA12 ,45,1,2.22
+microbes.csv,default,Kocuria rhizophila DC2201 ,45,1,2.22
+microbes.csv,default,Kocuria sp. KD4 ,45,1,2.22
+microbes.csv,default,Lachancea ,45,1,2.22
+microbes.csv,default,Lachnoanaerobaculum saburreum DSM 3986 ,45,1,2.22
+microbes.csv,default,Lachnoanaerobaculum sp. MSX33 ,45,1,2.22
+microbes.csv,default,Lachnoanaerobaculum sp. OBRC5-5 ,45,1,2.22
+microbes.csv,default,Lachnoanaerobaculum umeaense ,45,1,2.22
+microbes.csv,default,Lachnoclostridium ,45,1,2.22
+microbes.csv,default,Lachnoclostridium phocaeense ,45,1,2.22
+microbes.csv,default,Lachnoclostridium phocaeense strain Marseille-P3177T sp. Marseille-P3177 ,45,1,2.22
+microbes.csv,default,Lachnoclostridium sp. YL32 ,45,1,2.22
+microbes.csv,default,Lachnoclostridium sp. YL32 sp. YL32 ,45,1,2.22
+microbes.csv,default,Lachnospira ,45,1,2.22
+microbes.csv,default,Lachnospira pectinoschiza strain 2789STDY5834836 ,45,1,2.22
+microbes.csv,default,Lachnospira pectinoschiza strain 2789STDY5834886 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 10-1 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 1_1_57FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 1_4_56FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 2_1_46FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 2_1_58FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 3-1 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 3_1_46FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 3_1_57FAA_CT1 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 5_1_57FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 5_1_63FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 6_1_37FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 6_1_63FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 7_1_58FAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium 9_1_43BFAA ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium A2 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium COE1 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium M18-1 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium TF01-11 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium V9D3004 ,45,1,2.22
+microbes.csv,default,Lachnospiraceae bacterium oral taxon 082 str. F0431 ,45,1,2.22
+microbes.csv,default,Lacrimispora ,45,1,2.22
+microbes.csv,default,Lacticaseibacillus paracasei ,45,1,2.22
+microbes.csv,default,Lacticaseibacillus paracasei subsp. tolerans ,45,1,2.22
+microbes.csv,default,Lacticaseibacillus rhamnosus ,45,1,2.22
+microbes.csv,default,Lactiplantibacillus ,45,1,2.22
+microbes.csv,default,Lactiplantibacillus plantarum ,45,1,2.22
+microbes.csv,default,Lactiplantibacillus plantarum subsp. plantarum ,45,1,2.22
+microbes.csv,default,Lactobacillus ,45,1,2.22
+microbes.csv,default,Lactobacillus animalis strain 381-IL-28 ,45,1,2.22
+microbes.csv,default,Lactobacillus casei ,45,1,2.22
+microbes.csv,default,Lactobacillus casei UW1 ,45,1,2.22
+microbes.csv,default,Lactobacillus casei strain DPC6800 ,45,1,2.22
+microbes.csv,default,Lactobacillus casei strain Z11 ,45,1,2.22
+microbes.csv,default,Lactobacillus casei subsp. casei ATCC 393 ,45,1,2.22
+microbes.csv,default,Lactobacillus coryniformis subsp. torquens DSM 20004 = KCTC 3535 ,45,1,2.22
+microbes.csv,default,Lactobacillus crispatus strain C25 ,45,1,2.22
+microbes.csv,default,Lactobacillus crispatus strain PSS7772C ,45,1,2.22
+microbes.csv,default,Lactobacillus crispatus strain VMC7 ,45,1,2.22
+microbes.csv,default,Lactobacillus curvatus ,45,1,2.22
+microbes.csv,default,Lactobacillus curvatus JCM 1096 = DSM 20019 ,45,1,2.22
+microbes.csv,default,Lactobacillus curvatus strain NRIC0822 ,45,1,2.22
+microbes.csv,default,Lactobacillus curvatus strain RI-406 ,45,1,2.22
+microbes.csv,default,Lactobacillus fermentum ,45,1,2.22
+microbes.csv,default,Lactobacillus frumenti ,45,1,2.22
+microbes.csv,default,Lactobacillus gasseri ,45,1,2.22
+microbes.csv,default,Lactobacillus gasseri ATCC 33323 = JCM 1131 ,45,1,2.22
+microbes.csv,default,Lactobacillus helveticus ,45,1,2.22
+microbes.csv,default,Lactobacillus jensenii ,45,1,2.22
+microbes.csv,default,Lactobacillus jensenii strain SNUV360 ,45,1,2.22
+microbes.csv,default,Lactobacillus johnsonii ,45,1,2.22
+microbes.csv,default,Lactobacillus kefiri ,45,1,2.22
+microbes.csv,default,Lactobacillus manihotivorans DSM 13343 = JCM 12514 ,45,1,2.22
+microbes.csv,default,Lactobacillus mucosae LM1 ,45,1,2.22
+microbes.csv,default,Lactobacillus nenjiangensis ,45,1,2.22
+microbes.csv,default,Lactobacillus oligofermentans DSM 15707 = LMG 22743 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei ATCC 334 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei N1115 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei strain 275_LPAR ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei strain CAUH35 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei strain DSM ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei strain KL1 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei subsp. paracasei JCM 8130 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei subsp. paracasei Lpp14 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei subsp. paracasei Lpp17 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei subsp. paracasei Lpp22 ,45,1,2.22
+microbes.csv,default,Lactobacillus paracasei subsp. paracasei Lpp225 ,45,1,2.22
+microbes.csv,default,Lactobacillus paragasseri ,45,1,2.22
+microbes.csv,default,Lactobacillus paralimentarius DSM 19674 ,45,1,2.22
+microbes.csv,default,Lactobacillus plantarum ,45,1,2.22
+microbes.csv,default,Lactobacillus plantarum 16 ,45,1,2.22
+microbes.csv,default,Lactobacillus plantarum strain CAUH2 ,45,1,2.22
+microbes.csv,default,Lactobacillus plantarum subsp. plantarum ,45,1,2.22
+microbes.csv,default,Lactobacillus plantarum subsp. plantarum ST-III ,45,1,2.22
+microbes.csv,default,Lactobacillus reuteri ,45,1,2.22
+microbes.csv,default,Lactobacillus reuteri strain 484_39 ,45,1,2.22
+microbes.csv,default,Lactobacillus rhamnosus ATCC 8530 ,45,1,2.22
+microbes.csv,default,Lactobacillus rhamnosus LOCK908 ,45,1,2.22
+microbes.csv,default,Lactobacillus rhamnosus Lc 705 ,45,1,2.22
+microbes.csv,default,Lactobacillus rhamnosus strain 40f ,45,1,2.22
+microbes.csv,default,Lactobacillus rhamnosus strain BPL5 ,45,1,2.22
+microbes.csv,default,Lactobacillus ruminis ATCC 25644 ,45,1,2.22
+microbes.csv,default,Lactobacillus ruminis S23 ,45,1,2.22
+microbes.csv,default,Lactobacillus ruminis strain WC1T17 ,45,1,2.22
+microbes.csv,default,Lactobacillus sakei ,45,1,2.22
+microbes.csv,default,Lactobacillus sakei subsp. sakei 23K ,45,1,2.22
+microbes.csv,default,Lactobacillus sanfranciscensis DSM 20451 ,45,1,2.22
+microbes.csv,default,Lactobacillus sanfranciscensis TMW 1.1304 ,45,1,2.22
+microbes.csv,default,Lactobacillus sp. HMSC056D05 ,45,1,2.22
+microbes.csv,default,Lactococcus ,45,1,2.22
+microbes.csv,default,Lactococcus chungangensis CAU 28 = DSM 22330 ,45,1,2.22
+microbes.csv,default,Lactococcus cremoris ,45,1,2.22
+microbes.csv,default,Lactococcus garvieae ,45,1,2.22
+microbes.csv,default,Lactococcus phage 79201 ,45,1,2.22
+microbes.csv,default,Lactococcus phage 88605 ,45,1,2.22
+microbes.csv,default,Lactococcus phage CHPC362 ,45,1,2.22
+microbes.csv,default,Lactococcus phage CHPC965 ,45,1,2.22
+microbes.csv,default,Lactococcus phage M6165 ,45,1,2.22
+microbes.csv,default,Lactococcus phage ul36 ,45,1,2.22
+microbes.csv,default,Lactococcus plantarum ,45,1,2.22
+microbes.csv,default,Lactococcus raffinolactis ,45,1,2.22
+microbes.csv,default,Lactococcus sp. 159469 ,45,1,2.22
+microbes.csv,default,Lactococcus sp. DD01 ,45,1,2.22
+microbes.csv,default,Lactococcus sp. LG1074 ,45,1,2.22
+microbes.csv,default,Lactococcus sp. LG1267 ,45,1,2.22
+microbes.csv,default,Lactococcus sp. LG592 ,45,1,2.22
+microbes.csv,default,Lactococcus sp. LG606 ,45,1,2.22
+microbes.csv,default,Lactococcus virus bIL67 ,45,1,2.22
+microbes.csv,default,Lactococcus virus c2 ,45,1,2.22
+microbes.csv,default,Lactonifactor longoviformis ,45,1,2.22
+microbes.csv,default,Lactonifactor longoviformis DSM 17459 ,45,1,2.22
+microbes.csv,default,Lancefieldella ,45,1,2.22
+microbes.csv,default,Latilactobacillus curvatus ,45,1,2.22
+microbes.csv,default,Latilactobacillus sakei ,45,1,2.22
+microbes.csv,default,Lautropia ,45,1,2.22
+microbes.csv,default,Lautropia mirabilis ,45,1,2.22
+microbes.csv,default,Leclercia adecarboxylata ,45,1,2.22
+microbes.csv,default,Leclercia sp. J807 ,45,1,2.22
+microbes.csv,default,Leclercia sp. LSNIH3 ,45,1,2.22
+microbes.csv,default,Lelliottia amnigena ,45,1,2.22
+microbes.csv,default,Leptotrichia ,45,1,2.22
+microbes.csv,default,Leptotrichia hongkongensis ,45,1,2.22
+microbes.csv,default,Leptotrichia shahii ,45,1,2.22
+microbes.csv,default,Leptotrichia sp. oral taxon 212 ,45,1,2.22
+microbes.csv,default,Leptotrichia sp. oral taxon 498 ,45,1,2.22
+microbes.csv,default,Leptotrichia trevisanii ,45,1,2.22
+microbes.csv,default,Leptotrichia wadei ,45,1,2.22
+microbes.csv,default,Leuconostoc carnosum ,45,1,2.22
+microbes.csv,default,Leuconostoc carnosum JB16 ,45,1,2.22
+microbes.csv,default,Leuconostoc citreum ,45,1,2.22
+microbes.csv,default,Leuconostoc citreum KM20 ,45,1,2.22
+microbes.csv,default,Leuconostoc falkenbergense ,45,1,2.22
+microbes.csv,default,Leuconostoc gelidum JB7 ,45,1,2.22
+microbes.csv,default,Leuconostoc gelidum subsp. gasicomitatum ,45,1,2.22
+microbes.csv,default,Leuconostoc gelidum subsp. gasicomitatum KG16-1 ,45,1,2.22
+microbes.csv,default,Leuconostoc inhae KCTC 3774 ,45,1,2.22
+microbes.csv,default,Leuconostoc kimchii IMSNU 11154 ,45,1,2.22
+microbes.csv,default,Leuconostoc lactis ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. cremoris ATCC 19254 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. cremoris TIFN8 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. dextranicum strain LbE15 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides J18 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides subsp. mesenteroides strain DRC0211 ,45,1,2.22
+microbes.csv,default,Leuconostoc mesenteroides.1 ,45,1,2.22
+microbes.csv,default,Leuconostoc pseudomesenteroides ,45,1,2.22
+microbes.csv,default,Leuconostoc sp. LN180020 ,45,1,2.22
+microbes.csv,default,Leuconostoc suionicum ,45,1,2.22
+microbes.csv,default,Levilactobacillus brevis ,45,1,2.22
+microbes.csv,default,Levyella massiliensis ,45,1,2.22
+microbes.csv,default,Ligilactobacillus ,45,1,2.22
+microbes.csv,default,Ligilactobacillus animalis ,45,1,2.22
+microbes.csv,default,Ligilactobacillus salivarius ,45,1,2.22
+microbes.csv,default,Limosilactobacillus fermentum ,45,1,2.22
+microbes.csv,default,Limosilactobacillus frumenti ,45,1,2.22
+microbes.csv,default,Limosilactobacillus mucosae ,45,1,2.22
+microbes.csv,default,Limosilactobacillus vaginalis ,45,1,2.22
+microbes.csv,default,Loigolactobacillus backii ,45,1,2.22
+microbes.csv,default,Longibaculum ,45,1,2.22
+microbes.csv,default,Longibaculum sp. KGMB06250 ,45,1,2.22
+microbes.csv,default,Lysobacter gummosus strain 3.2.11 ,45,1,2.22
+microbes.csv,default,Macrococcus caseolyticus JCSC5402 ,45,1,2.22
+microbes.csv,default,Mageeibacillus ,45,1,2.22
+microbes.csv,default,Malassezia restricta ,45,1,2.22
+microbes.csv,default,Mannheimia ,45,1,2.22
+microbes.csv,default,Marvinbryantia formatexigens DSM 14469 ,45,1,2.22
+microbes.csv,default,Marvinbryantia formatexigens strain I-52 ,45,1,2.22
+microbes.csv,default,Massilioclostridium coli strain Marseille-P2976 ,45,1,2.22
+microbes.csv,default,Massiliomicrobiota timonensis ,45,1,2.22
+microbes.csv,default,Massilistercora timonensis ,45,1,2.22
+microbes.csv,default,Mediterranea massiliensis strain Marseille-P2645 ,45,1,2.22
+microbes.csv,default,Mediterraneibacter ,45,1,2.22
+microbes.csv,default,Megamonas funiformis ,45,1,2.22
+microbes.csv,default,Megamonas rupellensis ,45,1,2.22
+microbes.csv,default,Megasphaera elsdenii ,45,1,2.22
+microbes.csv,default,Megasphaera elsdenii 14-14 ,45,1,2.22
+microbes.csv,default,Megasphaera elsdenii DSM 20460 ,45,1,2.22
+microbes.csv,default,Megasphaera micronuciformis F0359 ,45,1,2.22
+microbes.csv,default,Megasphaera sp. DISK 18 ,45,1,2.22
+microbes.csv,default,Megasphaera sp. MJR8396C ,45,1,2.22
+microbes.csv,default,Megasphaera stantonii ,45,1,2.22
+microbes.csv,default,Merdibacter massiliensis strain Marseille-P3254 ,45,1,2.22
+microbes.csv,default,Mesorhizobium ,45,1,2.22
+microbes.csv,default,Mesorhizobium soli ,45,1,2.22
+microbes.csv,default,Methanobrevibacter smithii ATCC 35061 ,45,1,2.22
+microbes.csv,default,Methanobrevibacter smithii TS145A ,45,1,2.22
+microbes.csv,default,Methanosphaera stadtmanae DSM 3091 ,45,1,2.22
+microbes.csv,default,Microbacterium paludicola ,45,1,2.22
+microbes.csv,default,Mitsuokella jalaludinii ,45,1,2.22
+microbes.csv,default,Mobiluncus curtisii ATCC 43063 ,45,1,2.22
+microbes.csv,default,Mogibacterium ,45,1,2.22
+microbes.csv,default,Mogibacterium diversum ,45,1,2.22
+microbes.csv,default,Mogibacterium sp. CM50 ,45,1,2.22
+microbes.csv,default,Mogibacterium sp. Marseille-P3115 sp. Marseille-P3115 ,45,1,2.22
+microbes.csv,default,Mogibacterium timidum ATCC 33093 ,45,1,2.22
+microbes.csv,default,Moraxella nonliquefaciens ,45,1,2.22
+microbes.csv,default,Morganella morganii subsp. morganii ,45,1,2.22
+microbes.csv,default,Mucispirillum schaedleri ASF457 ,45,1,2.22
+microbes.csv,default,Murdochiella vaginalis ,45,1,2.22
+microbes.csv,default,Muribaculum ,45,1,2.22
+microbes.csv,default,Muribaculum intestinale ,45,1,2.22
+microbes.csv,default,Mycoplasma arginini ,45,1,2.22
+microbes.csv,default,Myroides odoratimimus ,45,1,2.22
+microbes.csv,default,Myroides odoratimimus strain PR63039 ,45,1,2.22
+microbes.csv,default,Myroides phaeus ,45,1,2.22
+microbes.csv,default,Nannochloropsis gaditana CCMP526 ,45,1,2.22
+microbes.csv,default,Ndongobacter massiliensis strain Marseille-P3170T sp. Marseille-P3170 ,45,1,2.22
+microbes.csv,default,Nectarine marafivirus M ,45,1,2.22
+microbes.csv,default,Nectria haematococca mpVI 77-13-4 ,45,1,2.22
+microbes.csv,default,Negativicoccus massiliensis strain AT7 ,45,1,2.22
+microbes.csv,default,Neglecta timonensis ,45,1,2.22
+microbes.csv,default,Neisseria ,45,1,2.22
+microbes.csv,default,Neisseria bacilliformis ,45,1,2.22
+microbes.csv,default,Neisseria elongata ,45,1,2.22
+microbes.csv,default,Neisseria mucosa ,45,1,2.22
+microbes.csv,default,Neisseria sp. HMSC055H02 ,45,1,2.22
+microbes.csv,default,Neisseria subflava ,45,1,2.22
+microbes.csv,default,Obesumbacterium proteus ,45,1,2.22
+microbes.csv,default,Ochrobactrum anthropi ,45,1,2.22
+microbes.csv,default,Ochrobactrum intermedium M86 ,45,1,2.22
+microbes.csv,default,Odoribacter ,45,1,2.22
+microbes.csv,default,Odoribacter laneus YIT 12061 ,45,1,2.22
+microbes.csv,default,Odoribacter splanchnicus ,45,1,2.22
+microbes.csv,default,Odoribacter splanchnicus DSM 20712 ,45,1,2.22
+microbes.csv,default,Olsenella ,45,1,2.22
+microbes.csv,default,Olsenella profusa F0195 ,45,1,2.22
+microbes.csv,default,Olsenella sp. DNF00959 ,45,1,2.22
+microbes.csv,default,Olsenella sp. GAM18 ,45,1,2.22
+microbes.csv,default,Olsenella sp. oral taxon 807 ,45,1,2.22
+microbes.csv,default,Olsenella sp. oral taxon 807 strain F0089 ,45,1,2.22
+microbes.csv,default,Olsenella uli DSM 7084 ,45,1,2.22
+microbes.csv,default,Oribacterium asaccharolyticum ACB7 ,45,1,2.22
+microbes.csv,default,Oribacterium parvum ,45,1,2.22
+microbes.csv,default,Oribacterium parvum ACB1 ,45,1,2.22
+microbes.csv,default,Oribacterium sinus F0268 ,45,1,2.22
+microbes.csv,default,Ornithobacterium ,45,1,2.22
+microbes.csv,default,Ornithobacterium rhinotracheale ,45,1,2.22
+microbes.csv,default,Oscillibacter ,45,1,2.22
+microbes.csv,default,Oscillibacter sp. 1-3 ,45,1,2.22
+microbes.csv,default,Oscillibacter sp. ER4 ,45,1,2.22
+microbes.csv,default,Oscillibacter sp. KLE 1745 ,45,1,2.22
+microbes.csv,default,Oscillibacter sp. PEA192 ,45,1,2.22
+microbes.csv,default,Oscillospiraceae bacterium VE202-24 ,45,1,2.22
+microbes.csv,default,Oxalobacter formigenes ,45,1,2.22
+microbes.csv,default,Oxalobacter formigenes OXCC13 ,45,1,2.22
+microbes.csv,default,Paenarthrobacter sp. YJN-D ,45,1,2.22
+microbes.csv,default,Paenibacillus xylanexedens strain PAMC ,45,1,2.22
+microbes.csv,default,Paeniclostridium sordellii ,45,1,2.22
+microbes.csv,default,Pannonibacter phragmitetus strain 31801 ,45,1,2.22
+microbes.csv,default,Pantoea agglomerans ,45,1,2.22
+microbes.csv,default,Paprika mild mottle virus ,45,1,2.22
+microbes.csv,default,Parabacteroides ,45,1,2.22
+microbes.csv,default,Parabacteroides distasonis ATCC 8503 ,45,1,2.22
+microbes.csv,default,Parabacteroides goldsteinii ,45,1,2.22
+microbes.csv,default,Parabacteroides goldsteinii CL02T12C30 ,45,1,2.22
+microbes.csv,default,Parabacteroides goldsteinii DSM 19448 = WAL 12034 ,45,1,2.22
+microbes.csv,default,Parabacteroides goldsteinii dnLKV18 ,45,1,2.22
+microbes.csv,default,Parabacteroides goldsteinii strain 910340 ,45,1,2.22
+microbes.csv,default,Parabacteroides gordonii ,45,1,2.22
+microbes.csv,default,Parabacteroides gordonii DSM 23371 ,45,1,2.22
+microbes.csv,default,Parabacteroides gordonii MS-1 ,45,1,2.22
+microbes.csv,default,Parabacteroides johnsonii ,45,1,2.22
+microbes.csv,default,Parabacteroides johnsonii CL02T12C29 ,45,1,2.22
+microbes.csv,default,Parabacteroides johnsonii DSM 18315 ,45,1,2.22
+microbes.csv,default,Parabacteroides merdae ATCC 43184 ,45,1,2.22
+microbes.csv,default,Parabacteroides merdae CL03T12C32 ,45,1,2.22
+microbes.csv,default,Parabacteroides merdae CL09T00C40 ,45,1,2.22
+microbes.csv,default,Parabacteroides merdae strain 2789STDY5834848 ,45,1,2.22
+microbes.csv,default,Parabacteroides phage YZ-2015a ,45,1,2.22
+microbes.csv,default,Parabacteroides phage YZ-2015b ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. 20_3 ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. 2_1_7 ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. CT06 ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. D13 ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. D26 ,45,1,2.22
+microbes.csv,default,Parabacteroides sp. HGS0025 ,45,1,2.22
+microbes.csv,default,"Parabacteroides sp. Marseille-P3236 strain Marseille-P3236, sp. Marseille-P3136 ",45,1,2.22
+microbes.csv,default,"Parabacteroides sp. SN4 strain SN4, sp. SB4 ",45,1,2.22
+microbes.csv,default,Paracoccus yeei ,45,1,2.22
+microbes.csv,default,Paraprevotella ,45,1,2.22
+microbes.csv,default,Paraprevotella clara YIT 11840 ,45,1,2.22
+microbes.csv,default,Paraprevotella xylaniphila YIT 11841 ,45,1,2.22
+microbes.csv,default,Parasutterella excrementihominis YIT 11859 ,45,1,2.22
+microbes.csv,default,Parolsenella catena ,45,1,2.22
+microbes.csv,default,Parvimonas ,45,1,2.22
+microbes.csv,default,Parvimonas micra ,45,1,2.22
+microbes.csv,default,Parvimonas sp. KA00067 ,45,1,2.22
+microbes.csv,default,Parvimonas sp. oral taxon 393 str. F0440 ,45,1,2.22
+microbes.csv,default,Peanut mottle virus ,45,1,2.22
+microbes.csv,default,Pediococcus acidilactici D3 ,45,1,2.22
+microbes.csv,default,Pediococcus argentinicus strain DSM ,45,1,2.22
+microbes.csv,default,Pediococcus claussenii ,45,1,2.22
+microbes.csv,default,Pediococcus pentosaceus ,45,1,2.22
+microbes.csv,default,Penicillium chrysogenum ,45,1,2.22
+microbes.csv,default,Penicillium polonicum ,45,1,2.22
+microbes.csv,default,Penicillium rubens Wisconsin 54-1255 ,45,1,2.22
+microbes.csv,default,Pepper mild mottle virus ,45,1,2.22
+microbes.csv,default,Peptacetobacter ,45,1,2.22
+microbes.csv,default,Peptacetobacter hiranonis ,45,1,2.22
+microbes.csv,default,Peptoniphilus grossensis ,45,1,2.22
+microbes.csv,default,Peptoniphilus grossensis ph5 ,45,1,2.22
+microbes.csv,default,Peptoniphilus harei ,45,1,2.22
+microbes.csv,default,Peptoniphilus lacrimalis 315-B ,45,1,2.22
+microbes.csv,default,Peptoniphilus lacrimalis DSM 7455 ,45,1,2.22
+microbes.csv,default,Peptoniphilus senegalensis JC140 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. BV3C26 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. ChDC B134 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. HMSC062D09 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. HMSC075B08 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. KHD5 sp. KHD5 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. oral taxon 375 str. F0436 ,45,1,2.22
+microbes.csv,default,Peptoniphilus sp. oral taxon 836 str. F0141 ,45,1,2.22
+microbes.csv,default,Peptoniphilus timonensis JC401 ,45,1,2.22
+microbes.csv,default,Peptostreptococcus anaerobius VPI 4330 = DSM 2949 ,45,1,2.22
+microbes.csv,default,Peptostreptococcus anaerobius strain C ,45,1,2.22
+microbes.csv,default,Peptostreptococcus anaerobius strain MJR8628A ,45,1,2.22
+microbes.csv,default,Peptostreptococcus sp. MV1 ,45,1,2.22
+microbes.csv,default,Peptostreptococcus stomatis DSM 17678 ,45,1,2.22
+microbes.csv,default,Persea americana chrysovirus ,45,1,2.22
+microbes.csv,default,Petrimonas mucosa ,45,1,2.22
+microbes.csv,default,Phascolarctobacterium faecium ,45,1,2.22
+microbes.csv,default,Phascolarctobacterium succinatutens YIT 12067 ,45,1,2.22
+microbes.csv,default,Phaseolus vulgaris alphaendornavirus 1 ,45,1,2.22
+microbes.csv,default,Phaseolus vulgaris alphaendornavirus 2 ,45,1,2.22
+microbes.csv,default,Phaseolus vulgaris endornavirus 1 ,45,1,2.22
+microbes.csv,default,Phaseolus vulgaris endornavirus 2 ,45,1,2.22
+microbes.csv,default,Phocaeicola ,45,1,2.22
+microbes.csv,default,Phocaeicola coprophilus ,45,1,2.22
+microbes.csv,default,Phocea massiliensis strain Marseille-P2769 ,45,1,2.22
+microbes.csv,default,Plantactinospora ,45,1,2.22
+microbes.csv,default,Polerovirus ,45,1,2.22
+microbes.csv,default,Pontibacillus litoralis JSM 072002 ,45,1,2.22
+microbes.csv,default,Porphyromonas asaccharolytica DSM 20707 ,45,1,2.22
+microbes.csv,default,Porphyromonas bennonis DSM 23058 = JCM 16335 ,45,1,2.22
+microbes.csv,default,Porphyromonas endodontalis ATCC 35406 ,45,1,2.22
+microbes.csv,default,Porphyromonas gingivalis ,45,1,2.22
+microbes.csv,default,Porphyromonas gulae strain COT-052_OH2199 ,45,1,2.22
+microbes.csv,default,Porphyromonas levii ,45,1,2.22
+microbes.csv,default,Porphyromonas macacae strain COT-192 ,45,1,2.22
+microbes.csv,default,Porphyromonas somerae ,45,1,2.22
+microbes.csv,default,Porphyromonas somerae DSM 23386 ,45,1,2.22
+microbes.csv,default,Porphyromonas sp. HMSC065F10 ,45,1,2.22
+microbes.csv,default,Porphyromonas sp. HMSC077F02 ,45,1,2.22
+microbes.csv,default,Porphyromonas uenonis 60-3 ,45,1,2.22
+microbes.csv,default,Porphyromonas uenonis DSM 23387 = JCM 13868 ,45,1,2.22
+microbes.csv,default,Prevotella ,45,1,2.22
+microbes.csv,default,Prevotella albensis DSM 11370 = JCM 12258 ,45,1,2.22
+microbes.csv,default,Prevotella baroniae DSM 16972 = JCM 13447 ,45,1,2.22
+microbes.csv,default,Prevotella bergensis DSM 17361 ,45,1,2.22
+microbes.csv,default,Prevotella bivia DNF00188 ,45,1,2.22
+microbes.csv,default,Prevotella bivia DNF00320 ,45,1,2.22
+microbes.csv,default,Prevotella bivia DNF00650 ,45,1,2.22
+microbes.csv,default,Prevotella bivia DSM 20514 ,45,1,2.22
+microbes.csv,default,Prevotella bivia JCVIHMP010 ,45,1,2.22
+microbes.csv,default,Prevotella bivia strain 700_PDEN ,45,1,2.22
+microbes.csv,default,Prevotella bivia strain GED7760C ,45,1,2.22
+microbes.csv,default,Prevotella bivia strain GED7880 ,45,1,2.22
+microbes.csv,default,Prevotella bryantii B14 ,45,1,2.22
+microbes.csv,default,Prevotella bryantii C21a ,45,1,2.22
+microbes.csv,default,Prevotella bryantii strain FB3001 ,45,1,2.22
+microbes.csv,default,Prevotella bryantii strain KHPX14 ,45,1,2.22
+microbes.csv,default,Prevotella buccae D17 ,45,1,2.22
+microbes.csv,default,Prevotella buccalis ATCC 35310 ,45,1,2.22
+microbes.csv,default,Prevotella buccalis DNF00853 ,45,1,2.22
+microbes.csv,default,Prevotella buccalis DNF00985 ,45,1,2.22
+microbes.csv,default,Prevotella conceptionensis 9403948 ,45,1,2.22
+microbes.csv,default,Prevotella copri DSM 18205 ,45,1,2.22
+microbes.csv,default,Prevotella corporis DSM 18810 = JCM 8529 ,45,1,2.22
+microbes.csv,default,Prevotella corporis strain MJR7716 ,45,1,2.22
+microbes.csv,default,Prevotella dentalis DSM 3688 ,45,1,2.22
+microbes.csv,default,Prevotella denticola F0289 ,45,1,2.22
+microbes.csv,default,Prevotella disiens ,45,1,2.22
+microbes.csv,default,Prevotella disiens DNF00882 ,45,1,2.22
+microbes.csv,default,Prevotella disiens FB035-09AN ,45,1,2.22
+microbes.csv,default,Prevotella enoeca ,45,1,2.22
+microbes.csv,default,Prevotella histicola F0411 ,45,1,2.22
+microbes.csv,default,Prevotella ihumii sp. Marseille-P3385 ,45,1,2.22
+microbes.csv,default,Prevotella intermedia ,45,1,2.22
+microbes.csv,default,Prevotella jejuni ,45,1,2.22
+microbes.csv,default,Prevotella marshii DSM 16973 = JCM 13450 ,45,1,2.22
+microbes.csv,default,Prevotella melaninogenica ,45,1,2.22
+microbes.csv,default,Prevotella melaninogenica ATCC 25845 ,45,1,2.22
+microbes.csv,default,Prevotella multiformis DSM 16608 ,45,1,2.22
+microbes.csv,default,Prevotella multisaccharivorax DSM 17128 ,45,1,2.22
+microbes.csv,default,Prevotella nanceiensis DSM 19126 = JCM 15639 ,45,1,2.22
+microbes.csv,default,Prevotella nigrescens F0103 ,45,1,2.22
+microbes.csv,default,Prevotella oulorum JCM 14966 ,45,1,2.22
+microbes.csv,default,Prevotella pallens ATCC 700821 ,45,1,2.22
+microbes.csv,default,Prevotella pleuritidis JCM 14110 ,45,1,2.22
+microbes.csv,default,Prevotella scopos JCM 17725 ,45,1,2.22
+microbes.csv,default,Prevotella sp. 109 ,45,1,2.22
+microbes.csv,default,Prevotella sp. C561 ,45,1,2.22
+microbes.csv,default,Prevotella sp. DNF00663 ,45,1,2.22
+microbes.csv,default,Prevotella sp. HMSC069G02 ,45,1,2.22
+microbes.csv,default,Prevotella sp. HMSC073D09 ,45,1,2.22
+microbes.csv,default,Prevotella sp. KHD1 sp. KHD1 ,45,1,2.22
+microbes.csv,default,Prevotella sp. P4-65 ,45,1,2.22
+microbes.csv,default,Prevotella sp. P4-76 ,45,1,2.22
+microbes.csv,default,Prevotella sp. P5-119 ,45,1,2.22
+microbes.csv,default,Prevotella sp. P5-125 ,45,1,2.22
+microbes.csv,default,Prevotella sp. P5-60 ,45,1,2.22
+microbes.csv,default,Prevotella sp. S7-1-8 ,45,1,2.22
+microbes.csv,default,Prevotella sp. oral taxon 306 str. F0472 ,45,1,2.22
+microbes.csv,default,Prevotella sp. oral taxon 472 str. F0295 ,45,1,2.22
+microbes.csv,default,Prevotella stercorea ,45,1,2.22
+microbes.csv,default,Prevotella stercorea DSM 18206 ,45,1,2.22
+microbes.csv,default,Prevotella timonensis ,45,1,2.22
+microbes.csv,default,Prevotella timonensis 4401737 = DSM 22865 = JCM 15640 ,45,1,2.22
+microbes.csv,default,Prevotella timonensis CRIS 5C-B1 ,45,1,2.22
+microbes.csv,default,Prevotella timonensis S9-PR14 ,45,1,2.22
+microbes.csv,default,Prevotella veroralis DSM 19559 = JCM 6290 ,45,1,2.22
+microbes.csv,default,Prevotella veroralis F0319 ,45,1,2.22
+microbes.csv,default,Prevotellaceae bacterium Marseille-P2826 ,45,1,2.22
+microbes.csv,default,Prevotellamassilia timonensis strain Marseille-P2831 ,45,1,2.22
+microbes.csv,default,Priestia flexa ,45,1,2.22
+microbes.csv,default,Propionibacterium acidifaciens ,45,1,2.22
+microbes.csv,default,Propionibacterium acnes 266 ,45,1,2.22
+microbes.csv,default,Propionibacterium acnes hdn-1 ,45,1,2.22
+microbes.csv,default,Propionibacterium acnes subsp. acnes ,45,1,2.22
+microbes.csv,default,Propionibacterium acnes subsp. defendens ATCC 11828 ,45,1,2.22
+microbes.csv,default,Propionibacterium freudenreichii ,45,1,2.22
+microbes.csv,default,Propionibacterium freudenreichii subsp. freudenreichii ,45,1,2.22
+microbes.csv,default,Propionibacterium freudenreichii subsp. freudenreichii strain DSM ,45,1,2.22
+microbes.csv,default,Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1 ,45,1,2.22
+microbes.csv,default,Propionibacterium freudenreichii subsp. shermanii isolate PFREUDJS1 ,45,1,2.22
+microbes.csv,default,Propionimicrobium sp. Marseille-P3275 ,45,1,2.22
+microbes.csv,default,Proteus columbae ,45,1,2.22
+microbes.csv,default,Proteus mirabilis ,45,1,2.22
+microbes.csv,default,Proteus vulgaris ,45,1,2.22
+microbes.csv,default,Providencia rettgeri ,45,1,2.22
+microbes.csv,default,Pseudobutyrivibrio ruminis ,45,1,2.22
+microbes.csv,default,Pseudobutyrivibrio xylanivorans ,45,1,2.22
+microbes.csv,default,Pseudoflavonifractor capillosus ATCC 29799 ,45,1,2.22
+microbes.csv,default,Pseudomonas ,45,1,2.22
+microbes.csv,default,Pseudomonas aeruginosa ,45,1,2.22
+microbes.csv,default,Pseudomonas denitrificans ,45,1,2.22
+microbes.csv,default,Pseudomonas helleri strain DSM ,45,1,2.22
+microbes.csv,default,Pseudomonas psychrophila ,45,1,2.22
+microbes.csv,default,Pseudomonas stutzeri ,45,1,2.22
+microbes.csv,default,Pseudomonas stutzeri A1501 ,45,1,2.22
+microbes.csv,default,Pseudoramibacter alactolyticus ATCC 23263 ,45,1,2.22
+microbes.csv,default,Puccinia graminis f. sp. tritici CRL 75-36-700-3 ,45,1,2.22
+microbes.csv,default,Pyrenophora ,45,1,2.22
+microbes.csv,default,Pyrenophora tritici-repentis ,45,1,2.22
+microbes.csv,default,Pyricularia grisea ,45,1,2.22
+microbes.csv,default,Ralstonia ,45,1,2.22
+microbes.csv,default,Ralstonia insidiosa ,45,1,2.22
+microbes.csv,default,Ralstonia insidiosa strain ATCC ,45,1,2.22
+microbes.csv,default,Ralstonia mannitolilytica ,45,1,2.22
+microbes.csv,default,Ralstonia mannitolilytica strain SN82F48 ,45,1,2.22
+microbes.csv,default,Ralstonia pickettii 12D ,45,1,2.22
+microbes.csv,default,Ralstonia pickettii 12J ,45,1,2.22
+microbes.csv,default,Ralstonia solanacearum ,45,1,2.22
+microbes.csv,default,Ralstonia sp. AU12-08 ,45,1,2.22
+microbes.csv,default,Ralstonia sp. MD27 ,45,1,2.22
+microbes.csv,default,Raoultella ornithinolytica ,45,1,2.22
+microbes.csv,default,Raoultella ornithinolytica strain A14 ,45,1,2.22
+microbes.csv,default,Raoultella ornithinolytica strain Yangling ,45,1,2.22
+microbes.csv,default,Raoultella planticola ,45,1,2.22
+microbes.csv,default,Raoultella sp. XY-1 ,45,1,2.22
+microbes.csv,default,Riemerella anatipestifer Yb2 ,45,1,2.22
+microbes.csv,default,Rikenella microfusus ,45,1,2.22
+microbes.csv,default,Rikenella microfusus DSM 15922 ,45,1,2.22
+microbes.csv,default,Romboutsia ,45,1,2.22
+microbes.csv,default,Romboutsia sp. CE17 ,45,1,2.22
+microbes.csv,default,Roseburia ,45,1,2.22
+microbes.csv,default,Roseburia faecis ,45,1,2.22
+microbes.csv,default,Roseburia hominis A2-183 ,45,1,2.22
+microbes.csv,default,Roseburia intestinalis L1-82 ,45,1,2.22
+microbes.csv,default,Roseburia inulinivorans ,45,1,2.22
+microbes.csv,default,Roseburia sp. 499 ,45,1,2.22
+microbes.csv,default,Roseburia sp. 831b ,45,1,2.22
+microbes.csv,default,Rothia ,45,1,2.22
+microbes.csv,default,Rothia aeria ,45,1,2.22
+microbes.csv,default,Rothia dentocariosa ,45,1,2.22
+microbes.csv,default,Rothia dentocariosa ATCC 17931 ,45,1,2.22
+microbes.csv,default,Rothia kristinae ,45,1,2.22
+microbes.csv,default,Rothia mucilaginosa DY-18 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC061D12 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC061E04 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC062H08 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC065B04 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC065C03 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC065C12 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC065G12 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC066G02 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC066G07 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC068E02 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC069C04 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC069C10 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC069D01 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC072B03 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC073B08 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC075F09 ,45,1,2.22
+microbes.csv,default,Rothia sp. HMSC076D04 ,45,1,2.22
+microbes.csv,default,Ruminiclostridium herbifermentans ,45,1,2.22
+microbes.csv,default,Ruminococcaceae bacterium D16 ,45,1,2.22
+microbes.csv,default,Ruminococcaceae bacterium Marseille-P2935 ,45,1,2.22
+microbes.csv,default,Ruminococcaceae bacterium Marseille-P2963 ,45,1,2.22
+microbes.csv,default,Ruminococcaceae bacterium cv2 ,45,1,2.22
+microbes.csv,default,Ruminococcus bicirculans ,45,1,2.22
+microbes.csv,default,Ruminococcus callidus ATCC 27760 ,45,1,2.22
+microbes.csv,default,Ruminococcus champanellensis ,45,1,2.22
+microbes.csv,default,Ruminococcus faecis JCM 15917 ,45,1,2.22
+microbes.csv,default,Ruminococcus gauvreauii ,45,1,2.22
+microbes.csv,default,Ruminococcus gnavus ATCC 29149 ,45,1,2.22
+microbes.csv,default,Ruminococcus lactaris ,45,1,2.22
+microbes.csv,default,Ruminococcus lactaris ATCC 29176 ,45,1,2.22
+microbes.csv,default,Ruminococcus lactaris CC59_002D ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. 5_1_39BFAA ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. AT10 ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. DSM 100440 ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. JC304 ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. JE7A12 ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. Marseille-P3213 sp. Marseille-P3213 ,45,1,2.22
+microbes.csv,default,Ruminococcus sp. YE71 sp. YE71 ,45,1,2.22
+microbes.csv,default,Ruminococcus torques ATCC 27756 ,45,1,2.22
+microbes.csv,default,Ruthenibacterium ,45,1,2.22
+microbes.csv,default,Ruthenibacterium lactatiformans ,45,1,2.22
+microbes.csv,default,Ruthenibacterium lactatiformans strain 585-1 ,45,1,2.22
+microbes.csv,default,Saccharomyces boulardii (nom. inval.) ,45,1,2.22
+microbes.csv,default,Saccharomyces cerevisiae S288C ,45,1,2.22
+microbes.csv,default,Saccharomyces eubayanus ,45,1,2.22
+microbes.csv,default,Saccharomyces jurei ,45,1,2.22
+microbes.csv,default,Saccharomyces kudriavzevii ,45,1,2.22
+microbes.csv,default,Saccharomyces paradoxus ,45,1,2.22
+microbes.csv,default,Saccharomyces pastorianus ,45,1,2.22
+microbes.csv,default,Saccharomyces sp. 'boulardii' strain unique28 ,45,1,2.22
+microbes.csv,default,Salmonella phage allotria ,45,1,2.22
+microbes.csv,default,Sanguibacteroides justesenii ,45,1,2.22
+microbes.csv,default,Sarcina sp. JB2 ,45,1,2.22
+microbes.csv,default,Scardovia wiggsiae F0424 ,45,1,2.22
+microbes.csv,default,Schaalia ,45,1,2.22
+microbes.csv,default,Schaalia meyeri ,45,1,2.22
+microbes.csv,default,Schaalia odontolytica ,45,1,2.22
+microbes.csv,default,Schlumbergera virus X ,45,1,2.22
+microbes.csv,default,Selenomonas ,45,1,2.22
+microbes.csv,default,Sellimonas intestinalis ,45,1,2.22
+microbes.csv,default,Sellimonas intestinalis strain BR72 ,45,1,2.22
+microbes.csv,default,Senegalimassilia anaerobia JC110 ,45,1,2.22
+microbes.csv,default,Serratia liquefaciens ,45,1,2.22
+microbes.csv,default,Sfi11virus ,45,1,2.22
+microbes.csv,default,Sfi21dt1virus ,45,1,2.22
+microbes.csv,default,Sharpea azabuensis ,45,1,2.22
+microbes.csv,default,Shewanella colwelliana strain CSB03KR ,45,1,2.22
+microbes.csv,default,Shewanella maritima ,45,1,2.22
+microbes.csv,default,Shigella dysenteriae ,45,1,2.22
+microbes.csv,default,Shigella flexneri ,45,1,2.22
+microbes.csv,default,Shuttleworthia sp. MSX8B ,45,1,2.22
+microbes.csv,default,Sinorhizobium sp. GL28 ,45,1,2.22
+microbes.csv,default,Slackia piriformis ,45,1,2.22
+microbes.csv,default,Slackia piriformis YIT 12062 ,45,1,2.22
+microbes.csv,default,Slackia sp. CM382 ,45,1,2.22
+microbes.csv,default,Sneathia sanguinegens strain CCUG41628 ,45,1,2.22
+microbes.csv,default,Sneathia vaginalis ,45,1,2.22
+microbes.csv,default,Sodaliphilus ,45,1,2.22
+microbes.csv,default,Sodaliphilus pleomorphus ,45,1,2.22
+microbes.csv,default,Solobacterium moorei ,45,1,2.22
+microbes.csv,default,Southern tomato virus ,45,1,2.22
+microbes.csv,default,Sparassis latifolia ,45,1,2.22
+microbes.csv,default,Sphingobacterium hotanense ,45,1,2.22
+microbes.csv,default,Sphingobacterium multivorum ,45,1,2.22
+microbes.csv,default,Sphingobacterium thalpophilum ,45,1,2.22
+microbes.csv,default,Sphingomonas sp. Ant H11 ,45,1,2.22
+microbes.csv,default,Sphingopyxis ,45,1,2.22
+microbes.csv,default,Sphingopyxis fribergensis ,45,1,2.22
+microbes.csv,default,Sphingopyxis sp. EG6 ,45,1,2.22
+microbes.csv,default,Staphylococcus aureus ,45,1,2.22
+microbes.csv,default,Staphylococcus epidermidis ,45,1,2.22
+microbes.csv,default,Staphylococcus gallinarum ,45,1,2.22
+microbes.csv,default,Staphylococcus haemolyticus ,45,1,2.22
+microbes.csv,default,Staphylococcus hominis ,45,1,2.22
+microbes.csv,default,Staphylococcus pasteuri ,45,1,2.22
+microbes.csv,default,Staphylococcus piscifermentans ,45,1,2.22
+microbes.csv,default,Staphylococcus pseudintermedius ,45,1,2.22
+microbes.csv,default,Staphylococcus saprophyticus ,45,1,2.22
+microbes.csv,default,Staphylococcus succinus ,45,1,2.22
+microbes.csv,default,Staphylococcus vitulinus ,45,1,2.22
+microbes.csv,default,Staphylococcus warneri ,45,1,2.22
+microbes.csv,default,Stenotrophomonas maltophilia ,45,1,2.22
+microbes.csv,default,Stomatobaculum longum ,45,1,2.22
+microbes.csv,default,Streptococcus ,45,1,2.22
+microbes.csv,default,Streptococcus acidominimus ,45,1,2.22
+microbes.csv,default,Streptococcus agalactiae ,45,1,2.22
+microbes.csv,default,Streptococcus agalactiae 2603V/R ,45,1,2.22
+microbes.csv,default,Streptococcus agalactiae ILRI005 ,45,1,2.22
+microbes.csv,default,Streptococcus agalactiae strain GBS2-NM ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus C1051 ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus C238 ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus strain J4211 ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus strain SA1 ,45,1,2.22
+microbes.csv,default,Streptococcus anginosus subsp. whileyi MAS624 ,45,1,2.22
+microbes.csv,default,Streptococcus australis ,45,1,2.22
+microbes.csv,default,Streptococcus canis ,45,1,2.22
+microbes.csv,default,Streptococcus constellatus ,45,1,2.22
+microbes.csv,default,Streptococcus constellatus subsp. pharyngis C1050 ,45,1,2.22
+microbes.csv,default,Streptococcus constellatus subsp. pharyngis C232 ,45,1,2.22
+microbes.csv,default,Streptococcus constellatus subsp. pharyngis C818 ,45,1,2.22
+microbes.csv,default,Streptococcus cristatus AS 1.3089 ,45,1,2.22
+microbes.csv,default,Streptococcus cristatus ATCC 51100 ,45,1,2.22
+microbes.csv,default,Streptococcus dentasini ,45,1,2.22
+microbes.csv,default,Streptococcus dysgalactiae ,45,1,2.22
+microbes.csv,default,Streptococcus equinus ,45,1,2.22
+microbes.csv,default,Streptococcus gallolyticus ,45,1,2.22
+microbes.csv,default,Streptococcus gordonii ,45,1,2.22
+microbes.csv,default,Streptococcus gordonii str. Challis substr. CH1 ,45,1,2.22
+microbes.csv,default,Streptococcus gordonii strain KCOM ,45,1,2.22
+microbes.csv,default,Streptococcus gwangjuense ,45,1,2.22
+microbes.csv,default,Streptococcus infantarius ,45,1,2.22
+microbes.csv,default,Streptococcus infantarius strain ICDDRB-NRC-S5 ,45,1,2.22
+microbes.csv,default,Streptococcus infantarius subsp. infantarius CJ18 ,45,1,2.22
+microbes.csv,default,Streptococcus infantis ,45,1,2.22
+microbes.csv,default,Streptococcus infantis ATCC 700779 ,45,1,2.22
+microbes.csv,default,Streptococcus infantis SK1076 ,45,1,2.22
+microbes.csv,default,Streptococcus infantis SK1302 ,45,1,2.22
+microbes.csv,default,Streptococcus infantis SK970 ,45,1,2.22
+microbes.csv,default,Streptococcus infantis X ,45,1,2.22
+microbes.csv,default,Streptococcus infantis strain UC6950A ,45,1,2.22
+microbes.csv,default,Streptococcus infantis strain UC921A ,45,1,2.22
+microbes.csv,default,Streptococcus intermedius ,45,1,2.22
+microbes.csv,default,Streptococcus intermedius B196 ,45,1,2.22
+microbes.csv,default,Streptococcus intermedius C270 ,45,1,2.22
+microbes.csv,default,Streptococcus intermedius JTH08 ,45,1,2.22
+microbes.csv,default,Streptococcus koreensis ,45,1,2.22
+microbes.csv,default,Streptococcus lutetiensis ,45,1,2.22
+microbes.csv,default,Streptococcus lutetiensis 033 ,45,1,2.22
+microbes.csv,default,Streptococcus macedonicus ACA-DC 198 ,45,1,2.22
+microbes.csv,default,Streptococcus milleri ,45,1,2.22
+microbes.csv,default,Streptococcus mitis ,45,1,2.22
+microbes.csv,default,Streptococcus mitis B6 ,45,1,2.22
+microbes.csv,default,Streptococcus mitis NCTC 12261 ,45,1,2.22
+microbes.csv,default,Streptococcus mitis SPAR10 ,45,1,2.22
+microbes.csv,default,Streptococcus mitis strain KCOM ,45,1,2.22
+microbes.csv,default,Streptococcus mutans ,45,1,2.22
+microbes.csv,default,Streptococcus mutans B04Sm5 ,45,1,2.22
+microbes.csv,default,Streptococcus mutans GS-5 ,45,1,2.22
+microbes.csv,default,Streptococcus mutans LJ23 ,45,1,2.22
+microbes.csv,default,Streptococcus mutans NN2025 ,45,1,2.22
+microbes.csv,default,Streptococcus mutans UA159 ,45,1,2.22
+microbes.csv,default,Streptococcus mutans UA159-FR ,45,1,2.22
+microbes.csv,default,Streptococcus mutans strain NG8 ,45,1,2.22
+microbes.csv,default,Streptococcus oralis ,45,1,2.22
+microbes.csv,default,Streptococcus oralis ATCC 35037 ,45,1,2.22
+microbes.csv,default,Streptococcus oralis Uo5 ,45,1,2.22
+microbes.csv,default,Streptococcus oralis strain S.MIT/ORALIS-351 ,45,1,2.22
+microbes.csv,default,Streptococcus oralis subsp. dentisani ,45,1,2.22
+microbes.csv,default,Streptococcus oralis subsp. tigurinus ,45,1,2.22
+microbes.csv,default,Streptococcus parasanguinis ATCC 15912 ,45,1,2.22
+microbes.csv,default,Streptococcus parasanguinis FW213 ,45,1,2.22
+microbes.csv,default,Streptococcus parauberis ,45,1,2.22
+microbes.csv,default,Streptococcus pasteurianus ,45,1,2.22
+microbes.csv,default,Streptococcus pasteurianus ATCC 43144 ,45,1,2.22
+microbes.csv,default,Streptococcus periodonticum ,45,1,2.22
+microbes.csv,default,Streptococcus peroris ATCC 700780 ,45,1,2.22
+microbes.csv,default,Streptococcus phage TP-778L ,45,1,2.22
+microbes.csv,default,Streptococcus phage YMC-2011 ,45,1,2.22
+microbes.csv,default,Streptococcus phage phiARI0131-1 ,45,1,2.22
+microbes.csv,default,Streptococcus pluranimalium ,45,1,2.22
+microbes.csv,default,Streptococcus porcinus ,45,1,2.22
+microbes.csv,default,Streptococcus pyogenes ,45,1,2.22
+microbes.csv,default,Streptococcus pyogenes MGAS2096 ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius CCHSS3 ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius JIM8777 ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius strain HSISS4 ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius strain JF ,45,1,2.22
+microbes.csv,default,Streptococcus salivarius strain NCTC ,45,1,2.22
+microbes.csv,default,Streptococcus sanguinis ,45,1,2.22
+microbes.csv,default,Streptococcus sanguinis SK36 ,45,1,2.22
+microbes.csv,default,Streptococcus sobrinus ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 116-D4 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 1171_SSPC ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 1643 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 263_SSPC ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 2_1_36FAA ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 343_SSPC ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 400_SSPC ,45,1,2.22
+microbes.csv,default,Streptococcus sp. 449_SSPC ,45,1,2.22
+microbes.csv,default,Streptococcus sp. A12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. A12 sp. A12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. AS14 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. AS20 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. BS29a ,45,1,2.22
+microbes.csv,default,Streptococcus sp. C150 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. C300 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CCH5-D3 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CCH8-C6 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CCH8-H5 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CCUG 49591 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CM6 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. CM7 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. ChDC B345 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. DD10 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. F0441 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. F0442 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. FDAARGOS_192 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. FDAARGOS_520 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. FDAARGOS_522 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC034A12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC034B03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC034E03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC034E12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC034F03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC056C01 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC057G03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC061D10 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC061E03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC062D07 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC062H02 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC063B03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC064D12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC064H09 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC065C01 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC065E03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC065H07 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC066F01 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC067H01 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC068F04 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC070B10 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC071D03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC072C09 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC072D03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC072D05 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC072D07 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC072G04 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC073A12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC073D05 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC073F11 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC074B11 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC074F05 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC076C08 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC076C09 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC077D04 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC077F03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC078D09 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC078H03 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC078H12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC10A01 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC10E12 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HMSC34B10 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HPH0090 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. HSISS3 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. I-G2 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. I-G2 sp. I-G2 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. I-P16 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. I-P16 sp. I-P16 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. KS 6 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. LPB0220 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. M143 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. NCTC 11567 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. NPS 308 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. SK140 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. SK643 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. SR1 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. SR4 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. oral taxon 061 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. oral taxon 064 strain W10853 ,45,1,2.22
+microbes.csv,default,Streptococcus sp. oral taxon 431 ,45,1,2.22
+microbes.csv,default,Streptococcus suis ,45,1,2.22
+microbes.csv,default,Streptococcus suis 05HAS68 ,45,1,2.22
+microbes.csv,default,Streptococcus suis 6407 ,45,1,2.22
+microbes.csv,default,Streptococcus suis D9 ,45,1,2.22
+microbes.csv,default,Streptococcus suis GZ1 ,45,1,2.22
+microbes.csv,default,Streptococcus suis JS14 ,45,1,2.22
+microbes.csv,default,Streptococcus suis SC070731 ,45,1,2.22
+microbes.csv,default,Streptococcus suis SS12 ,45,1,2.22
+microbes.csv,default,Streptococcus suis strain 90-1330 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus ASCC 1275 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus CNRZ1066 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus JIM 8232 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus LMD-9 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus LMG 18311 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus MN-ZLW-002 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus ND03 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain CS8 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain KLDS ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain MN-BM-A01 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain MN-BM-A02 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain ND07 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain S9 ,45,1,2.22
+microbes.csv,default,Streptococcus thermophilus strain SMQ-301 ,45,1,2.22
+microbes.csv,default,Streptococcus timonensis strain Marseille-P2915 ,45,1,2.22
+microbes.csv,default,Streptococcus vestibularis ,45,1,2.22
+microbes.csv,default,Streptococcus viridans ,45,1,2.22
+microbes.csv,default,Streptococcus virus phiAbc2 ,45,1,2.22
+microbes.csv,default,Streptomyces spectabilis ,45,1,2.22
+microbes.csv,default,Subdoligranulum sp. 4_3_54A2FAA ,45,1,2.22
+microbes.csv,default,Subdoligranulum variabile ,45,1,2.22
+microbes.csv,default,Sutterella sp. KLE1602 ,45,1,2.22
+microbes.csv,default,Sutterella wadsworthensis ,45,1,2.22
+microbes.csv,default,Sutterella wadsworthensis 2_1_59BFAA ,45,1,2.22
+microbes.csv,default,Sutterella wadsworthensis 3_1_45B ,45,1,2.22
+microbes.csv,default,Sutterella wadsworthensis HGA0223 ,45,1,2.22
+microbes.csv,default,Sutterellaceae bacterium Marseille-P2968 ,45,1,2.22
+microbes.csv,default,Sutterellaceae bacterium ND3 ,45,1,2.22
+microbes.csv,default,Synergistes sp. 3_1_syn1 ,45,1,2.22
+microbes.csv,default,Talaromyces funiculosus ,45,1,2.22
+microbes.csv,default,Tannerella sp. 6_1_58FAA_CT1 ,45,1,2.22
+microbes.csv,default,Tepidimonas fonticaldi strain PL17 ,45,1,2.22
+microbes.csv,default,Terrisporobacter glycolicus ATCC 14880 = DSM 1288 ,45,1,2.22
+microbes.csv,default,Terrisporobacter othiniensis strain 08-306576 ,45,1,2.22
+microbes.csv,default,Tidjanibacter massiliensis strain Marseille-P3084 ,45,1,2.22
+microbes.csv,default,Tissierellia bacterium S5-A11 ,45,1,2.22
+microbes.csv,default,Tissierellia bacterium S7-1-4 ,45,1,2.22
+microbes.csv,default,Tobacco mild green mosaic virus ,45,1,2.22
+microbes.csv,default,Tobacco mosaic virus ,45,1,2.22
+microbes.csv,default,Tobamovirus ,45,1,2.22
+microbes.csv,default,Tomato brown rugose fruit virus ,45,1,2.22
+microbes.csv,default,Tomato chlorosis virus ,45,1,2.22
+microbes.csv,default,Tomato mosaic virus ,45,1,2.22
+microbes.csv,default,Toxoplasma gondii RH ,45,1,2.22
+microbes.csv,default,Traorella massiliensis strain Marseille-P3110 ,45,1,2.22
+microbes.csv,default,Treponema ,45,1,2.22
+microbes.csv,default,Treponema medium ,45,1,2.22
+microbes.csv,default,Treponema phagedenis ,45,1,2.22
+microbes.csv,default,Treponema sp. OMZ 838 ,45,1,2.22
+microbes.csv,default,Treponema sp. RCC2812 ,45,1,2.22
+microbes.csv,default,Treponema succinifaciens DSM 2489 ,45,1,2.22
+microbes.csv,default,Tropical soda apple mosaic virus ,45,1,2.22
+microbes.csv,default,Trypanosoma brucei ,45,1,2.22
+microbes.csv,default,Turicibacter ,45,1,2.22
+microbes.csv,default,Turicibacter sanguinis ,45,1,2.22
+microbes.csv,default,Turicibacter sp. H121 ,45,1,2.22
+microbes.csv,default,Turicibacter sp. H121 sp. H121 ,45,1,2.22
+microbes.csv,default,Tyzzerella nexilis ,45,1,2.22
+microbes.csv,default,Tyzzerella sp. Marseille-P3062 sp. Marseille-P3062 ,45,1,2.22
+microbes.csv,default,Ureaplasma urealyticum ,45,1,2.22
+microbes.csv,default,Urmitella timonensis sp. Marseille-P2918 ,45,1,2.22
+microbes.csv,default,Valsa mali ,45,1,2.22
+microbes.csv,default,Variovorax paradoxus ,45,1,2.22
+microbes.csv,default,Veillonella ,45,1,2.22
+microbes.csv,default,Veillonella atypica ,45,1,2.22
+microbes.csv,default,Veillonella atypica ACS-049-V-Sch6 ,45,1,2.22
+microbes.csv,default,Veillonella atypica ACS-134-V-Col7a ,45,1,2.22
+microbes.csv,default,Veillonella atypica KON ,45,1,2.22
+microbes.csv,default,Veillonella atypica strain CMW7756B ,45,1,2.22
+microbes.csv,default,Veillonella dispar ,45,1,2.22
+microbes.csv,default,Veillonella magna DSM 19857 ,45,1,2.22
+microbes.csv,default,Veillonella nakazawae ,45,1,2.22
+microbes.csv,default,Veillonella parvula ,45,1,2.22
+microbes.csv,default,Veillonella parvula DSM 2008 ,45,1,2.22
+microbes.csv,default,Veillonella parvula strain UTDB1-3 ,45,1,2.22
+microbes.csv,default,Veillonella rodentium ,45,1,2.22
+microbes.csv,default,Veillonella seminalis ,45,1,2.22
+microbes.csv,default,Veillonella sp. 3_1_44 ,45,1,2.22
+microbes.csv,default,Veillonella sp. 6_1_27 ,45,1,2.22
+microbes.csv,default,Veillonella sp. ACP1 ,45,1,2.22
+microbes.csv,default,Veillonella sp. AS16 ,45,1,2.22
+microbes.csv,default,Veillonella sp. HPA0037 ,45,1,2.22
+microbes.csv,default,Veillonella sp. ICM51a ,45,1,2.22
+microbes.csv,default,Veillonella tobetsuensis strain ATCC ,45,1,2.22
+microbes.csv,default,Veillonellaceae bacterium DNF00751 ,45,1,2.22
+microbes.csv,default,Watermelon chlorotic stunt virus ,45,1,2.22
+microbes.csv,default,Weissella cibaria ,45,1,2.22
+microbes.csv,default,Weissella cibaria strain CH2 ,45,1,2.22
+microbes.csv,default,Weissella cibaria strain CMS2 ,45,1,2.22
+microbes.csv,default,Weissella cibaria strain CMU ,45,1,2.22
+microbes.csv,default,Weissella confusa ,45,1,2.22
+microbes.csv,default,Weissella hellenica ,45,1,2.22
+microbes.csv,default,Weissella jogaejeotgali ,45,1,2.22
+microbes.csv,default,Weissella koreensis KACC 15510 ,45,1,2.22
+microbes.csv,default,Weissella paramesenteroides ,45,1,2.22
+microbes.csv,default,Weissella soli ,45,1,2.22
+microbes.csv,default,Weissella sp. DD23 ,45,1,2.22
+microbes.csv,default,Weizmannia coagulans ,45,1,2.22
+microbes.csv,default,White spot syndrome virus ,45,1,2.22
+microbes.csv,default,Zygosaccharomyces parabailii ,45,1,2.22
+microbes.csv,default,[Bacteroides] pectinophilus ,45,1,2.22
+microbes.csv,default,[Candida] intermedia ,45,1,2.22
+microbes.csv,default,[Clostridium] aminophilum strain KH1P1 ,45,1,2.22
+microbes.csv,default,[Clostridium] asparagiforme ,45,1,2.22
+microbes.csv,default,[Clostridium] bolteae ,45,1,2.22
+microbes.csv,default,[Clostridium] citroniae ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 2_1_49FAA ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A1 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A3 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A4 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A6 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A7 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90A8 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme 90B1 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme AGR2157 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme CM201 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme WAL-7855 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme strain 2789STDY5834865 ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme strain ATCC ,45,1,2.22
+microbes.csv,default,[Clostridium] clostridioforme strain NLAE-zl-G208 ,45,1,2.22
+microbes.csv,default,[Clostridium] glycyrrhizinilyticum JCM 13369 ,45,1,2.22
+microbes.csv,default,[Clostridium] hylemonae DSM 15053 ,45,1,2.22
+microbes.csv,default,[Clostridium] innocuum ,45,1,2.22
+microbes.csv,default,[Clostridium] innocuum 2959 ,45,1,2.22
+microbes.csv,default,[Clostridium] innocuum strain 2789STDY5834853 ,45,1,2.22
+microbes.csv,default,[Clostridium] innocuum strain AN88 ,45,1,2.22
+microbes.csv,default,[Clostridium] innocuum strain NLAE-zl-C381 ,45,1,2.22
+microbes.csv,default,[Clostridium] lactatifermentans ,45,1,2.22
+microbes.csv,default,[Clostridium] leptum ,45,1,2.22
+microbes.csv,default,[Clostridium] leptum DSM 753 ,45,1,2.22
+microbes.csv,default,[Clostridium] methoxybenzovorans SR3 ,45,1,2.22
+microbes.csv,default,[Clostridium] methylpentosum DSM 5476 ,45,1,2.22
+microbes.csv,default,[Clostridium] neopropionicum strain DSM-3847 ,45,1,2.22
+microbes.csv,default,[Clostridium] saccharogumia DSM 17460 ,45,1,2.22
+microbes.csv,default,[Clostridium] saccharolyticum WM1 ,45,1,2.22
+microbes.csv,default,[Clostridium] scindens ,45,1,2.22
+microbes.csv,default,[Clostridium] scindens ATCC 35704 ,45,1,2.22
+microbes.csv,default,[Clostridium] spiroforme ,45,1,2.22
+microbes.csv,default,[Clostridium] spiroforme DSM 1552 ,45,1,2.22
+microbes.csv,default,[Clostridium] symbiosum ,45,1,2.22
+microbes.csv,default,[Clostridium] symbiosum ATCC 14940 ,45,1,2.22
+microbes.csv,default,[Clostridium] symbiosum WAL-14163 ,45,1,2.22
+microbes.csv,default,[Clostridium] symbiosum WAL-14673 ,45,1,2.22
+microbes.csv,default,[Clostridium] symbiosum strain 2789STDY5834864 ,45,1,2.22
+microbes.csv,default,[Eubacterium rectale] ATCC 33656 ,45,1,2.22
+microbes.csv,default,[Eubacterium] cellulosolvens 6 ,45,1,2.22
+microbes.csv,default,[Eubacterium] contortum ,45,1,2.22
+microbes.csv,default,[Eubacterium] contortum strain 2789STDY5834876 ,45,1,2.22
+microbes.csv,default,[Eubacterium] dolichum ,45,1,2.22
+microbes.csv,default,[Eubacterium] dolichum DSM 3991 ,45,1,2.22
+microbes.csv,default,[Eubacterium] eligens ATCC 27750 ,45,1,2.22
+microbes.csv,default,[Eubacterium] fissicatena ,45,1,2.22
+microbes.csv,default,[Eubacterium] hallii ,45,1,2.22
+microbes.csv,default,[Eubacterium] hallii DSM 3353 ,45,1,2.22
+microbes.csv,default,[Eubacterium] infirmum ,45,1,2.22
+microbes.csv,default,[Eubacterium] rectale strain T1-815 ,45,1,2.22
+microbes.csv,default,[Eubacterium] siraeum DSM 15702 ,45,1,2.22
+microbes.csv,default,[Eubacterium] siraeum strain 2789STDY5834928 ,45,1,2.22
+microbes.csv,default,[Propionibacterium] namnetense ,45,1,2.22
+microbes.csv,default,[Ruminococcus] gnavus ATCC 29149 ,45,1,2.22
+microbes.csv,default,[Ruminococcus] torques strain 2789STDY5608833 ,45,1,2.22
+microbes.csv,default,[Ruminococcus] torques strain 2789STDY5608867 ,45,1,2.22
+microbes.csv,default,[Ruminococcus] torques strain 2789STDY5834841 ,45,1,2.22
+microbes.csv,default,[Ruminococcus] torques strain 2789STDY5834889 ,45,1,2.22
+microbes.csv,default,bacterium LF-3 ,45,1,2.22
+DataDictionary_Bio.csv,default,Field,23,0,0.0
+DataDictionary_Bio.csv,default,Range,23,0,0.0
+DataDictionary_Bio.csv,default,Description,23,0,0.0
+DataDictionary_CGMacros-00X.csv,default,Field,14,0,0.0
+DataDictionary_CGMacros-00X.csv,default,Range,14,0,0.0
+DataDictionary_CGMacros-00X.csv,default,Description,14,0,0.0
+DataDictionary_Gut_Health_Test.csv,default,Field,22,0,0.0
+DataDictionary_Gut_Health_Test.csv,default,Value,22,0,0.0
+DataDictionary_Gut_Health_Test.csv,default,Description (from Viome),22,0,0.0
+DataDictionary_Microbes.csv,default,Field,1979,0,0.0
+DataDictionary_Microbes.csv,default,Range,1979,0,0.0
+DataDictionary_Microbes.csv,default,Description,1979,0,0.0

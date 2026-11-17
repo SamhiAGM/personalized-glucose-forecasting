@@ -1,0 +1,6 @@
+feature,missing_rows,missing_row_percent,missing_participants,total_participants,missing_participant_percent
+participant_age,0,0.0,0,100,0.0
+participant_sex,0,0.0,0,100,0.0
+participant_bmi,0,0.0,0,100,0.0
+diabetes_duration_years,0,0.0,0,100,0.0
+hba1c_mmol_mol,10134,9.07,8,100,8.0

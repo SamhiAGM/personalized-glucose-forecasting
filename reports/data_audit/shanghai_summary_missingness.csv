@@ -1,0 +1,34 @@
+variable,missing_count,missing_percent,dtype
+Patient Number,0,0.0,str
+"Gender (Female=1, Male=2)",0,0.0,int64
+Age (years),0,0.0,int64
+Height (m),0,0.0,float64
+Weight (kg),0,0.0,float64
+BMI (kg/m2),0,0.0,float64
+Smoking History (pack year),0,0.0,float64
+Alcohol Drinking History (drinker/non-drinker),0,0.0,str
+Type of Diabetes,0,0.0,str
+Duration of diabetes (years),0,0.0,float64
+Acute Diabetic Complications,0,0.0,str
+Diabetic Macrovascular  Complications,0,0.0,str
+Diabetic Microvascular Complications,0,0.0,str
+Comorbidities,0,0.0,str
+Hypoglycemic Agents,0,0.0,str
+Other Agents,0,0.0,str
+Fasting Plasma Glucose (mg/dl),0,0.0,object
+2-hour Postprandial Plasma Glucose (mg/dl),0,0.0,object
+Fasting C-peptide (nmol/L),0,0.0,object
+2-hour Postprandial C-peptide (nmol/L),0,0.0,object
+Fasting Insulin (pmol/L),0,0.0,object
+2-hour Postprandial insulin (pmol/L),0,0.0,object
+HbA1c (mmol/mol),0,0.0,object
+Glycated Albumin (%),0,0.0,object
+Total Cholesterol (mmol/L),0,0.0,object
+Triglyceride (mmol/L),0,0.0,object
+High-Density Lipoprotein Cholesterol (mmol/L),0,0.0,object
+Low-Density Lipoprotein Cholesterol (mmol/L),0,0.0,object
+Creatinine (umol/L),0,0.0,object
+Estimated Glomerular Filtration Rate  (ml/min/1.73m2) ,0,0.0,object
+Uric Acid (mmol/L),0,0.0,object
+Blood Urea Nitrogen (mmol/L),0,0.0,object
+Hypoglycemia (yes/no),0,0.0,str

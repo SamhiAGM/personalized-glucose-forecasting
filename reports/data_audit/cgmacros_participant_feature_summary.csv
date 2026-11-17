@@ -1,0 +1,10 @@
+metric,value
+rows,678070
+participants,45
+participant_features_created,5
+missing_age_participants,0
+missing_sex_participants,0
+missing_bmi_participants,0
+missing_hba1c_participants,0
+missing_fasting_glucose_participants,0
+missing_prediction_targets,0

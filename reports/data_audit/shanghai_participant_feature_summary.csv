@@ -1,0 +1,8 @@
+metric,value
+rows,111753
+participants,100
+sessions,109
+participant_features_added,5
+missing_prediction_targets,0
+repeated_participants_checked,8
+inconsistent_repeated_feature_checks,9

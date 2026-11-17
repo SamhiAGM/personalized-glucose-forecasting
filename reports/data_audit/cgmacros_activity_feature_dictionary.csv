@@ -1,0 +1,10 @@
+feature,meaning,unit,uses_future_information
+current_heart_rate_bpm,Heart-rate measurement available at prediction time t,beats/minute,No
+heart_rate_mean_15min,Mean heart rate from the previous 15 minutes through t,beats/minute,No
+heart_rate_mean_60min,Mean heart rate from the previous 60 minutes through t,beats/minute,No
+heart_rate_std_60min,Heart-rate standard deviation during the previous 60 minutes through t,beats/minute,No
+current_mets,Current/recent metabolic equivalent of task estimate,MET,No
+mets_mean_30min,Mean MET estimate during the previous 30 minutes through t,MET,No
+current_activity_calories_last_min,Fitbit estimated activity calories for the most recent minute,kcal,No
+activity_calories_mean_30min,Mean per-minute activity calorie estimate during the previous 30 minutes through t,kcal/minute-record,No
+activity_calories_mean_60min,Mean per-minute activity calorie estimate during the previous 60 minutes through t,kcal/minute-record,No

@@ -1,0 +1,9 @@
+metric,value
+session_files_processed,109
+unique_participants,100
+raw_loaded_rows,112475
+invalid_timestamp_rows,0
+missing_cgm_rows,13
+clean_cgm_rows,112462
+rows_removed,13
+duplicate_session_timestamps,0

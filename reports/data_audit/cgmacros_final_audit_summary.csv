@@ -1,0 +1,17 @@
+metric,value
+rows,678070
+participants,45
+approved_model_features,39
+duplicate_participant_timestamps,0
+missing_prediction_targets,0
+incorrect_target_horizons,0
+invalid_mets_detected_in_source,3
+current_mets_values_changed_to_missing,1
+rolling_mets_rows_recomputed_changed,31
+invalid_mets_remaining,0
+rows_with_any_missing_feature,217795
+complete_feature_rows,460275
+current_glucose_outside_documented_range,9
+target_glucose_outside_documented_range,9
+activity_calories_marginally_outside_range,2
+ready_for_modeling_handoff,YES - split by participant and fit imputation/scaling on training data only

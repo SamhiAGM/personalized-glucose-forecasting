@@ -1,0 +1,10 @@
+feature,meaning,unit,uses_future_information
+meal_event_at_t,1 if a recorded CGMacros meal begins exactly at prediction time t,binary,No
+recent_meal_2h,1 if at least one recorded meal occurs from t-120 minutes through t,binary,No
+time_since_last_meal_min,Minutes since the latest recorded meal at or before prediction time t,minutes,No
+meal_count_last_2h,Number of recorded meals from t-120 minutes through t,count,No
+meal_calories_last_2h,Sum of estimated calories from recorded meals during the previous 2 hours through t,kcal,No
+meal_carbs_last_2h_g,Sum of estimated carbohydrates from recorded meals during the previous 2 hours through t,g,No
+meal_protein_last_2h_g,Sum of estimated protein from recorded meals during the previous 2 hours through t,g,No
+meal_fat_last_2h_g,Sum of estimated fat from recorded meals during the previous 2 hours through t,g,No
+meal_fiber_last_2h_g,Sum of estimated fiber from recorded meals during the previous 2 hours through t,g,No

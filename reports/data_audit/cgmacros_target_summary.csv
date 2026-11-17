@@ -1,0 +1,9 @@
+metric,value
+input_glucose_rows,687360.0
+participants,45.0
+prediction_horizon_minutes,30.0
+valid_30min_targets,683993.0
+missing_30min_targets,3367.0
+target_availability_percent,99.51
+target_ready_rows,683993.0
+missing_targets_in_ready_file,0.0

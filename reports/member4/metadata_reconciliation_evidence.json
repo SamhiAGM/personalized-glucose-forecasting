@@ -1,0 +1,81 @@
+{
+  "imported_main_commit": "7e75bda108b3abf6f6401bd7620cec9d00eda4ab",
+  "datasets": [
+    {
+      "dataset": "shanghai",
+      "development_participants": 80,
+      "development_rows": 91829,
+      "approved_features": 25,
+      "feature_list_semantic_match": true,
+      "local_feature_list_sha256": "2471d41f310efbe93e432ececa5a0653451fb7f9e26639de165f4247767c6609",
+      "imported_feature_list_sha256": "81cb076fa581ec8d08695bf565641643b8f38bee99b8f9aba7a6ccf5d49397e3",
+      "glucose_dictionary_sha256": "0fd43dffc2b2221ac9142351c03992adb049ae0c936131cc8a221ab25709619e",
+      "dataset_sha256": "0707e4f26bd98d7307a3a30ec335f11d5085820331c0b5a7a20b9f800861d99e",
+      "derived_checks": {
+        "glucose_change_15min": {
+          "rows": 91829,
+          "max_absolute_residual": 7.105427357601002e-15,
+          "mismatches": 0
+        },
+        "glucose_change_30min": {
+          "rows": 91829,
+          "max_absolute_residual": 1.4210854715202004e-14,
+          "mismatches": 0
+        },
+        "glucose_slope_15min": {
+          "rows": 91829,
+          "max_absolute_residual": 8.881784197001252e-16,
+          "mismatches": 0
+        }
+      },
+      "exact_horizon_rows": 91829,
+      "eligible_target_value_checks": 91635,
+      "targets_without_future_ml_ready_row": 194,
+      "target_value_mismatches": 0,
+      "max_target_absolute_residual": 0.0,
+      "day_night_mismatches": 0,
+      "unit_conclusion": "mg/dL supported by imported definitions/code and consistent development relationships; no conversion applied"
+    },
+    {
+      "dataset": "cgmacros",
+      "development_participants": 36,
+      "development_rows": 534235,
+      "approved_features": 39,
+      "feature_list_semantic_match": true,
+      "local_feature_list_sha256": "fd44daf5a75004761cc8f2a4b15a82259e1c63f9a5f88abb62a16f04701d7fd0",
+      "imported_feature_list_sha256": "8ed98e4537608a8a329b0b5a8a95cb5b5b4449cf762f57ad70c231eb0f823737",
+      "glucose_dictionary_sha256": "db3fa099da64dabd06cef4a26027518d0e3dc65048ca20f43ccebb6e4df2a07c",
+      "dataset_sha256": "5b16732a8c6dc2f870f352de6f442f4349dafe6d5ea552c88ea388cb1a5931a9",
+      "derived_checks": {
+        "glucose_change_15min": {
+          "rows": 534235,
+          "max_absolute_residual": 7.105427357601002e-15,
+          "mismatches": 0
+        },
+        "glucose_change_30min": {
+          "rows": 534235,
+          "max_absolute_residual": 1.4210854715202004e-14,
+          "mismatches": 0
+        },
+        "glucose_slope_15min": {
+          "rows": 534235,
+          "max_absolute_residual": 1.3322676295501878e-15,
+          "mismatches": 0
+        }
+      },
+      "exact_horizon_rows": 534235,
+      "eligible_target_value_checks": 532264,
+      "targets_without_future_ml_ready_row": 1971,
+      "target_value_mismatches": 0,
+      "max_target_absolute_residual": 0.0,
+      "day_night_mismatches": 0,
+      "unit_conclusion": "mg/dL supported by imported definitions/code and consistent development relationships; no conversion applied"
+    }
+  ],
+  "protected_files": 252,
+  "protected_changes": 0,
+  "model_fits": 0,
+  "predictions": 0,
+  "locked_test_measurements_analyzed": 0,
+  "limitation": "Source code and schema support lineage; original raw execution/artifact chain is not independently reproduced"
+}

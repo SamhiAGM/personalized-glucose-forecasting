@@ -1,31 +1,34 @@
-# Virtual environments
+# Python virtual environments
 .venv/
 venv/
+env/
 
-# Python
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# Secrets
-.env
-
-# Raw datasets
+# Raw datasets and generated processed data
 data/raw/
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.xls
 
-# OS files
-Thumbs.db
+# Jupyter, editor and operating-system files
+.ipynb_checkpoints/
+.vscode/
 .DS_Store
+Thumbs.db
 
-# Member 4 participant-linked local audit outputs
+# Secrets and temporary files
+.env
+*.tmp
+*.log
+
+# Member 4 participant-linked local outputs
 results/member4/**/*.local.csv
 
-# Reproducible Member 4 fitted-model caches stay local
+# Member 4 fitted-model caches
 models/member4/
 
 # SHAP row-level arrays and local explanation figures

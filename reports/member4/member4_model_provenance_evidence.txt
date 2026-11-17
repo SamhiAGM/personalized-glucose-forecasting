@@ -1,0 +1,1053 @@
+Cell 7 (zero-based):
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV
+import joblib
+
+categorical_features = ["participant_sex"]
+numeric_features = [
+    column for column in X_dev.columns
+    if column not in categorical_features
+]
+
+numeric_pipeline = Pipeline([
+    ("imputer", SimpleImputer(
+        strategy="median",
+        keep_empty_features=True
+    )),
+    ("scaler", StandardScaler()),
+])
+
+categorical_pipeline = Pipeline([
+    ("imputer", SimpleImputer(strategy="most_frequent")),
+    ("encoder", OneHotEncoder(
+        handle_unknown="ignore",
+        sparse_output=False
+    )),
+])
+
+preprocessor = ColumnTransformer([
+    ("numeric", numeric_pipeline, numeric_features),
+    ("categorical", categorical_pipeline, categorical_features),
+])
+
+ridge_pipeline = Pipeline([
+    ("preprocessor", preprocessor),
+    ("model", Ridge()),
+])
+
+ridge_search = GridSearchCV(
+    estimator=ridge_pipeline,
+    param_grid={
+        "model__alpha": [0.1, 1.0, 10.0, 100.0, 1000.0]
+    },
+    scoring={
+        "MAE": "neg_mean_absolute_error",
+        "RMSE": "neg_root_mean_squared_error",
+        "R2": "r2",
+    },
+    refit="MAE",
+    cv=cv_splits,
+    n_jobs=1,
+    verbose=1,
+    error_score="raise",
+)
+
+ridge_search.fit(X_dev, y_dev)
+
+# Save every candidate's validation results.
+ridge_search_table = pd.DataFrame(ridge_search.cv_results_)
+ridge_search_table.to_csv(
+    results_folder / "shanghai_ridge_search.csv",
+    index=False
+)
+
+# Extract fold scores for the selected settings.
+best_index = ridge_search.best_index_
+ridge_results = []
+
+for fold_number in range(1, 6):
+    prefix = f"split{fold_number - 1}_test_"
+
+    ridge_results.append({
+        "dataset": "ShanghaiT2DM",
+        "model": "Ridge",
+        "validation_fold": fold_number,
+        "MAE": -ridge_search.cv_results_[
+            prefix + "MAE"
+        ][best_index],
+        "RMSE": -ridge_search.cv_results_[
+            prefix + "RMSE"
+        ][best_index],
+        "R2": ridge_search.cv_results_[
+            prefix + "R2"
+        ][best_index],
+    })
+
+ridge_table = pd.DataFrame(ridge_results)
+ridge_table.to_csv(
+    results_folder / "shanghai_ridge_cv.csv",
+    index=False
+)
+
+models_folder = ROOT / "models"
+models_folder.mkdir(parents=True, exist_ok=True)
+
+joblib.dump(
+    ridge_search.best_estimator_,
+    models_folder / "shanghai_ridge_pipeline.joblib"
+)
+
+print("\nBest settings:", ridge_search.best_params_)
+
+print("\nRIDGE VALIDATION RESULTS")
+print(ridge_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(ridge_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print("\nRidge pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 8 (zero-based):
+from sklearn.base import clone
+from sklearn.neighbors import KNeighborsRegressor
+
+# Calculate all scores using one prediction per validation fold.
+def regression_scores(estimator, inputs, actual):
+    predicted = estimator.predict(inputs)
+
+    return {
+        "MAE": -mean_absolute_error(actual, predicted),
+        "RMSE": -np.sqrt(mean_squared_error(actual, predicted)),
+        "R2": r2_score(actual, predicted),
+    }
+
+knn_pipeline = Pipeline([
+    ("preprocessor", clone(preprocessor)),
+    ("model", KNeighborsRegressor(
+        weights="distance",
+        algorithm="brute",
+        n_jobs=1
+    )),
+])
+
+knn_search = GridSearchCV(
+    estimator=knn_pipeline,
+    param_grid={
+        "model__n_neighbors": [5, 15]
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+knn_search.fit(X_dev, y_dev)
+
+pd.DataFrame(knn_search.cv_results_).to_csv(
+    results_folder / "shanghai_knn_search.csv",
+    index=False
+)
+
+best_index = knn_search.best_index_
+knn_results = []
+
+for fold_number in range(1, 6):
+    prefix = f"split{fold_number - 1}_test_"
+
+    knn_results.append({
+        "dataset": "ShanghaiT2DM",
+        "model": "KNN",
+        "validation_fold": fold_number,
+        "MAE": -knn_search.cv_results_[
+            prefix + "MAE"
+        ][best_index],
+        "RMSE": -knn_search.cv_results_[
+            prefix + "RMSE"
+        ][best_index],
+        "R2": knn_search.cv_results_[
+            prefix + "R2"
+        ][best_index],
+    })
+
+knn_table = pd.DataFrame(knn_results)
+knn_table.to_csv(
+    results_folder / "shanghai_knn_cv.csv",
+    index=False
+)
+
+joblib.dump(
+    knn_search.best_estimator_,
+    models_folder / "shanghai_knn_pipeline.joblib"
+)
+
+print("\nBest settings:", knn_search.best_params_)
+
+print("\nKNN VALIDATION RESULTS")
+print(knn_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(knn_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print("\nKNN pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+
+Cell 9 (zero-based):
+from sklearn.ensemble import RandomForestRegressor
+
+# Trees do not need numeric scaling.
+forest_preprocessor = clone(preprocessor)
+forest_preprocessor.set_params(numeric__scaler="passthrough")
+
+forest_pipeline = Pipeline([
+    ("preprocessor", forest_preprocessor),
+    ("model", RandomForestRegressor(
+        n_estimators=100,
+        min_samples_leaf=5,
+        random_state=42,
+        n_jobs=-1
+    )),
+])
+
+forest_search = GridSearchCV(
+    estimator=forest_pipeline,
+    param_grid={
+        "model__max_depth": [10, 20]
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+forest_search.fit(X_dev, y_dev)
+
+pd.DataFrame(forest_search.cv_results_).to_csv(
+    results_folder / "shanghai_random_forest_search.csv",
+    index=False
+)
+
+best_index = forest_search.best_index_
+forest_results = []
+
+for fold_number in range(1, 6):
+    prefix = f"split{fold_number - 1}_test_"
+
+    forest_results.append({
+        "dataset": "ShanghaiT2DM",
+        "model": "Random Forest",
+        "validation_fold": fold_number,
+        "MAE": -forest_search.cv_results_[
+            prefix + "MAE"
+        ][best_index],
+        "RMSE": -forest_search.cv_results_[
+            prefix + "RMSE"
+        ][best_index],
+        "R2": forest_search.cv_results_[
+            prefix + "R2"
+        ][best_index],
+    })
+
+forest_table = pd.DataFrame(forest_results)
+forest_table.to_csv(
+    results_folder / "shanghai_random_forest_cv.csv",
+    index=False
+)
+
+joblib.dump(
+    forest_search.best_estimator_,
+    models_folder / "shanghai_random_forest_pipeline.joblib"
+)
+
+print("\nBest settings:", forest_search.best_params_)
+
+print("\nRANDOM FOREST VALIDATION RESULTS")
+print(forest_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(forest_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print("\nRandom Forest pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 10 (zero-based):
+from sklearn.ensemble import GradientBoostingRegressor
+
+boosting_preprocessor = clone(preprocessor)
+boosting_preprocessor.set_params(numeric__scaler="passthrough")
+
+boosting_pipeline = Pipeline([
+    ("preprocessor", boosting_preprocessor),
+    ("model", GradientBoostingRegressor(
+        n_estimators=100,
+        learning_rate=0.1,
+        min_samples_leaf=5,
+        random_state=42
+    )),
+])
+
+boosting_search = GridSearchCV(
+    estimator=boosting_pipeline,
+    param_grid={
+        "model__max_depth": [2, 3]
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+boosting_search.fit(X_dev, y_dev)
+
+pd.DataFrame(boosting_search.cv_results_).to_csv(
+    results_folder / "shanghai_gradient_boosting_search.csv",
+    index=False
+)
+
+best_index = boosting_search.best_index_
+boosting_results = []
+
+for fold_number in range(1, 6):
+    prefix = f"split{fold_number - 1}_test_"
+
+    boosting_results.append({
+        "dataset": "ShanghaiT2DM",
+        "model": "Gradient Boosting",
+        "validation_fold": fold_number,
+        "MAE": -boosting_search.cv_results_[
+            prefix + "MAE"
+        ][best_index],
+        "RMSE": -boosting_search.cv_results_[
+            prefix + "RMSE"
+        ][best_index],
+        "R2": boosting_search.cv_results_[
+            prefix + "R2"
+        ][best_index],
+    })
+
+boosting_table = pd.DataFrame(boosting_results)
+boosting_table.to_csv(
+    results_folder / "shanghai_gradient_boosting_cv.csv",
+    index=False
+)
+
+joblib.dump(
+    boosting_search.best_estimator_,
+    models_folder / "shanghai_gradient_boosting_pipeline.joblib"
+)
+
+print("\nBest settings:", boosting_search.best_params_)
+
+print("\nGRADIENT BOOSTING VALIDATION RESULTS")
+print(boosting_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(boosting_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print("\nGradient Boosting pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+
+Cell 12 (zero-based):
+svr_pipeline = Pipeline([
+    ("preprocessor", clone(preprocessor)),
+    ("model", SVR(
+        kernel="rbf",
+        epsilon=5.0,
+        gamma="scale",
+        cache_size=512
+    )),
+])
+
+svr_search = GridSearchCV(
+    estimator=svr_pipeline,
+    param_grid={
+        "model__C": [1.0, 10.0]
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+print("Starting full SVR tuning...", flush=True)
+svr_start = time.perf_counter()
+
+svr_search.fit(X_dev, y_dev)
+
+pd.DataFrame(svr_search.cv_results_).to_csv(
+    results_folder / "shanghai_svr_search.csv",
+    index=False
+)
+
+best_index = svr_search.best_index_
+svr_results = []
+
+for fold_number in range(1, 6):
+    prefix = f"split{fold_number - 1}_test_"
+
+    svr_results.append({
+        "dataset": "ShanghaiT2DM",
+        "model": "SVR",
+        "validation_fold": fold_number,
+        "MAE": -svr_search.cv_results_[
+            prefix + "MAE"
+        ][best_index],
+        "RMSE": -svr_search.cv_results_[
+            prefix + "RMSE"
+        ][best_index],
+        "R2": svr_search.cv_results_[
+            prefix + "R2"
+        ][best_index],
+    })
+
+svr_table = pd.DataFrame(svr_results)
+svr_table.to_csv(
+    results_folder / "shanghai_svr_cv.csv",
+    index=False
+)
+
+joblib.dump(
+    svr_search.best_estimator_,
+    models_folder / "shanghai_svr_pipeline.joblib"
+)
+
+print("\nBest settings:", svr_search.best_params_)
+
+print("\nSVR VALIDATION RESULTS")
+print(svr_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(svr_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+elapsed_minutes = (time.perf_counter() - svr_start) / 60
+print(f"\nTotal runtime: {elapsed_minutes:.1f} minutes")
+
+print("SVR pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 19 (zero-based):
+# Step 36: CGMacros Ridge training and tuning
+
+import joblib
+
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV
+
+models_folder = ROOT / "models"
+models_folder.mkdir(parents=True, exist_ok=True)
+
+# All 39 approved CGMacros inputs are numeric.
+assert all(
+    pd.api.types.is_numeric_dtype(X_cg_dev[column])
+    for column in X_cg_dev.columns
+), "An input column is not numeric."
+
+cg_preprocessor = Pipeline([
+    (
+        "imputer",
+        SimpleImputer(
+            strategy="median",
+            keep_empty_features=True,
+        ),
+    ),
+    ("scaler", StandardScaler()),
+])
+
+cg_ridge_pipeline = Pipeline([
+    ("preprocessor", cg_preprocessor),
+    ("model", Ridge()),
+])
+
+# Calculate predictions once per scoring call.
+def regression_scores(estimator, inputs, actual):
+    predicted = estimator.predict(inputs)
+
+    return {
+        "MAE": -mean_absolute_error(actual, predicted),
+        "RMSE": -np.sqrt(mean_squared_error(actual, predicted)),
+        "R2": r2_score(actual, predicted),
+    }
+
+cg_ridge_search = GridSearchCV(
+    estimator=cg_ridge_pipeline,
+    param_grid={
+        "model__alpha": [0.1, 1.0, 10.0, 100.0, 1000.0],
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cg_cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+cg_ridge_search.fit(X_cg_dev, y_cg_dev)
+
+cg_ridge_search_results = pd.DataFrame(
+    cg_ridge_search.cv_results_
+)
+
+cg_ridge_search_results.to_csv(
+    results_folder / "cgmacros_ridge_search.csv",
+    index=False,
+)
+
+best_index = cg_ridge_search.best_index_
+cg_ridge_rows = []
+
+for fold_number in range(1, 6):
+    fold_index = fold_number - 1
+
+    cg_ridge_rows.append({
+        "dataset": "CGMacros",
+        "model": "Ridge",
+        "validation_fold": fold_number,
+        "MAE": -cg_ridge_search.cv_results_[
+            f"split{fold_index}_test_MAE"
+        ][best_index],
+        "RMSE": -cg_ridge_search.cv_results_[
+            f"split{fold_index}_test_RMSE"
+        ][best_index],
+        "R2": cg_ridge_search.cv_results_[
+            f"split{fold_index}_test_R2"
+        ][best_index],
+    })
+
+cg_ridge_table = pd.DataFrame(cg_ridge_rows)
+
+cg_ridge_table.to_csv(
+    results_folder / "cgmacros_ridge_cv.csv",
+    index=False,
+)
+
+joblib.dump(
+    cg_ridge_search.best_estimator_,
+    models_folder / "cgmacros_ridge_pipeline.joblib",
+)
+
+print("\nBest settings:", cg_ridge_search.best_params_)
+
+print("\nCGMACROS RIDGE VALIDATION RESULTS")
+print(cg_ridge_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(cg_ridge_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print("\nRidge pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 21 (zero-based):
+# Step 38: CGMacros KNN training and tuning
+
+cg_knn_pipeline = Pipeline([
+    ("preprocessor", clone(cg_preprocessor)),
+    (
+        "model",
+        KNeighborsRegressor(
+            weights="distance",
+            algorithm="brute",
+            n_jobs=1,
+        ),
+    ),
+])
+
+cg_knn_search = GridSearchCV(
+    estimator=cg_knn_pipeline,
+    param_grid={
+        "model__n_neighbors": [5, 15],
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cg_cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+print("Starting full CGMacros KNN tuning...")
+start = time.perf_counter()
+
+cg_knn_search.fit(X_cg_dev, y_cg_dev)
+
+elapsed_minutes = (time.perf_counter() - start) / 60
+
+pd.DataFrame(cg_knn_search.cv_results_).to_csv(
+    results_folder / "cgmacros_knn_search.csv",
+    index=False,
+)
+
+best_index = cg_knn_search.best_index_
+cg_knn_rows = []
+
+for fold_number in range(1, 6):
+    fold_index = fold_number - 1
+
+    cg_knn_rows.append({
+        "dataset": "CGMacros",
+        "model": "KNN",
+        "validation_fold": fold_number,
+        "MAE": -cg_knn_search.cv_results_[
+            f"split{fold_index}_test_MAE"
+        ][best_index],
+        "RMSE": -cg_knn_search.cv_results_[
+            f"split{fold_index}_test_RMSE"
+        ][best_index],
+        "R2": cg_knn_search.cv_results_[
+            f"split{fold_index}_test_R2"
+        ][best_index],
+    })
+
+cg_knn_table = pd.DataFrame(cg_knn_rows)
+
+cg_knn_table.to_csv(
+    results_folder / "cgmacros_knn_cv.csv",
+    index=False,
+)
+
+joblib.dump(
+    cg_knn_search.best_estimator_,
+    models_folder / "cgmacros_knn_pipeline.joblib",
+)
+
+print("\nBest settings:", cg_knn_search.best_params_)
+
+print("\nCGMACROS KNN VALIDATION RESULTS")
+print(cg_knn_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(cg_knn_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print(f"\nTotal runtime: {elapsed_minutes:.1f} minutes")
+print("KNN pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+
+Cell 22 (zero-based):
+# Step 39: CGMacros Random Forest training and tuning
+
+from sklearn.ensemble import RandomForestRegressor
+
+# Trees do not need scaling.
+cg_tree_preprocessor = clone(cg_preprocessor).set_params(
+    scaler="passthrough"
+)
+
+cg_forest_pipeline = Pipeline([
+    ("preprocessor", cg_tree_preprocessor),
+    (
+        "model",
+        RandomForestRegressor(
+            n_estimators=100,
+            min_samples_leaf=5,
+            random_state=42,
+            n_jobs=-1,
+        ),
+    ),
+])
+
+cg_forest_search = GridSearchCV(
+    estimator=cg_forest_pipeline,
+    param_grid={
+        "model__max_depth": [10, 20],
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cg_cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+print("Starting CGMacros Random Forest tuning...")
+start = time.perf_counter()
+
+cg_forest_search.fit(X_cg_dev, y_cg_dev)
+
+elapsed_minutes = (time.perf_counter() - start) / 60
+
+pd.DataFrame(cg_forest_search.cv_results_).to_csv(
+    results_folder / "cgmacros_random_forest_search.csv",
+    index=False,
+)
+
+best_index = cg_forest_search.best_index_
+cg_forest_rows = []
+
+for fold_number in range(1, 6):
+    fold_index = fold_number - 1
+
+    cg_forest_rows.append({
+        "dataset": "CGMacros",
+        "model": "Random Forest",
+        "validation_fold": fold_number,
+        "MAE": -cg_forest_search.cv_results_[
+            f"split{fold_index}_test_MAE"
+        ][best_index],
+        "RMSE": -cg_forest_search.cv_results_[
+            f"split{fold_index}_test_RMSE"
+        ][best_index],
+        "R2": cg_forest_search.cv_results_[
+            f"split{fold_index}_test_R2"
+        ][best_index],
+    })
+
+cg_forest_table = pd.DataFrame(cg_forest_rows)
+
+cg_forest_table.to_csv(
+    results_folder / "cgmacros_random_forest_cv.csv",
+    index=False,
+)
+
+joblib.dump(
+    cg_forest_search.best_estimator_,
+    models_folder / "cgmacros_random_forest_pipeline.joblib",
+)
+
+print("\nBest settings:", cg_forest_search.best_params_)
+
+print("\nCGMACROS RANDOM FOREST VALIDATION RESULTS")
+print(cg_forest_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(cg_forest_table[["MAE", "RMSE", "R2"]].mean().round(4))
+
+print(f"\nTotal runtime: {elapsed_minutes:.1f} minutes")
+print("Random Forest pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 23 (zero-based):
+# Step 40: CGMacros Gradient Boosting training and tuning
+
+from sklearn.ensemble import GradientBoostingRegressor
+
+cg_boosting_pipeline = Pipeline([
+    ("preprocessor", clone(cg_tree_preprocessor)),
+    (
+        "model",
+        GradientBoostingRegressor(
+            n_estimators=100,
+            learning_rate=0.1,
+            min_samples_leaf=5,
+            random_state=42,
+        ),
+    ),
+])
+
+cg_boosting_search = GridSearchCV(
+    estimator=cg_boosting_pipeline,
+    param_grid={
+        "model__max_depth": [2, 3],
+    },
+    scoring=regression_scores,
+    refit="MAE",
+    cv=cg_cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+print("Starting CGMacros Gradient Boosting tuning...")
+start = time.perf_counter()
+
+cg_boosting_search.fit(X_cg_dev, y_cg_dev)
+
+elapsed_minutes = (time.perf_counter() - start) / 60
+
+pd.DataFrame(cg_boosting_search.cv_results_).to_csv(
+    results_folder / "cgmacros_gradient_boosting_search.csv",
+    index=False,
+)
+
+best_index = cg_boosting_search.best_index_
+cg_boosting_rows = []
+
+for fold_number in range(1, 6):
+    fold_index = fold_number - 1
+
+    cg_boosting_rows.append({
+        "dataset": "CGMacros",
+        "model": "Gradient Boosting",
+        "validation_fold": fold_number,
+        "MAE": -cg_boosting_search.cv_results_[
+            f"split{fold_index}_test_MAE"
+        ][best_index],
+        "RMSE": -cg_boosting_search.cv_results_[
+            f"split{fold_index}_test_RMSE"
+        ][best_index],
+        "R2": cg_boosting_search.cv_results_[
+            f"split{fold_index}_test_R2"
+        ][best_index],
+    })
+
+cg_boosting_table = pd.DataFrame(cg_boosting_rows)
+
+cg_boosting_table.to_csv(
+    results_folder / "cgmacros_gradient_boosting_cv.csv",
+    index=False,
+)
+
+joblib.dump(
+    cg_boosting_search.best_estimator_,
+    models_folder / "cgmacros_gradient_boosting_pipeline.joblib",
+)
+
+print("\nBest settings:", cg_boosting_search.best_params_)
+
+print("\nCGMACROS GRADIENT BOOSTING VALIDATION RESULTS")
+print(cg_boosting_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(
+    cg_boosting_table[["MAE", "RMSE", "R2"]]
+    .mean()
+    .round(4)
+)
+
+print(f"\nTotal runtime: {elapsed_minutes:.1f} minutes")
+print("Gradient Boosting pipeline and validation results saved.")
+print("Final test set was not evaluated.")
+
+Cell 25 (zero-based):
+# Step 42: Full participant-balanced CGMacros SVR tuning
+
+# Create balanced training indices separately for each fold.
+cg_svr_cv_splits = []
+cg_svr_protocol_rows = []
+
+for fold_number, (
+    original_train_indices,
+    validation_indices,
+) in enumerate(cg_cv_splits, start=1):
+
+    balanced_train_indices = create_balanced_svr_sample(
+        candidate_positions=original_train_indices,
+        participant_series=groups_cg_dev,
+        rows_per_participant=SVR_ROWS_PER_PARTICIPANT,
+        random_seed=SVR_RANDOM_SEED + fold_number,
+    )
+
+    training_people = set(
+        groups_cg_dev.iloc[balanced_train_indices]
+    )
+    validation_people = set(
+        groups_cg_dev.iloc[validation_indices]
+    )
+
+    assert training_people.isdisjoint(validation_people)
+    assert validation_people.isdisjoint(cg_test_people)
+
+    cg_svr_cv_splits.append(
+        (balanced_train_indices, validation_indices)
+    )
+
+    cg_svr_protocol_rows.append({
+        "stage": f"validation_fold_{fold_number}",
+        "random_seed": SVR_RANDOM_SEED + fold_number,
+        "maximum_rows_per_participant":
+            SVR_ROWS_PER_PARTICIPANT,
+        "training_participants": len(training_people),
+        "training_rows": len(balanced_train_indices),
+        "validation_participants": len(validation_people),
+        "validation_rows": len(validation_indices),
+    })
+
+cg_svr_pipeline = Pipeline([
+    ("preprocessor", clone(cg_preprocessor)),
+    (
+        "model",
+        SVR(
+            kernel="rbf",
+            epsilon=5.0,
+            gamma="scale",
+            cache_size=1024,
+        ),
+    ),
+])
+
+# refit=False prevents GridSearchCV from trying to train SVR
+# on all 534,235 development rows.
+cg_svr_search = GridSearchCV(
+    estimator=cg_svr_pipeline,
+    param_grid={
+        "model__C": [1.0, 10.0],
+    },
+    scoring=regression_scores,
+    refit=False,
+    cv=cg_svr_cv_splits,
+    n_jobs=1,
+    verbose=2,
+    error_score="raise",
+)
+
+print("Starting full participant-balanced CGMacros SVR tuning...")
+print(
+    "Maximum training rows per participant:",
+    SVR_ROWS_PER_PARTICIPANT,
+)
+
+start = time.perf_counter()
+
+cg_svr_search.fit(X_cg_dev, y_cg_dev)
+
+tuning_minutes = (time.perf_counter() - start) / 60
+
+cg_svr_search_results = pd.DataFrame(
+    cg_svr_search.cv_results_
+)
+
+cg_svr_search_results.to_csv(
+    results_folder / "cgmacros_svr_search.csv",
+    index=False,
+)
+
+# MAE values are negative inside GridSearchCV.
+# The largest value therefore represents the smallest MAE.
+best_index = int(
+    cg_svr_search_results["mean_test_MAE"].idxmax()
+)
+
+best_params = cg_svr_search_results.loc[
+    best_index,
+    "params",
+]
+
+best_c = float(best_params["model__C"])
+
+cg_svr_rows = []
+
+for fold_number in range(1, 6):
+    fold_index = fold_number - 1
+
+    cg_svr_rows.append({
+        "dataset": "CGMacros",
+        "model": "SVR",
+        "training_protocol":
+            "participant-balanced subset",
+        "maximum_rows_per_participant":
+            SVR_ROWS_PER_PARTICIPANT,
+        "validation_fold": fold_number,
+        "MAE": -cg_svr_search.cv_results_[
+            f"split{fold_index}_test_MAE"
+        ][best_index],
+        "RMSE": -cg_svr_search.cv_results_[
+            f"split{fold_index}_test_RMSE"
+        ][best_index],
+        "R2": cg_svr_search.cv_results_[
+            f"split{fold_index}_test_R2"
+        ][best_index],
+    })
+
+cg_svr_table = pd.DataFrame(cg_svr_rows)
+
+cg_svr_table.to_csv(
+    results_folder / "cgmacros_svr_cv.csv",
+    index=False,
+)
+
+# Build the final saved SVR using a balanced sample from
+# every development participant.
+all_development_positions = np.arange(len(X_cg_dev))
+
+cg_svr_final_indices = create_balanced_svr_sample(
+    candidate_positions=all_development_positions,
+    participant_series=groups_cg_dev,
+    rows_per_participant=SVR_ROWS_PER_PARTICIPANT,
+    random_seed=SVR_RANDOM_SEED,
+)
+
+assert set(
+    groups_cg_dev.iloc[cg_svr_final_indices]
+) == cg_dev_people
+
+cg_svr_final_pipeline = Pipeline([
+    ("preprocessor", clone(cg_preprocessor)),
+    (
+        "model",
+        SVR(
+            kernel="rbf",
+            C=best_c,
+            epsilon=5.0,
+            gamma="scale",
+            cache_size=1024,
+        ),
+    ),
+])
+
+print("\nBest settings:", {"model__C": best_c})
+print("Training final balanced SVR pipeline...")
+
+final_fit_start = time.perf_counter()
+
+cg_svr_final_pipeline.fit(
+    X_cg_dev.iloc[cg_svr_final_indices],
+    y_cg_dev.iloc[cg_svr_final_indices],
+)
+
+final_fit_minutes = (
+    time.perf_counter() - final_fit_start
+) / 60
+
+joblib.dump(
+    cg_svr_final_pipeline,
+    models_folder / "cgmacros_svr_pipeline.joblib",
+)
+
+cg_svr_protocol_rows.append({
+    "stage": "final_development_model",
+    "random_seed": SVR_RANDOM_SEED,
+    "maximum_rows_per_participant":
+        SVR_ROWS_PER_PARTICIPANT,
+    "training_participants":
+        groups_cg_dev.iloc[cg_svr_final_indices].nunique(),
+    "training_rows": len(cg_svr_final_indices),
+    "validation_participants": 0,
+    "validation_rows": 0,
+})
+
+cg_svr_protocol_table = pd.DataFrame(
+    cg_svr_protocol_rows
+)
+
+cg_svr_protocol_table.to_csv(
+    results_folder / "cgmacros_svr_sampling_protocol.csv",
+    index=False,
+)
+
+print("\nCGMACROS SVR VALIDATION RESULTS")
+print(cg_svr_table.round(4).to_string(index=False))
+
+print("\nMEAN ACROSS FIVE FOLDS")
+print(
+    cg_svr_table[["MAE", "RMSE", "R2"]]
+    .mean()
+    .round(4)
+)
+
+print(f"\nTuning runtime: {tuning_minutes:.1f} minutes")
+print(
+    f"Final balanced-model fit runtime: "
+    f"{final_fit_minutes:.1f} minutes"
+)
+print(
+    "Final balanced training rows:",
+    len(cg_svr_final_indices),
+)
+print("SVR pipeline, results and protocol saved.")
+print("Final test set was not evaluated.")

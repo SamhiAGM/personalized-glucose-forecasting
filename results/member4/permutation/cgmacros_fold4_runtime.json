@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "dataset": "cgmacros",
+    "validation_fold": 4,
+    "config": {
+      "seed": 42,
+      "repeats": 10,
+      "requested_max_rows_per_participant": 480,
+      "block_minutes": 60,
+      "sampling": "equal complete contiguous blocks per participant within each dataset",
+      "permutation": "shared row mapping across all columns in each feature/group",
+      "metric": "permuted MAE minus original MAE",
+      "threadpool_limit": 1
+    },
+    "sampling_design": {
+      "nominal_step_minutes": 1.0,
+      "block_rows": 60,
+      "blocks_per_participant": 8,
+      "rows_per_participant": 480,
+      "incomplete_tail_rows": 2395
+    },
+    "selection_sha256": "fe08f7875391fa0cb199ee1ac167f937cd60c1d7830aab4f1c8de819c9a31a82",
+    "model_sha256": "cbc6853af7f2cc670c4132402655f9027f0e74ae99768b3420735c1dfdf41e81",
+    "versions": {
+      "pandas": "3.0.6",
+      "numpy": "2.5.3",
+      "scikit-learn": "1.9.1",
+      "joblib": "1.6.0",
+      "matplotlib": "3.11.2",
+      "scipy": "1.18.1",
+      "Python": "3.13.15"
+    },
+    "script_sha256": "8316720f97ccc7ead4b94e5f0310f77c95b4916944d2a12718ec195515527a20"
+  },
+  "phase": "full",
+  "result_sha256": "1ba4b32503e66afabd3295189ded0f78fd5f52fc0a0a0a2f7e1e4b6ade3de2bc",
+  "elapsed_seconds": 16.65302269998938,
+  "method_timings": [
+    {
+      "method": "global_row",
+      "seconds": 6.744796900078654
+    },
+    {
+      "method": "within_participant_block",
+      "seconds": 7.105042300070636
+    }
+  ],
+  "baseline_sample_mae": 7.052633005130478,
+  "participants": 7,
+  "sample_rows": 3360,
+  "rows_per_participant": 480,
+  "heldout_rows_available": 106486,
+  "sample_fraction": 0.03155344364517401,
+  "repeat_result_rows": 880,
+  "locked_participants_used": 0,
+  "repeated_predictions": 881,
+  "model_fitted": false
+}

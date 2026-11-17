@@ -1,0 +1,82 @@
+[
+  {
+    "file": "cgmacros_gradient_boosting_pipeline.joblib",
+    "estimator": "GradientBoostingRegressor",
+    "input_features": 39,
+    "transformed_features": 39,
+    "alpha": 0.9,
+    "preprocessing": "Pipeline(steps=[('imputer',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scaler', 'passthrough')])"
+  },
+  {
+    "file": "cgmacros_knn_pipeline.joblib",
+    "estimator": "KNeighborsRegressor",
+    "input_features": 39,
+    "transformed_features": 39,
+    "alpha": null,
+    "preprocessing": "Pipeline(steps=[('imputer',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scaler', StandardScaler())])"
+  },
+  {
+    "file": "cgmacros_random_forest_pipeline.joblib",
+    "estimator": "RandomForestRegressor",
+    "input_features": 39,
+    "transformed_features": 39,
+    "alpha": null,
+    "preprocessing": "Pipeline(steps=[('imputer',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scaler', 'passthrough')])"
+  },
+  {
+    "file": "cgmacros_ridge_pipeline.joblib",
+    "estimator": "Ridge",
+    "input_features": 39,
+    "transformed_features": 39,
+    "alpha": 0.1,
+    "preprocessing": "Pipeline(steps=[('imputer',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scaler', StandardScaler())])"
+  },
+  {
+    "file": "cgmacros_svr_pipeline.joblib",
+    "estimator": "SVR",
+    "input_features": 39,
+    "transformed_features": 39,
+    "alpha": null,
+    "preprocessing": "Pipeline(steps=[('imputer',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scaler', StandardScaler())])"
+  },
+  {
+    "file": "shanghai_gradient_boosting_pipeline.joblib",
+    "estimator": "GradientBoostingRegressor",
+    "input_features": 25,
+    "transformed_features": 26,
+    "alpha": 0.9,
+    "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scaler', 'passthrough')]),\n                                 ['current_glucose', 'glucose_lag_15min',\n                                  'glucose_lag_30min', 'glucose_lag_45min',\n                                  'glucose_lag_60min', 'glucose_change_15min',\n                                  'glucose_change_30min', 'glucose_slope_15min',\n                                  'rolling_glucose_mean_60min...\n                                  'elapsed_recording_hours', 'participant_age',\n                                  'participant_bmi', 'diabetes_duration_years',\n                                  'hba1c_mmol_mol', 'meal_event_at_t',\n                                  'recent_meal_2h', 'time_since_last_meal_min',\n                                  'meal_count_last_2h']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['participant_sex'])])"
+  },
+  {
+    "file": "shanghai_knn_pipeline.joblib",
+    "estimator": "KNeighborsRegressor",
+    "input_features": 25,
+    "transformed_features": 26,
+    "alpha": null,
+    "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['current_glucose', 'glucose_lag_15min',\n                                  'glucose_lag_30min', 'glucose_lag_45min',\n                                  'glucose_lag_60min', 'glucose_change_15min',\n                                  'glucose_change_30min', 'glucose_slope_15min',\n                                  'rolling_glucose_mean_60...\n                                  'elapsed_recording_hours', 'participant_age',\n                                  'participant_bmi', 'diabetes_duration_years',\n                                  'hba1c_mmol_mol', 'meal_event_at_t',\n                                  'recent_meal_2h', 'time_since_last_meal_min',\n                                  'meal_count_last_2h']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['participant_sex'])])"
+  },
+  {
+    "file": "shanghai_random_forest_pipeline.joblib",
+    "estimator": "RandomForestRegressor",
+    "input_features": 25,
+    "transformed_features": 26,
+    "alpha": null,
+    "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scaler', 'passthrough')]),\n                                 ['current_glucose', 'glucose_lag_15min',\n                                  'glucose_lag_30min', 'glucose_lag_45min',\n                                  'glucose_lag_60min', 'glucose_change_15min',\n                                  'glucose_change_30min', 'glucose_slope_15min',\n                                  'rolling_glucose_mean_60min...\n                                  'elapsed_recording_hours', 'participant_age',\n                                  'participant_bmi', 'diabetes_duration_years',\n                                  'hba1c_mmol_mol', 'meal_event_at_t',\n                                  'recent_meal_2h', 'time_since_last_meal_min',\n                                  'meal_count_last_2h']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['participant_sex'])])"
+  },
+  {
+    "file": "shanghai_ridge_pipeline.joblib",
+    "estimator": "Ridge",
+    "input_features": 25,
+    "transformed_features": 26,
+    "alpha": 10.0,
+    "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['current_glucose', 'glucose_lag_15min',\n                                  'glucose_lag_30min', 'glucose_lag_45min',\n                                  'glucose_lag_60min', 'glucose_change_15min',\n                                  'glucose_change_30min', 'glucose_slope_15min',\n                                  'rolling_glucose_mean_60...\n                                  'elapsed_recording_hours', 'participant_age',\n                                  'participant_bmi', 'diabetes_duration_years',\n                                  'hba1c_mmol_mol', 'meal_event_at_t',\n                                  'recent_meal_2h', 'time_since_last_meal_min',\n                                  'meal_count_last_2h']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['participant_sex'])])"
+  },
+  {
+    "file": "shanghai_svr_pipeline.joblib",
+    "estimator": "SVR",
+    "input_features": 25,
+    "transformed_features": 26,
+    "alpha": null,
+    "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['current_glucose', 'glucose_lag_15min',\n                                  'glucose_lag_30min', 'glucose_lag_45min',\n                                  'glucose_lag_60min', 'glucose_change_15min',\n                                  'glucose_change_30min', 'glucose_slope_15min',\n                                  'rolling_glucose_mean_60...\n                                  'elapsed_recording_hours', 'participant_age',\n                                  'participant_bmi', 'diabetes_duration_years',\n                                  'hba1c_mmol_mol', 'meal_event_at_t',\n                                  'recent_meal_2h', 'time_since_last_meal_min',\n                                  'meal_count_last_2h']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['participant_sex'])])"
+  }
+]

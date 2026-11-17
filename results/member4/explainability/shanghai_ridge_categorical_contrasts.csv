@@ -1,0 +1,7 @@
+dataset,scope,validation_fold,original_feature,contrast,coefficient_contrast
+shanghai,saved_all_development_descriptive,0,participant_sex,Male minus Female,0.2672780582584775
+shanghai,training_fold_only,1,participant_sex,Male minus Female,0.5218951929142258
+shanghai,training_fold_only,2,participant_sex,Male minus Female,0.20228370211339602
+shanghai,training_fold_only,3,participant_sex,Male minus Female,0.35642408020132105
+shanghai,training_fold_only,4,participant_sex,Male minus Female,0.3162443713049766
+shanghai,training_fold_only,5,participant_sex,Male minus Female,0.02637799661474706

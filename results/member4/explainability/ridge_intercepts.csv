@@ -1,0 +1,13 @@
+dataset,scope,validation_fold,intercept_transformed,intercept_original_numeric_system,alpha,n_inputs,n_transformed
+shanghai,saved_all_development_descriptive,0,138.54357997185056,7.844768814457976,10.0,25,26
+shanghai,training_fold_only,1,136.85997016722132,9.447124973069835,10.0,25,26
+shanghai,training_fold_only,2,139.14109724809074,5.638600595126525,10.0,25,26
+shanghai,training_fold_only,3,140.21755885307815,6.982699228998505,10.0,25,26
+shanghai,training_fold_only,4,139.60530287473924,9.944317213025016,10.0,25,26
+shanghai,training_fold_only,5,136.89378630852258,7.609191603805687,10.0,25,26
+cgmacros,saved_all_development_descriptive,0,106.8653283043356,-6.590784906878839,0.1,39,39
+cgmacros,training_fold_only,1,108.10469453386222,-6.483588196445562,0.1,39,39
+cgmacros,training_fold_only,2,106.03402310682723,-8.27083377738384,0.1,39,39
+cgmacros,training_fold_only,3,106.0299085456103,-4.957729612071502,0.1,39,39
+cgmacros,training_fold_only,4,109.6899622597988,-6.486745964454517,0.1,39,39
+cgmacros,training_fold_only,5,104.45834461814312,-6.485538204134176,0.1,39,39

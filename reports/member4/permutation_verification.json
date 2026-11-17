@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "repeat_results": 7300,
+  "negative_results": 1088,
+  "heldout_participants": {
+    "shanghai": 80,
+    "cgmacros": 36
+  },
+  "checks": [
+    "output/sample hashes",
+    "exact held-out fold membership",
+    "locked ID exclusion",
+    "participant-balanced counts",
+    "contiguous complete blocks",
+    "unique selected rows",
+    "MAE degradation signs",
+    "seeds and repeat counts",
+    "within-participant constants",
+    "fold and aggregate mean reconstruction"
+  ],
+  "model_fits": 0,
+  "predictions": 0
+}

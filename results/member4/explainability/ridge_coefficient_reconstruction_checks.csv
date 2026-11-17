@@ -1,0 +1,13 @@
+dataset,scope,rows,transformed_max_absolute_error,original_scale_max_absolute_error
+shanghai,saved_all_development_descriptive,32,0.0,1.1368683772161603e-13
+shanghai,training_fold_1,32,0.0,1.1368683772161603e-13
+shanghai,training_fold_2,32,0.0,8.526512829121202e-14
+shanghai,training_fold_3,32,0.0,5.684341886080802e-14
+shanghai,training_fold_4,32,0.0,8.526512829121202e-14
+shanghai,training_fold_5,32,0.0,8.526512829121202e-14
+cgmacros,saved_all_development_descriptive,32,0.0,6.536993168992922e-13
+cgmacros,training_fold_1,32,0.0,6.252776074688882e-13
+cgmacros,training_fold_2,32,0.0,5.115907697472721e-13
+cgmacros,training_fold_3,32,0.0,5.968558980384842e-13
+cgmacros,training_fold_4,32,0.0,9.663381206337363e-13
+cgmacros,training_fold_5,32,0.0,4.547473508864641e-13

@@ -21,3 +21,9 @@ data/raw/
 # OS files
 Thumbs.db
 .DS_Store
+
+# Member 4 participant-linked local audit outputs
+results/member4/**/*.local.csv
+
+# Reproducible Member 4 fitted-model caches stay local
+models/member4/

@@ -1,0 +1,11 @@
+package,version,status
+pandas,3.0.6,import OK
+numpy,2.5.3,import OK
+scikit-learn,1.9.1,import OK
+joblib,1.6.0,import OK
+matplotlib,3.11.2,import OK
+scipy,1.18.1,import OK
+shap,0.52.0,import OK
+seaborn,,PackageNotFoundError: No package metadata was found for seaborn
+nbformat,,PackageNotFoundError: No package metadata was found for nbformat
+jupyter,,PackageNotFoundError: No package metadata was found for jupyter

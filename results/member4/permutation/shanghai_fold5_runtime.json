@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "dataset": "shanghai",
+    "validation_fold": 5,
+    "config": {
+      "seed": 42,
+      "repeats": 10,
+      "requested_max_rows_per_participant": 480,
+      "block_minutes": 60,
+      "sampling": "equal complete contiguous blocks per participant within each dataset",
+      "permutation": "shared row mapping across all columns in each feature/group",
+      "metric": "permuted MAE minus original MAE",
+      "threadpool_limit": 1
+    },
+    "sampling_design": {
+      "nominal_step_minutes": 15.0,
+      "block_rows": 4,
+      "blocks_per_participant": 60,
+      "rows_per_participant": 240,
+      "incomplete_tail_rows": 165
+    },
+    "selection_sha256": "f156c3c58408fefe377c628f3768d2cb6bea0a10aeb1f01fbc711e6254e12e26",
+    "model_sha256": "5ce2fafd2469d70f5a2d7b743b9d2da226106dc5c10fdad8945c4010eeb669f0",
+    "versions": {
+      "pandas": "3.0.6",
+      "numpy": "2.5.3",
+      "scikit-learn": "1.9.1",
+      "joblib": "1.6.0",
+      "matplotlib": "3.11.2",
+      "scipy": "1.18.1",
+      "Python": "3.13.15"
+    },
+    "script_sha256": "8316720f97ccc7ead4b94e5f0310f77c95b4916944d2a12718ec195515527a20"
+  },
+  "phase": "full",
+  "result_sha256": "1f58dfd306707d186faaa2ce9d40e9a417648434335058087767a734ae0d3327",
+  "elapsed_seconds": 16.28838290006388,
+  "method_timings": [
+    {
+      "method": "global_row",
+      "seconds": 6.517692000023089
+    },
+    {
+      "method": "within_participant_block",
+      "seconds": 7.830125799984671
+    }
+  ],
+  "baseline_sample_mae": 9.711926066299622,
+  "participants": 15,
+  "sample_rows": 3600,
+  "rows_per_participant": 240,
+  "heldout_rows_available": 18136,
+  "sample_fraction": 0.1985002205558006,
+  "repeat_result_rows": 580,
+  "locked_participants_used": 0,
+  "repeated_predictions": 581,
+  "model_fitted": false
+}
